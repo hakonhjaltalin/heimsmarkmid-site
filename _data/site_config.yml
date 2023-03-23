@@ -1,4 +1,4 @@
-﻿analytics:
+analytics:
   ua: ''
   gtag: ''
   gtm: ''
@@ -17,13 +17,11 @@ breadcrumbs:
   post:
     - path: /
       label: general.home
-    - path: /news
-      label: menu.updates
 cookie_consent_form:
   enabled: false
 country:
-  name: Australia
-  adjective: Australian
+  name: Iceland
+  adjective: Icelandic
 create_goals:
   previous_next_links: false
   goals: []
@@ -55,17 +53,15 @@ disclaimer:
   message: ''
   hidden: false
 email_contacts:
-  questions: test@example.com
-  suggestions: test@example.com
-  functional: test@example.com
-environment: staging
+  questions: upplysingar@hagstofa.is
+  suggestions: upplysingar@hagstofa.is
+  functional: upplysingar@hagstofa.is
+environment: production
 footer_language_toggle: none
 footer_menu:
   - path: /contact-us
     translation_key: menu.contact_us
-  - path: 'https://twitter.com/MyTwitterAccount'
-    translation_key: general.twitter
-  - path: 'https://facebook.com/MyFacebookAccount'
+  - path: 'https://www.facebook.com/hagstofan'
     translation_key: general.facebook
   - path: /about/cookies-and-privacy/
     translation_key: menu.cookies
@@ -76,29 +72,13 @@ frontpage_cards:
     button_label: ''
     button_link: ''
     rule_color: ''
-  - title: Lorem ipsum
-    content: |
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi mollis
-      cursus est sed dapibus.
-    include: ''
-    button_label: Read more
-    button_link: 'https://example.com'
-    rule_color: ''
-  - title: Nam vestibulum
-    content: |
-      Nam vestibulum, purus quis porttitor imperdiet, nisl sem mollis nisl, a
-      interdum risus enim vitae tortor. Donec feugiat accumsan rutrum.
-    include: ''
-    button_label: Read more
-    button_link: 'https://example.com'
-    rule_color: ''
 frontpage_goals_grid:
   title: frontpage.heading_short
-  description: frontpage.instructions_shorter
+  description: frontpage.instructions_short
 frontpage_introduction_banner:
   title: frontpage.intro_title
   description: frontpage.intro_body
-goal_image_base: 'https://open-sdg.org/sdg-translations/assets/img/goals'
+goal_image_base: 'https://hagstofan.github.io/heimsmarkmid-translations/assets/img/goals'
 goal_image_extension: ''
 goals_page:
   title: general.goals
@@ -138,8 +118,8 @@ indicator_tabs:
   tab_3: ''
   tab_4: ''
 languages:
+  - is
   - en
-  - es
 languages_public: []
 logos: []
 map_layers: []
@@ -185,9 +165,6 @@ menu:
   - path: /faq
     translation_key: menu.faq
     dropdown: []
-  - path: /news
-    translation_key: menu.updates
-    dropdown: []
 metadata_edit_url: metadata
 metadata_tabs:
   - scope: national
@@ -204,7 +181,7 @@ news:
 progress_status:
   status_heading: ''
   status_types: []
-remote_data_prefix: 'https://open-sdg.org/open-sdg-data-starter'
+remote_data_prefix: 'https://hagstofan.github.io/heimsmarkmid-data'
 reporting_status:
   title: status.reporting_status
   description: status.description
@@ -219,7 +196,10 @@ reporting_status:
     - value: notapplicable
       label: status.not_applicable
       hide_on_goal_pages: false
-repository_url_data: 'https://github.com/open-sdg/open-sdg-data-starter'
+    - value: inprogress
+      label: status.in_progress
+      hide_on_goal_pages: false
+repository_url_data: 'https://github.com/hagstofan/heimsmarkmid-data'
 repository_url_site: ''
 search_index_boost: []
 search_index_extra_fields: []

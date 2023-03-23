@@ -1,31 +1,30 @@
 ---
-title: About
-language: en
+title: Um síðuna
+language: is
 permalink: /about/
 layout: page
-toc: true
 ---
 
-The [Sustainable Development Goals](http://www.un.org/sustainabledevelopment/sustainable-development-goals/) (SDGs) are a universal call to action to:
+[Heimsmarkmið Sameinuðu þjóðanna um sjálfbæra þróun](http://www.un.org/sustainabledevelopment/sustainable-development-goals/) eru ákall til aðgerða í þágu mannkynsins, jarðarinnar og hagsældar. Heimsmarkmiðin ganga út á að:
 
-  * end poverty
+  * útrýma fátækt í allri sinni mynd alls staðar
   
-  * protect the planet
+  * vernda jörðina
   
-  * improve the lives and prospects of everyone, everywhere
+  * bæta lífsgæði allra alls staðar
 
-The 17 Goals were adopted by all UN Member States in 2015, as part of the [2030 Agenda for Sustainable Development](https://sustainabledevelopment.un.org/post2015/transformingourworld).
+Heimsmarkmiðin samanstanda af 17 markmiðum sem voru samþykkt af öllum aðildarríkjum Sameinuðu þjóðanna árið 2015, [sem hluti af alþjóðlegri áætlun um sjálfbæra þróun sem nær fram til ársins 2030](https://sustainabledevelopment.un.org/post2015/transformingourworld).
 
-## About this site
-This site is based on the open source [Open SDG](https://open-sdg.org/) platform.
+## Nánar um síðuna
+Vefsíðan er byggð á [Open SDG](https://open-sdg.org/) sem er opinn hugbúnaður til að birta gögn um heimsmarkmiðin.
     
-Other countries or organisations wishing to reuse the Open SDG reporting platform are welcome to do so for free. The [Open SDG Quick Start Guide](https://open-sdg.readthedocs.io/en/latest/quick-start/) gives technical instructions on the quickest way to get a copy of the Open SDG platform up and running.
+Önnur lönd eða stofnanir sem vilja nýta Open SDG hugbúnaðinn er velkomið að gera það ókeypis. Sjá nánar [hér (SDG Quick Start Guide)](https://open-sdg.readthedocs.io/en/latest/quick-start/)
 
-If you have comments, feedback, or want to get involved with the Open SDG community please email <opensdg@outlook.com> or contact the [Open SDG GitHub](https://github.com/open-sdg/open-sdg).
+Ef þú hefur athugasemdir eða vilt taka þátt í Open SDG samfélaginu vinsamlegast sendu tölvupóst á <opensdg@googlegroups.com> eða hafðu samband á [SDG GitHub](https://github.com/open-sdg/open-sdg).
 
-## Need more info?
-Answers to some specific questions about this website are included on our [frequently asked questions]({{ site.baseurl }}{% link _pages/faq.md %}) page.
+## Vantar þig meiri upplýsingar?
+Fleiri svör við algengum spurningum má sjá (á ensku) undir [algengar spurningar]({{ site.baseurl }}{% link _pages/faq.md %}).
 
-## Feedback
-To provide feedback on our SDG data please [contact us]({{ site.baseurl }}/contact-us)
+## Endurgjöf
+Til að gefa okkur endurgjöf á mælikvörðum eða gögnum vinsamlegast sendur okkur [tölvupóst]({{ site.baseurl }}/contact-us)
 

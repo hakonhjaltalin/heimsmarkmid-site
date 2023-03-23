@@ -1,14 +1,14 @@
 ---
 layout: page
-title: Contact us
-language: en
+title: Hafa samband
+language: is
 permalink: /contact-us/
 ---
-### We are interested in your feedback regarding this website and its contents.
+### Við höfum áhuga á athugasemdum þínum varðandi þessa vefsíðu og innihald hennar.
 
 
-- If you have questions about the statistics, data sources, or metadata provided for our SDG indicators, please contact [{{site.email_contacts.questions}}](mailto:{{site.email_contacts.questions}})
+-Ef þú hefur spurningar um tölfræði, gagnaheimildir eða lýsigögn sem veitt eru fyrir mælikvarðana okkar, vinsamlegast hafðu samband [{{site.email_contacts.questions}}](mailto:{{site.email_contacts.suggestions}})
 
-- If you have suggestions regarding additional site content or data sources, please contact [{{site.email_contacts.suggestions}}](mailto:{{site.email_contacts.suggestions}})
+- Ef þú hefur ábendingar um viðbótarefni eða gagnaveitur, vinsamlegast hafðu samband [{{site.email_contacts.suggestions}}](mailto:{{site.email_contacts.suggestions}})
 
-- If you have suggestions on how to improve the functionality of this website, including data accessibility, please contact [{{site.email_contacts.functional}}](mailto:{{site.email_contacts.functional}})
+- Ef þú hefur tillögur um hvernig bæta megi virkni þessarar vefsíðu, þar á meðal aðgengi að gögnum, vinsamlegast hafðu samband [{{site.email_contacts.functional}}](mailto:{{site.email_contacts.functional}})

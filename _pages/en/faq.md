@@ -1,11 +1,11 @@
 ---
-title: Algengar spurningar
-language: is
-permalink: /faq/
+title: Frequently Asked Questions (FAQ)
+language: en
+permalink: /en/faq/
 layout: page
 ---
 
-## Algengar spurningar (á ensku)
+## Table of contents
 - [How often will new data be added to this site?](#how-often-will-new-data-be-added-to-this-site)
 
 - [How do I suggest new or different data sources?](#how-do-i-suggest-new-or-different-data-sources)

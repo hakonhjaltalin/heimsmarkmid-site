@@ -1,0 +1,13 @@
+{% include multilingual-js.html key="header" %}
+<a class="sr-only-focusable" id="skiplink" href="#main-content" tabindex="0">{{ page.t.header.skip_link }}</a>
+{% include components/header/internet-explorer-message.html %}
+
+{%- if page.language == "en" -%}
+
+{% include header-en.html %}
+
+{%- else -%}
+
+{% include header-is.html %}
+
+{%- endif -%}
