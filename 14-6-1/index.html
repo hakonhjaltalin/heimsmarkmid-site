@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" class="no-js">
+<html lang="is" class="no-js">
     <head>
         <meta charset="utf-8">
         <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
@@ -11,7 +11,7 @@
 var opensdg = {
 
   // A base URL for asynchronous calls to SDG data.
-  remoteDataBaseUrl: 'https://open-sdg.org/open-sdg-data-starter/en',
+  remoteDataBaseUrl: 'https://hagstofan.github.io/heimsmarkmid-data/is',
 
   chartConfigAlterations: [],
   // A hook which can be used to modify the configuration for Chart.js.
@@ -42,7 +42,7 @@ var opensdg = {
   // Disaggregations which should be ignored on indicator pages.
   ignoredDisaggregations: null,
 
-  language: 'en',
+  language: 'is',
 };
 
 </script>
@@ -105,19 +105,14 @@ var translations = {
         
     <title>
         
-        Indicator 14.6.1 -
+        Mælikvarði 14.6.1 -
         
-        Degree of implementation of international instruments aiming to combat illegal, unreported and unregulated fishing - Indicators For The Sustainable Development Goals
+        Árangur landa við framkvæmd alþjóðlegra gerninga sem miða að því að berjast gegn ólöglegum, ótilkynntum og stjórnlausum fiskveiðum. - Mælikvarðar fyrir heimsmarkmið Sameinuðu þjóðanna um sjálfbæra þróun
     </title>
 
 
 
-        <meta name="description" content="">
-        <meta property="og:description" content="">
         
-        <meta name="robots" content="noindex, nofollow">
-        
-        <link rel="canonical" href="/">
 
         <!--[if IE 9]>
         <script src="/heimsmarkmid-site/assets/js/lib/classList.js"></script>
@@ -130,11 +125,14 @@ var translations = {
 
 
         
+        <link rel="stylesheet"
+	href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900"
+	type="text/css">
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
         <link res="stylesheet" href="https://cdn.datatables.net/1.11.5/css/dataTables.bootstrap5.min.css">
-        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/heimsmarkmid-site/assets/css/style.css?v=20230323153623">
+        <link rel="stylesheet" href="/heimsmarkmid-site/assets/css/style.css?v=20230323160514">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
           crossorigin=""/>
@@ -142,72 +140,229 @@ var translations = {
         <link rel="stylesheet" href='https://api.mapbox.com/mapbox.js/plugins/leaflet-fullscreen/v1.0.1/leaflet.fullscreen.css'  crossorigin=""/>
         <link rel="stylesheet" href="https://bowercdn.net/c/leaflet.zoomhome-latest/dist/leaflet.zoomhome.css"  crossorigin=""/>
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet-search@2.9.7/dist/leaflet-search.min.css" crossorigin="">
-        <link rel="stylesheet" href="https://cdn.kiprotect.com/klaro/v0.7/klaro.min.css" crossorigin=""/>
+        <link rel="stylesheet" href="https://cdn.kiprotect.com/klaro/v0.7/klaro.min.css" crossorigin=""/><script>
+		var _paq = window._paq = window._paq || [];
+		/* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+		_paq.push(['trackPageView']);
+		_paq.push(['enableLinkTracking']);
+		(function() {
+			var u="https://hagstofa.matomo.cloud/";
+			_paq.push(['setTrackerUrl', u+'matomo.php']);
+			_paq.push(['setSiteId', '1']);
+			var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+			g.async=true; g.src='//cdn.matomo.cloud/hagstofa.matomo.cloud/matomo.js'; s.parentNode.insertBefore(g,s);
+		})();
+	</script>
+
         
+
 
         <!--[if IE]>
         <link rel="stylesheet" href="/heimsmarkmid-site/assets/css/ie.css">
         <![endif]-->
-
+	
         
 
     </head>
-<body class="language-en
+<body class="language-is
 layout-indicator
 ">
 <!-- <div class="container"> -->
 
-<script>translations['header'] = {"alpha":"Alpha","default_contrast":"Default contrast","disable_high_contrast":"Disable high contrast","disclaimer":"This is a development website. We welcome your <a href=\"mailto:%email_contacts.suggestions\">feedback</a>.","enable_high_contrast":"Enable high contrast","hide_menu":"Hide navigation menu","high_contrast":"High contrast","internet_explorer_message":"We have detected that you are using Internet Explorer to visit this website. Internet Explorer is now being phased out by Microsoft. As a result, this website no longer supports any version of Internet Explorer. Some features on this site will not work. You should use a modern browser such as Edge, Chrome, Firefox, or Safari. If you have difficulty installing or accessing a different browser, please contact your IT support team.","internet_explorer_message_title":"This internet browser is no longer supported","logo_title":"Go to homepage","show_menu":"Show navigation menu","skip_link":"Skip to main content","tag_line":"17 Goals to Transform our World","toggle_menu":"Menu toggle. Click to expand or collapse the menu.","toggle_search":"Search toggle. Click to expand or collapse the search bar."};</script>
+<script>translations['header'] = {"alpha":"Alpha","default_contrast":"Sjálfgefin birtuskil","disable_high_contrast":"Afvelja skörp birtuskil","disclaimer":"Þessi síða er í þróun við This is a development website. Við þiggjum með þökkum <a href=\"mailto:%email_address\">ábendingar</a> um endurbætur.","enable_high_contrast":"Velja skörp birtuskil","hide_menu":"Fela valmyndir","high_contrast":"Skörp birtuskil","internet_explorer_message":"We have detected that you are using Internet Explorer to visit this website. Internet Explorer is now being phased out by Microsoft. As a result, this website no longer supports any version of Internet Explorer. Some features on this site will not work. You should use a modern browser such as Edge, Chrome, Firefox, or Safari. If you have difficulty installing or accessing a different browser, please contact your IT support team.","internet_explorer_message_title":"Ekki lengur stutt við þennan vefvafra","logo_title":"Til heimasíðu","show_menu":"Sýna valmyndir","skip_link":"Aftur á aðalsíðu","tag_line":"17 markmið til að breyta heiminum.","toggle_menu":"Valmynd. Smelltu til að stækka eða draga saman valmyndina","toggle_search":"Leita. Smelltu til að stækka eða draga saman leitarstikuna"};</script>
 
-<a class="sr-only-focusable" id="skiplink" href="#main-content" tabindex="0">Skip to main content</a>
+<a class="sr-only-focusable" id="skiplink" href="#main-content" tabindex="0">Aftur á aðalsíðu</a>
 <div class="container internet-explorer-message">
-    <h2 class="internet-explorer-message-title">This internet browser is no longer supported</h2>
+    <h2 class="internet-explorer-message-title">Ekki lengur stutt við þennan vefvafra</h2>
     <p class="internet-explorer-message-body">We have detected that you are using Internet Explorer to visit this website. Internet Explorer is now being phased out by Microsoft. As a result, this website no longer supports any version of Internet Explorer. Some features on this site will not work. You should use a modern browser such as Edge, Chrome, Firefox, or Safari. If you have difficulty installing or accessing a different browser, please contact your IT support team.</p>
-</div>
-<div id="disclaimer">
-    
-<div class="container">
-  <div class="disclaimer-alert">
-    <strong class="phase-tag">Alpha</strong>
-    
-    This is a development website. We welcome your <a href="mailto:test@example.com">feedback</a>.
-    
-  </div>
-</div>
+</div><header role="banner" class="">
+    <div class="hagstofa-header">
+	    <div class="fp-container">
+		<div class="navbar-header">
+		    <button type="button" class="navbar-toggle menu-toggle">
+		        <span class="sr-only">
+		            Opna/Loka Valmynd
+		        </span>
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span>
+		    </button>
+		    <a href="https://hagstofa.is/" class="brand">
+		        <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+		     viewBox="0 0 122.934 26.013" style="enable-background:new 0 0 122.934 26.013;" xml:space="preserve">
+	    <style type="text/css">
+		    .st0{fill:#1B75BC;}
+		    .st1{fill:#808285;}
+	    </style>
+	    <g>
+		    <g>
+			    <path class="st0" d="M33.603,10.042c0,0,0.285-0.117,0.83-0.117c0.545,0,0.83,0.117,0.83,0.117v9.1c0,0-0.272,0.117-0.817,0.117
+				    c-0.609,0-0.843-0.117-0.843-0.117v-3.954H30.18v3.954c0,0-0.298,0.117-0.83,0.117c-0.596,0-0.83-0.117-0.83-0.117v-9.1
+				    c0,0,0.272-0.117,0.817-0.117c0.557,0,0.843,0.117,0.843,0.117v3.721h3.422V10.042z"/>
+			    <path class="st0" d="M39.671,12.311c1.892,0,2.593,0.778,2.593,2.411v4.433c0,0-0.182,0.104-0.635,0.104
+				    c-0.402,0-0.661-0.104-0.661-0.104l-0.246-0.7c-0.298,0.609-0.959,0.933-1.893,0.933c-1.231,0-2.009-0.726-2.009-2.243
+				    c0-1.465,0.92-2.061,2.528-2.061c0.454,0,0.907,0.026,1.283,0.065v-0.285c0-0.648-0.234-1.18-1.167-1.18
+				    c-0.855,0-1.659,0.311-1.659,0.311s-0.207-0.13-0.363-0.48c-0.155-0.35-0.104-0.687-0.104-0.687S38.297,12.311,39.671,12.311z
+				     M39.554,16.174c-0.661,0-1.05,0.272-1.05,0.972c0,0.739,0.35,0.998,0.933,0.998c0.907,0,1.193-0.843,1.193-1.53v-0.389
+				    C40.306,16.2,39.93,16.174,39.554,16.174z"/>
+			    <path class="st0" d="M49.757,12.311c0.129,0.324,0.129,0.907,0,1.244l-0.998-0.13c0.194,0.35,0.285,0.778,0.285,1.27
+				    c0,1.478-0.881,2.385-2.631,2.385c-0.169,0-0.324,0-0.467-0.013c-0.117,0.181-0.181,0.376-0.143,0.571
+				    c0.207,1.063,3.941-0.13,3.941,2.58c0,1.348-1.323,2.281-3.422,2.281c-2.009,0-2.865-0.726-2.865-1.763
+				    c0-0.959,0.803-1.517,1.166-1.724c-0.169-0.182-0.272-0.428-0.272-0.752c0-0.57,0.311-1.089,0.635-1.452
+				    c-0.804-0.376-1.206-1.115-1.206-2.113c0-1.478,0.895-2.385,2.632-2.385c0.596,0,1.089,0.104,1.478,0.298L49.757,12.311z
+				     M45.454,19.441c-0.181,0.181-0.428,0.518-0.428,0.959c0,0.518,0.389,0.959,1.348,0.959c1.245,0,1.828-0.389,1.828-0.959
+				    C48.202,19.583,46.595,19.752,45.454,19.441z M46.413,13.439c-0.648,0-1.089,0.376-1.089,1.257c0,0.881,0.441,1.244,1.089,1.244
+				    c0.648,0,1.076-0.363,1.076-1.244C47.489,13.815,47.061,13.439,46.413,13.439z"/>
+			    <path class="st0" d="M53.35,12.311c1.387,0,1.905,0.376,1.905,0.376c0,0.415-0.129,0.882-0.415,1.154c0,0-0.609-0.207-1.322-0.207
+				    c-0.752,0-1.115,0.259-1.115,0.726c0,0.557,0.83,0.648,1.646,0.933c0.778,0.272,1.543,0.726,1.543,1.944
+				    c0,1.374-0.843,2.152-2.541,2.152c-1.413,0-2.242-0.493-2.242-0.493c0-0.48,0.143-0.92,0.441-1.206c0,0,0.843,0.311,1.724,0.311
+				    c0.7,0,1.011-0.246,1.011-0.726c0-0.557-0.635-0.7-1.335-0.907c-0.855-0.259-1.802-0.622-1.802-1.957
+				    C50.848,13.154,51.651,12.311,53.35,12.311z"/>
+			    <path class="st0" d="M59.132,16.731c0,1.102,0.402,1.348,1.231,1.348c0.207,0,0.454-0.039,0.454-0.039s0.117,0.285,0.117,0.648
+				    c0,0.35-0.091,0.583-0.091,0.583c-0.311,0.091-0.661,0.117-0.959,0.117c-1.659,0-2.385-0.869-2.385-2.58v-3.163h-0.985
+				    c0,0-0.091-0.233-0.091-0.596c0-0.402,0.091-0.609,0.091-0.609h0.985v-1.115c0.428-0.259,1.037-0.376,1.633-0.324v1.439h1.529
+				    c0,0,0.091,0.22,0.091,0.596c0,0.35-0.091,0.609-0.091,0.609h-1.529V16.731z"/>
+			    <path class="st0" d="M64.888,12.311c1.841,0,2.981,0.972,2.981,3.539s-1.154,3.539-2.981,3.539c-1.828,0-2.982-0.972-2.982-3.539
+				    S63.06,12.311,64.888,12.311z M64.888,13.555c-0.791,0-1.309,0.454-1.309,2.295c0,1.841,0.518,2.295,1.309,2.295
+				    c0.791,0,1.296-0.454,1.296-2.295C66.185,14.009,65.679,13.555,64.888,13.555z"/>
+			    <path class="st0" d="M72.032,9.537c0.959,0,1.543,0.311,1.543,0.311c-0.026,0.454-0.156,0.804-0.428,1.128
+				    c0,0-0.389-0.155-1.011-0.155c-0.519,0-0.739,0.233-0.739,0.778v0.843h1.426c0.052,0.208,0.078,0.415,0.078,0.622
+				    c0,0.194-0.026,0.389-0.078,0.583h-1.426v5.509c0,0-0.285,0.104-0.817,0.104c-0.57,0-0.817-0.104-0.817-0.104v-5.509h-0.83
+				    c-0.039-0.207-0.065-0.415-0.065-0.622c0-0.208,0.013-0.402,0.065-0.583h0.83v-0.778C69.763,10.405,70.347,9.537,72.032,9.537z"/>
+			    <path class="st0" d="M76.505,12.311c1.892,0,2.593,0.778,2.593,2.411v4.433c0,0-0.182,0.104-0.635,0.104
+				    c-0.402,0-0.661-0.104-0.661-0.104l-0.246-0.7c-0.298,0.609-0.959,0.933-1.893,0.933c-1.231,0-2.009-0.726-2.009-2.243
+				    c0-1.465,0.92-2.061,2.528-2.061c0.454,0,0.907,0.026,1.283,0.065v-0.285c0-0.648-0.234-1.18-1.167-1.18
+				    c-0.855,0-1.659,0.311-1.659,0.311s-0.207-0.13-0.363-0.48c-0.155-0.35-0.104-0.687-0.104-0.687S75.131,12.311,76.505,12.311z
+				     M76.388,16.174c-0.661,0-1.05,0.272-1.05,0.972c0,0.739,0.35,0.998,0.933,0.998c0.907,0,1.193-0.843,1.193-1.53v-0.389
+				    C77.14,16.2,76.764,16.174,76.388,16.174z"/>
+			    <path class="st0" d="M84.816,9.308c-0.296,0.103-0.959-0.092-1.055-0.372l1.055-1.681c0.519-0.065,1.18,0.22,1.413,0.583
+				    L84.816,9.308z M83.986,10.042c0,0,0.272-0.117,0.817-0.117c0.557,0,0.843,0.117,0.843,0.117v9.1c0,0-0.298,0.117-0.83,0.117
+				    c-0.596,0-0.83-0.117-0.83-0.117V10.042z"/>
+			    <path class="st0" d="M89.834,12.311c1.387,0,1.905,0.376,1.905,0.376c0,0.415-0.129,0.882-0.415,1.154
+				    c0,0-0.609-0.207-1.322-0.207c-0.752,0-1.115,0.259-1.115,0.726c0,0.557,0.83,0.648,1.646,0.933
+				    c0.778,0.272,1.543,0.726,1.543,1.944c0,1.374-0.843,2.152-2.541,2.152c-1.413,0-2.243-0.493-2.243-0.493
+				    c0-0.48,0.143-0.92,0.441-1.206c0,0,0.843,0.311,1.724,0.311c0.7,0,1.011-0.246,1.011-0.726c0-0.557-0.635-0.7-1.335-0.907
+				    c-0.855-0.259-1.802-0.622-1.802-1.957C87.332,13.154,88.135,12.311,89.834,12.311z"/>
+			    <path class="st0" d="M95.175,19.156c0,0-0.285,0.104-0.817,0.104c-0.57,0-0.817-0.104-0.817-0.104V9.641
+				    c0,0,0.246-0.104,0.817-0.104c0.532,0,0.817,0.104,0.817,0.104V19.156z"/>
+			    <path class="st0" d="M99.493,12.311c1.893,0,2.593,0.778,2.593,2.411v4.433c0,0-0.181,0.104-0.635,0.104
+				    c-0.402,0-0.661-0.104-0.661-0.104l-0.246-0.7c-0.298,0.609-0.959,0.933-1.892,0.933c-1.231,0-2.009-0.726-2.009-2.243
+				    c0-1.465,0.92-2.061,2.528-2.061c0.454,0,0.907,0.026,1.283,0.065v-0.285c0-0.648-0.234-1.18-1.167-1.18
+				    c-0.855,0-1.659,0.311-1.659,0.311s-0.207-0.13-0.363-0.48c-0.156-0.35-0.104-0.687-0.104-0.687S98.118,12.311,99.493,12.311z
+				     M99.376,16.174c-0.661,0-1.05,0.272-1.05,0.972c0,0.739,0.35,0.998,0.934,0.998c0.907,0,1.193-0.843,1.193-1.53v-0.389
+				    C100.128,16.2,99.752,16.174,99.376,16.174z"/>
+			    <path class="st0" d="M109.307,19.156c0,0-0.285,0.104-0.816,0.104c-0.571,0-0.817-0.104-0.817-0.104v-4.589
+				    c0-0.557-0.298-0.933-1.037-0.933c-0.428,0-0.83,0.182-1.141,0.48v5.043c0,0-0.285,0.104-0.817,0.104
+				    c-0.57,0-0.817-0.104-0.817-0.104v-6.611c0,0,0.246-0.104,0.817-0.104c0.532,0,0.817,0.104,0.817,0.104v0.389
+				    c0.454-0.415,1.063-0.622,1.776-0.622c1.335,0,2.035,0.804,2.035,1.97V19.156z"/>
+			    <path class="st0" d="M115.816,9.537c0.544,0,0.803,0.104,0.803,0.104v9.515c0,0-0.285,0.104-0.687,0.104
+				    c-0.415,0-0.752-0.104-0.752-0.104l-0.104-0.557c-0.363,0.506-0.933,0.791-1.841,0.791c-1.452,0-2.398-0.895-2.398-3.539
+				    c0-2.644,0.946-3.539,2.398-3.539c0.83,0,1.374,0.233,1.75,0.674V9.641C114.986,9.641,115.271,9.537,115.816,9.537z
+				     M113.819,13.633c-0.817,0-1.296,0.389-1.296,2.217c0,1.828,0.48,2.217,1.296,2.217c0.726,0,1.167-0.583,1.167-1.4v-1.685
+				    C114.96,14.191,114.519,13.633,113.819,13.633z"/>
+			    <path class="st0" d="M120.691,12.311c1.387,0,1.905,0.376,1.905,0.376c0,0.415-0.129,0.882-0.415,1.154
+				    c0,0-0.609-0.207-1.322-0.207c-0.752,0-1.115,0.259-1.115,0.726c0,0.557,0.83,0.648,1.646,0.933
+				    c0.778,0.272,1.543,0.726,1.543,1.944c0,1.374-0.843,2.152-2.541,2.152c-1.413,0-2.243-0.493-2.243-0.493
+				    c0-0.48,0.143-0.92,0.441-1.206c0,0,0.843,0.311,1.724,0.311c0.7,0,1.011-0.246,1.011-0.726c0-0.557-0.635-0.7-1.335-0.907
+				    c-0.855-0.259-1.802-0.622-1.802-1.957C118.189,13.154,118.993,12.311,120.691,12.311z"/>
+		    </g>
+		    <g>
+			    <path class="st1" d="M3.431,4.327L3.431,4.327C2.484,4.005,0.948,4.005,0,4.327l0,0h0v8.077h3.431L3.431,4.327L3.431,4.327z"/>
+			    <g>
+				    <path class="st0" d="M11.092,0.242L11.092,0.242L11.092,0.242c-0.948-0.322-2.484-0.322-3.431,0h0h0v12.162h3.431V0.242z"/>
+				    <path class="st0" d="M18.752,14.895c0.121-0.355,0.121-0.931,0-1.286v0h0v0v0H0v8.077h0c0.948,0.322,2.484,0.322,3.431,0h0
+					    v-6.791H7.66v10.876h0c0.947,0.322,2.484,0.322,3.431,0h0V14.895L18.752,14.895L18.752,14.895z"/>
+			    </g>
+		    </g>
+	    </g>
+	    <g>
+	    </g>
+	    <g>
+	    </g>
+	    <g>
+	    </g>
+	    <g>
+	    </g>
+	    <g>
+	    </g>
+	    <g>
+	    </g>
+	    </svg>
+		    </a>
+		</div>
+		<nav>
+ 					<ul class="large ">
+                              <li class="pos1" data-first="true">
 
-</div>
+                                   <a href="https://visar.hagstofa.is">
+                                   
+                                   Vísar
+                                   
+                                   </a>
+                              </li>
 
-<header role="banner" class="">
+ 						<li class="pos1 "
+ 						data-first="true"
+ 						>
+                              
+ 						<a href="https://hagstofa.is/thjonusta/">Þjónusta
+ 							
+ 							</a>
+ 						</li>
+ 						<li class="pos2 " >
+ 							<a href="https://hagstofa.is/utgafur/">Útgáfur
+ 								
+ 								</a>
+ 							</li>
+ 							<li class="pos3 "> 
+ 								<a href="https://hagstofa.is/um-hagstofuna/">Um Hagstofuna
+ 									
+ 									</a>
+ 								</li>
+ 								
+ 								<li class="pos4 ">
+ 									<a href="https://hagstofa.is/vefskil/">Vefskil</a>
+ 								</li>
+ 								<li class="pos5" data-last="true">
+ 									<a href="/heimsmarkmid-site/en/14-6-1/">
+    English
+</a>
+ 								</li>
+ 								
+ 							</ul>
+ 						</nav>
+	    </div>
+	</div>
+    </div>
+    <div class="header-spacer"></div>
     <div class="container">
         <nav class="navbar navbar-expand-lg navbar-light flex-wrap align-items-start">
-            <a class="navbar-brand" href="/heimsmarkmid-site/" id="home" aria-label="Go to homepage" title="Go to homepage">
-    <img src="/heimsmarkmid-site/assets/img/SDG_logo.png" alt="Sustainable Development Goals - 17 Goals to Transform our World" />
+            <a class="navbar-brand" href="/heimsmarkmid-site/" id="home" aria-label="Til heimasíðu" title="Til heimasíðu">
+    <img src="/heimsmarkmid-site/assets/img/SDG_logo.png" alt="Heimsmarkmið - 17 markmið til að breyta heiminum." />
 </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Show navigation menu">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Sýna valmyndir">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="d-flex flex-wrap w-100 justify-content-between">
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav" id="menu"><li class="nav-item ">
-    <a class="nav-link" href="/heimsmarkmid-site/goals">Goals</a>
+    <a class="nav-link" href="/heimsmarkmid-site/goals">Markmiðin</a>
 </li><li class="nav-item ">
-    <a class="nav-link" href="/heimsmarkmid-site/reporting-status">Reporting Status</a>
+    <a class="nav-link" href="/heimsmarkmid-site/reporting-status">Staða birtingar</a>
 </li><li class="nav-item ">
-    <a class="nav-link" href="/heimsmarkmid-site/about">About</a>
+    <a class="nav-link" href="/heimsmarkmid-site/about">Um síðuna</a>
 </li><li class="nav-item ">
-    <a class="nav-link" href="/heimsmarkmid-site/faq">FAQ</a>
-</li><li class="nav-item ">
-    <a class="nav-link" href="/heimsmarkmid-site/news">Updates</a>
+    <a class="nav-link" href="/heimsmarkmid-site/faq">Algengar spurningar</a>
 </li></ul>
     
                 </div>
                 <div class="header-search-bar">
                     <form class="align-self-lg-end" id="search" action="/heimsmarkmid-site/search/">
     <div class="input-group">
-        <label class="visually-hidden" for="indicator_search">Search</label>
-        <input class="form-control" type="search" name="q" id="indicator_search" title="Search">
+        <label class="visually-hidden" for="indicator_search">Leit</label>
+        <input class="form-control" type="search" name="q" id="indicator_search" title="Leit">
         <span class="input-group-append">
-            <button class="btn btn-outline-secondary ms-n5" aria-label="Site search" id="search-btn" type="submit">
+            <button class="btn btn-outline-secondary ms-n5" aria-label="Leita á vefsíðu" id="search-btn" type="submit">
                 <i class="fa fa-search"></i>
             </button>
         </span>
@@ -215,49 +370,3059 @@ layout-indicator
 </form>
 
                 </div>
-                <div class="header-toggles d-flex">
-
-
-
-
-
-  <div class="language-toggle-container">
-  
-  <div class="btn-group language-toggle-dropdown  dropdown">
-    <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-      <i class="fa fa-globe"></i>
-      English
-    </button>
-    <ul class="dropdown-menu"><li>
-            <a class="dropdown-item" href="/heimsmarkmid-site/es/14-6-1/">
-              Español
-            </a>
-          </li></ul>
-  </div>
-</div>
-
-
-
-                    <span class="no-js-language-toggle"><div class="language-toggle-container d-flex">
-    <i class="fa fa-globe language-toggle-globe-links"></i>
-    <ul class="language-toggle-links list-unstyled list-inline"><li class="language-option-es list-inline-item">
-            <a class="language-toggle-link" href="/heimsmarkmid-site/es/14-6-1/">
-                Español
-            </a>
-        </li></ul>
-</div></span><a title="Enable high contrast" aria-label="Enable high contrast"
-    data-contrast-switch-to="" href="javascript:void(0)" data-on="click"
-data-event-category="Accessibility"
-data-event-action="Change contrast setting"
-data-event-label="high"
->A</a>
-                </div>
             </div>
         </nav>
     </div>
 </header>
 <div id="top" tabindex=-1></div>
 
+
+			<div class="hagstofa-offcanvas canvas-left">
+    <ul>
+        <li>
+            <a href="https://visar.hagstofa.is">
+            Vísar
+            </a>
+        </li>
+
+
+        <li data-root="true">
+            <a href="https://hagstofa.is/utgafur/">
+            Útgáfur
+
+            <span class="offcanvas-subopen"></span>
+
+            </a>
+
+            <ul>
+                <li class="header">
+                    <a href="https://hagstofa.is/utgafur/">
+                    Útgáfur
+                    <span class="offcanvas-subback"></span>
+                    </a>
+                </li>
+
+
+                <li>
+                    <a href="https://hagstofa.is/utgafur/tilraunatolfraedi/">
+                        Tilraunatölfræði
+
+                        <span class="offcanvas-subopen"></span>
+
+                    </a>
+
+                    <ul>
+                        <li class="header">
+                            <a href="https://hagstofa.is/utgafur/tilraunatolfraedi/">
+                            Tilraunatölfræði
+                            <span class="offcanvas-subback"></span>
+                            </a>
+                        </li>
+
+
+			<li>
+                            <a href="https://hagstofa.is/utgafur/tilraunatolfraedi/kortafaerslur-tt/">
+                            Kortafærslur-tt
+
+                            </a>
+
+                        </li>
+
+
+
+			<li>
+                            <a href="https://hagstofa.is/utgafur/tilraunatolfraedi/gistiskyrslur-tt/">
+                            Gistiskýrslur-tt
+
+                            </a>
+
+                        </li>
+
+
+
+			<li>
+                            <a href="https://hagstofa.is/utgafur/tilraunatolfraedi/utfl-verdmaeti-sjavarafurda-tt/">
+                            Útflutningsverðmæti sjávarafurða - tt
+
+                            </a>
+
+                        </li>
+
+
+
+			<li>
+                            <a href="https://hagstofa.is/utgafur/tilraunatolfraedi/danir-tt/">
+                            Dánir - tt
+
+                            </a>
+
+                        </li>
+
+
+
+			<li>
+                            <a href="https://hagstofa.is/utgafur/tilraunatolfraedi/eldsneytissala-tt/">
+                            Eldsneytissala - tt
+
+                            </a>
+
+                        </li>
+
+
+
+			<li>
+                            <a href="https://hagstofa.is/utgafur/tilraunatolfraedi/voruvidskipti-vid-utlond-tt/">
+                            Vöruviðskipti við útlönd - tt
+
+                            </a>
+
+                        </li>
+
+
+
+			<li>
+                            <a href="https://hagstofa.is/utgafur/tilraunatolfraedi/Smitadir-af-covid--19-eftir-aldursflokkum/">
+                            Smitaðir af Covid-19 eftir aldursflokkum - tt
+
+                            </a>
+
+                        </li>
+
+
+
+
+
+			<li>
+                            <a href="https://hagstofa.is/utgafur/tilraunatolfraedi/einkaneysla-erlendra-ferdamanna/">
+                            Einkaneysla erlendra ferðamanna - tt
+
+                            </a>
+
+                        </li>
+
+
+
+			<li>
+                            <a href="https://hagstofa.is/utgafur/tilraunatolfraedi/gjaldthrot-og-virkni-fyrirtaekja-tt/">
+                            Gjaldþrot og virkni fyrirtækja - tt
+
+                            </a>
+
+                        </li>
+
+
+
+			<li>
+                            <a href="https://hagstofa.is/utgafur/tilraunatolfraedi/fyrsta-eign-einstaklinga-tt/">
+                            Fyrsta eign einstaklinga - tt
+
+                            </a>
+
+                        </li>
+
+
+
+			<li>
+                            <a href="https://hagstofa.is/utgafur/tilraunatolfraedi/stada-ungmenna-a-islandi-tt/">
+                            Staða ungmenna á Íslandi 2005-2018 - tt
+
+                            </a>
+
+                        </li>
+
+
+
+
+
+			<li>
+                            <a href="https://hagstofa.is/utgafur/tilraunatolfraedi/losun-fra-hagkerfi-islands-tt/">
+                            Losun frá hagkerfi Íslands - tt
+
+                            </a>
+
+                        </li>
+
+
+
+			<li>
+                            <a href="https://hagstofa.is/utgafur/tilraunatolfraedi/ahrif-koronuveirufaraldursins-a-atvinnugreinar-menningar-tt/">
+                            Áhrif kórónuveirufaraldursins á atvinnugreinar menningar - tt
+
+                            </a>
+
+                        </li>
+
+
+
+			<li>
+                            <a href="https://hagstofa.is/utgafur/tilraunatolfraedi/Hlutfallslegt-misraemi-menntunar-tt/">
+                            Hlutfallslegt misræmi menntunar - tt
+
+                            </a>
+
+                        </li>
+
+
+
+			<li>
+                            <a href="https://hagstofa.is/utgafur/tilraunatolfraedi/stadgreidsluskyldar-greidslur-tt/">
+                            Staðgreiðsluskyldar greiðslur - tt
+
+                            </a>
+
+                        </li>
+
+
+
+			<li>
+                            <a href="https://hagstofa.is/utgafur/tilraunatolfraedi/efnahagsadgerdir-vegna-koronuveirufaraldursins-tt/">
+                            Efnahagsaðgerðir vegna kórónuveirufaraldursins - tt
+
+                            </a>
+
+                        </li>
+
+
+
+			<li>
+                            <a href="https://hagstofa.is/utgafur/tilraunatolfraedi/heimilisstorf-tt/">
+                            Heimilisstörf-tt
+
+                            </a>
+
+                        </li>
+
+
+
+			<li>
+                            <a href="https://hagstofa.is/utgafur/tilraunatolfraedi/faernispa-tt/">
+                            Færnispá - tt
+
+                            </a>
+
+                        </li>
+
+
+
+			<li>
+                            <a href="https://hagstofa.is/utgafur/tilraunatolfraedi/matarflaedi-um-hagkerfi-islands-tt/">
+                            Matarflæði um hagkerfi Íslands-tt
+
+                            <span class="offcanvas-subopen"></span>
+
+                            </a>
+
+                            <ul>
+                                <li class="header">
+                                    <a href="https://hagstofa.is/utgafur/tilraunatolfraedi/matarflaedi-um-hagkerfi-islands-tt/">
+                                    Matarflæði um hagkerfi Íslands-tt
+                                    <span class="offcanvas-subback"></span>
+                                    </a>
+                                </li>
+
+
+                                <li>
+                                    <a href="https://hagstofa.is/utgafur/tilraunatolfraedi/matarflaedi-um-hagkerfi-islands-tt/matarfli-um-hagkerfi-islands-tt-lysigogn/">
+                                    Matarflæði um hagkerfi Íslands-tt Lýsigögn
+                                    </a>
+                                </li>
+
+
+                            </ul>
+
+                        </li>
+
+
+                    </ul>
+
+                </li>
+
+
+
+
+
+                <li>
+                    <a href="https://hagstofa.is/utgafur/frettasafn/">
+                        Fréttasafn
+
+                        <span class="offcanvas-subopen"></span>
+
+                    </a>
+
+                    <ul>
+                        <li class="header">
+                            <a href="https://hagstofa.is/utgafur/frettasafn/">
+                            Fréttasafn
+                            <span class="offcanvas-subback"></span>
+                            </a>
+                        </li>
+
+
+			<li>
+                            <a href="https://hagstofa.is/utgafur/frettasafn/birtingaraaetlun/">
+                            Birtingaráætlun
+
+                            </a>
+
+                        </li>
+
+
+
+			<li>
+                            <a href="https://hagstofa.is/utgafur/frettasafn/birtingaraaetlun-sedlabanka-islands/">
+                            Birtingaráætlun Seðlabanka Íslands
+
+                            </a>
+
+                        </li>
+
+
+
+			<li>
+                            <a href="https://hagstofa.is/utgafur/frettasafn/frettaaskrift/">
+                            Fréttaáskrift
+
+                            </a>
+
+                        </li>
+
+
+
+			<li>
+                            <a href="https://hagstofa.is/utgafur/frettasafn/reglur-um-birtingar/">
+                            Reglur um birtingar
+
+                            </a>
+
+                        </li>
+
+
+
+			<li>
+                            <a href="https://hagstofa.is/utgafur/frettasafn/rss-frettaveita/">
+                            RSS Fréttaveita
+
+                            </a>
+
+                        </li>
+
+
+                    </ul>
+
+                </li>
+
+
+
+                <li>
+                    <a href="https://hagstofa.is/utgafur/talnaefni/">
+                        Talnaefni
+
+                    </a>
+
+                </li>
+
+
+
+                <li>
+                    <a href="https://hagstofa.is/utgafur/sogulegar-hagtolur/">
+                        Sögulegar hagtölur
+
+                    </a>
+
+                </li>
+
+
+
+                <li>
+                    <a href="https://hagstofa.is/utgafur/arsskyrslur/">
+                        Ársskýrslur
+
+                    </a>
+
+                </li>
+
+
+
+                <li>
+                    <a href="https://hagstofa.is/utgafur/greinar-og-erindi/">
+                        Greinar og erindi
+
+                    </a>
+
+                </li>
+
+
+
+                <li>
+                    <a href="https://hagstofa.is/utgafur/utgafur-kjararannsoknarnefndar/">
+                        Útgáfur kjararannsóknarnefndar
+
+                    </a>
+
+                </li>
+
+
+
+                <li>
+                    <a href="https://hagstofa.is/utgafur/Tolfraedikennsla/">
+                        Tölfræðikennsla
+
+                    </a>
+
+                </li>
+
+
+
+                <li>
+                    <a href="https://hagstofa.is/utgafur/hagskinna/">
+                        Hagskinna
+
+                    </a>
+
+                </li>
+
+
+
+                <li>
+                    <a href="https://hagstofa.is/utgafur/iceland-in-figures/">
+                        Iceland in figures
+
+                    </a>
+
+                </li>
+
+
+
+                <li>
+                    <a href="https://hagstofa.is/utgafur/landshagir/">
+                        Landshagir
+
+                    </a>
+
+                </li>
+
+
+
+
+
+
+
+                <li>
+                    <a href="https://hagstofa.is/utgafur/leidbeiningar/">
+                        Leiðbeiningar
+
+                        <span class="offcanvas-subopen"></span>
+
+                    </a>
+
+                    <ul>
+                        <li class="header">
+                            <a href="https://hagstofa.is/utgafur/leidbeiningar/">
+                            Leiðbeiningar
+                            <span class="offcanvas-subback"></span>
+                            </a>
+                        </li>
+
+
+			<li>
+                            <a href="https://hagstofa.is/utgafur/leidbeiningar/myndrit-toflur-og-kort/">
+                            Myndrit, töflur og kort
+
+                            </a>
+
+                        </li>
+
+
+
+			<li>
+                            <a href="https://hagstofa.is/utgafur/leidbeiningar/csv-skrar/">
+                            csv skrár
+
+                            </a>
+
+                        </li>
+
+
+                    </ul>
+
+                </li>
+
+
+
+                <li>
+                    <a href="https://hagstofa.is/utgafur/adferdir-og-flokkun/">
+                        Aðferðir og flokkun
+
+                        <span class="offcanvas-subopen"></span>
+
+                    </a>
+
+                    <ul>
+                        <li class="header">
+                            <a href="https://hagstofa.is/utgafur/adferdir-og-flokkun/">
+                            Aðferðir og flokkun
+                            <span class="offcanvas-subback"></span>
+                            </a>
+                        </li>
+
+
+			<li>
+                            <a href="https://hagstofa.is/utgafur/adferdir-og-flokkun/spurt-og-svarad-um-vnv/">
+                            Spurt og svarað um VNV
+
+                            </a>
+
+                        </li>
+
+
+
+			<li>
+                            <a href="https://hagstofa.is/utgafur/adferdir-og-flokkun/flokkanir/">
+                            Flokkanir
+
+                            <span class="offcanvas-subopen"></span>
+
+                            </a>
+
+                            <ul>
+                                <li class="header">
+                                    <a href="https://hagstofa.is/utgafur/adferdir-og-flokkun/flokkanir/">
+                                    Flokkanir
+                                    <span class="offcanvas-subback"></span>
+                                    </a>
+                                </li>
+
+
+
+
+
+
+
+
+                                <li>
+                                    <a href="https://hagstofa.is/utgafur/adferdir-og-flokkun/flokkanir/smasvaedi/">
+                                    Smásvæði
+                                    </a>
+                                </li>
+
+
+                            </ul>
+
+                        </li>
+
+
+
+
+                    </ul>
+
+                </li>
+
+
+            </ul>
+
+        </li>
+
+
+
+        <li data-root="true">
+            <a href="https://hagstofa.is/um-hagstofuna/">
+            Um Hagstofuna
+
+            <span class="offcanvas-subopen"></span>
+
+            </a>
+
+            <ul>
+                <li class="header">
+                    <a href="https://hagstofa.is/um-hagstofuna/">
+                    Um Hagstofuna
+                    <span class="offcanvas-subback"></span>
+                    </a>
+                </li>
+
+
+                <li>
+                    <a href="https://hagstofa.is/um-hagstofuna/hvad-gerir-hagstofan/">
+                        Hvað gerir Hagstofan?
+
+                    </a>
+
+                </li>
+
+
+
+                <li>
+                    <a href="https://hagstofa.is/um-hagstofuna/skipurit/">
+                        Skipurit
+
+                    </a>
+
+                </li>
+
+
+
+                <li>
+                    <a href="https://hagstofa.is/um-hagstofuna/starfsmenn/">
+                        Starfsmenn
+
+                    </a>
+
+                </li>
+
+
+
+                <li>
+                    <a href="https://hagstofa.is/um-hagstofuna/laus-storf/">
+                        Laus störf
+
+                        <span class="offcanvas-subopen"></span>
+
+                    </a>
+
+                    <ul>
+                        <li class="header">
+                            <a href="https://hagstofa.is/um-hagstofuna/laus-storf/">
+                            Laus störf
+                            <span class="offcanvas-subback"></span>
+                            </a>
+                        </li>
+
+
+
+                    </ul>
+
+                </li>
+
+
+
+                <li>
+                    <a href="https://hagstofa.is/um-hagstofuna/log-og-reglur/">
+                        Lög og reglur
+
+                    </a>
+
+                </li>
+
+
+
+                <li>
+                    <a href="https://hagstofa.is/um-hagstofuna/personuvernd/">
+                        Persónuvernd
+
+                        <span class="offcanvas-subopen"></span>
+
+                    </a>
+
+                    <ul>
+                        <li class="header">
+                            <a href="https://hagstofa.is/um-hagstofuna/personuvernd/">
+                            Persónuvernd
+                            <span class="offcanvas-subback"></span>
+                            </a>
+                        </li>
+
+
+			<li>
+                            <a href="https://hagstofa.is/um-hagstofuna/personuvernd/spurt-og-svarad/">
+                            Spurt og svarað
+
+                            </a>
+
+                        </li>
+
+
+                    </ul>
+
+                </li>
+
+
+
+                <li>
+                    <a href="https://hagstofa.is/um-hagstofuna/stefnur-hagstofu-islands/">
+                        Stefnur Hagstofu Íslands
+
+                        <span class="offcanvas-subopen"></span>
+
+                    </a>
+
+                    <ul>
+                        <li class="header">
+                            <a href="https://hagstofa.is/um-hagstofuna/stefnur-hagstofu-islands/">
+                            Stefnur Hagstofu Íslands
+                            <span class="offcanvas-subback"></span>
+                            </a>
+                        </li>
+
+
+			<li>
+                            <a href="https://hagstofa.is/um-hagstofuna/stefnur-hagstofu-islands/gaeda-og-oryggisstefna-hagstofu-islands/">
+                            Gæða- og öryggisstefna Hagstofu Íslands
+
+                            </a>
+
+                        </li>
+
+
+
+			<li>
+                            <a href="https://hagstofa.is/um-hagstofuna/stefnur-hagstofu-islands/jafnlaunastefna-hagstofu-islands/">
+                            Jafnlaunastefna Hagstofu Íslands
+
+                            </a>
+
+                        </li>
+
+
+
+			<li>
+                            <a href="https://hagstofa.is/um-hagstofuna/stefnur-hagstofu-islands/samskiptastefna-hagstofu-islands/">
+                            Samskiptastefna Hagstofu Íslands
+
+                            </a>
+
+                        </li>
+
+
+
+			<li>
+                            <a href="https://hagstofa.is/um-hagstofuna/stefnur-hagstofu-islands/stefna-hagstofu-islands-um-endurskodun-hagtalna/">
+                            Stefna Hagstofu Íslands um endurskoðun hagtalna
+
+                            </a>
+
+                        </li>
+
+
+
+			<li>
+                            <a href="https://hagstofa.is/um-hagstofuna/stefnur-hagstofu-islands/stefna-hagstofu-islands-um-hindrun-rekjanleika/">
+                            Stefna Hagstofu Íslands um hindrun rekjanleika
+
+                            </a>
+
+                        </li>
+
+
+
+			<li>
+                            <a href="https://hagstofa.is/um-hagstofuna/stefnur-hagstofu-islands/stefna-um-samstarf-i-hagskyrslugerd/">
+                            Stefna um samstarf í hagskýrslugerð
+
+                            </a>
+
+                        </li>
+
+
+
+			<li>
+                            <a href="https://hagstofa.is/um-hagstofuna/stefnur-hagstofu-islands/umhverfis-og-loftlagsstefna/">
+                            Umhverfis- og loftslagsstefna Hagstofu Íslands
+
+                            </a>
+
+                        </li>
+
+
+
+			<li>
+                            <a href="https://hagstofa.is/um-hagstofuna/stefnur-hagstofu-islands/vefstefna/">
+                            Vefstefna
+
+                            </a>
+
+                        </li>
+
+
+                    </ul>
+
+                </li>
+
+
+
+                <li>
+                    <a href="https://hagstofa.is/um-hagstofuna/starfsaetlun/">
+                        Starfsáætlun
+
+                    </a>
+
+                </li>
+
+
+
+                <li>
+                    <a href="https://hagstofa.is/um-hagstofuna/samstarf-vid-notendur/">
+                        Samstarf við notendur
+
+                        <span class="offcanvas-subopen"></span>
+
+                    </a>
+
+                    <ul>
+                        <li class="header">
+                            <a href="https://hagstofa.is/um-hagstofuna/samstarf-vid-notendur/">
+                            Samstarf við notendur
+                            <span class="offcanvas-subback"></span>
+                            </a>
+                        </li>
+
+
+			<li>
+                            <a href="https://hagstofa.is/um-hagstofuna/samstarf-vid-notendur/fundargerdir-radgjafarnefndar-um-adferdafraedi/">
+                            Fundargerðir ráðgjafarnefndar um aðferðafræði
+
+                            </a>
+
+                        </li>
+
+
+
+			<li>
+                            <a href="https://hagstofa.is/um-hagstofuna/samstarf-vid-notendur/fundargerdir-notendahopa/">
+                            Fundargerðir notendahópa
+
+                            </a>
+
+                        </li>
+
+
+
+			<li>
+                            <a href="https://hagstofa.is/um-hagstofuna/samstarf-vid-notendur/fundargerdir-faghops-um-verdvisitolur/">
+                            Fundargerðir faghóps um verðvísitölur
+
+                            </a>
+
+                        </li>
+
+
+                    </ul>
+
+                </li>
+
+
+
+                <li>
+                    <a href="https://hagstofa.is/um-hagstofuna/thatttaka-i-rannsoknum/">
+                        Þátttaka í rannsóknum
+
+                        <span class="offcanvas-subopen"></span>
+
+                    </a>
+
+                    <ul>
+                        <li class="header">
+                            <a href="https://hagstofa.is/um-hagstofuna/thatttaka-i-rannsoknum/">
+                            Þátttaka í rannsóknum
+                            <span class="offcanvas-subback"></span>
+                            </a>
+                        </li>
+
+
+			<li>
+                            <a href="https://hagstofa.is/um-hagstofuna/thatttaka-i-rannsoknum/thatttakendur/">
+                            Þátttakendur
+
+                            </a>
+
+                        </li>
+
+
+
+			<li>
+                            <a href="https://hagstofa.is/um-hagstofuna/thatttaka-i-rannsoknum/spyrlar-hagstofunnar/">
+                            Spyrlar Hagstofunnar
+
+                            </a>
+
+                        </li>
+
+
+
+			<li>
+                            <a href="https://hagstofa.is/um-hagstofuna/thatttaka-i-rannsoknum/rannsoknir-hagstofunnar/">
+                            Rannsóknir Hagstofunnar
+
+                            <span class="offcanvas-subopen"></span>
+
+                            </a>
+
+                            <ul>
+                                <li class="header">
+                                    <a href="https://hagstofa.is/um-hagstofuna/thatttaka-i-rannsoknum/rannsoknir-hagstofunnar/">
+                                    Rannsóknir Hagstofunnar
+                                    <span class="offcanvas-subback"></span>
+                                    </a>
+                                </li>
+
+
+                                <li>
+                                    <a href="https://hagstofa.is/um-hagstofuna/thatttaka-i-rannsoknum/rannsoknir-hagstofunnar/vinnumarkadsrannsokn/">
+                                    Vinnumarkaðsrannsókn
+                                    </a>
+                                </li>
+
+
+
+                                <li>
+                                    <a href="https://hagstofa.is/um-hagstofuna/thatttaka-i-rannsoknum/rannsoknir-hagstofunnar/rannsokn-a-utgjoldum-heimilanna/">
+                                    Rannsókn á útgjöldum heimilanna
+                                    </a>
+                                </li>
+
+
+
+                                <li>
+                                    <a href="https://hagstofa.is/um-hagstofuna/thatttaka-i-rannsoknum/rannsoknir-hagstofunnar/lifskjararannsokn/">
+                                    Lífskjararannsókn
+                                    </a>
+                                </li>
+
+
+
+                                <li>
+                                    <a href="https://hagstofa.is/um-hagstofuna/thatttaka-i-rannsoknum/rannsoknir-hagstofunnar/rannsokn-a-notkun-taeknibunadar-og-neti/">
+                                    Rannsókn á notkun tæknibúnaðar og neti
+                                    </a>
+                                </li>
+
+
+
+                                <li>
+                                    <a href="https://hagstofa.is/um-hagstofuna/thatttaka-i-rannsoknum/rannsoknir-hagstofunnar/kynningarbref/">
+                                    Kynningarbréf
+                                    </a>
+                                </li>
+
+
+                            </ul>
+
+                        </li>
+
+
+                    </ul>
+
+                </li>
+
+
+
+                <li>
+                    <a href="https://hagstofa.is/um-hagstofuna/althjodlegt-samstarf/">
+                        Alþjóðlegt samstarf
+
+                    </a>
+
+                </li>
+
+
+
+
+            </ul>
+
+        </li>
+
+
+
+        <li data-root="true">
+            <a href="https://hagstofa.is/vefskil/">
+            Vefskil
+
+            <span class="offcanvas-subopen"></span>
+
+            </a>
+
+            <ul>
+                <li class="header">
+                    <a href="https://hagstofa.is/vefskil/">
+                    Vefskil
+                    <span class="offcanvas-subback"></span>
+                    </a>
+                </li>
+
+
+                <li>
+                    <a href="https://hagstofa.is/vefskil/felagsthjonusta-sveitarfelaga/">
+                        Félagsþjónusta sveitarfélaga
+
+                    </a>
+
+                </li>
+
+
+
+                <li>
+                    <a href="https://hagstofa.is/vefskil/fjarhagsupplysingar-sveitarfelaga/">
+                        Fjárhagsupplýsingar sveitarfélaga
+
+                    </a>
+
+                </li>
+
+
+
+                <li>
+                    <a href="https://hagstofa.is/vefskil/gistiskyrslur/">
+                        Gistiskýrslur
+
+                        <span class="offcanvas-subopen"></span>
+
+                    </a>
+
+                    <ul>
+                        <li class="header">
+                            <a href="https://hagstofa.is/vefskil/gistiskyrslur/">
+                            Gistiskýrslur
+                            <span class="offcanvas-subback"></span>
+                            </a>
+                        </li>
+
+
+			<li>
+                            <a href="https://hagstofa.is/vefskil/gistiskyrslur/eldri-utgafur/">
+                            Eldri útgáfur
+
+                            </a>
+
+                        </li>
+
+
+                    </ul>
+
+                </li>
+
+
+
+
+
+                <li>
+                    <a href="https://hagstofa.is/vefskil/thjonustuvidskipti/">
+                        Þjónustuviðskipti
+
+                    </a>
+
+                </li>
+
+
+            </ul>
+
+        </li>
+
+
+
+        <li data-root="true">
+            <a href="https://hagstofa.is/thjonusta/">
+            Þjónusta
+
+            <span class="offcanvas-subopen"></span>
+
+            </a>
+
+            <ul>
+                <li class="header">
+                    <a href="https://hagstofa.is/thjonusta/">
+                    Þjónusta
+                    <span class="offcanvas-subback"></span>
+                    </a>
+                </li>
+
+
+                <li>
+                    <a href="https://hagstofa.is/thjonusta/hafa-samband/">
+                        Hafa samband
+
+                    </a>
+
+                </li>
+
+
+
+                <li>
+                    <a href="https://hagstofa.is/thjonusta/beidni-um-servinnslu/">
+                        Beiðni um sérvinnslu
+
+                    </a>
+
+                </li>
+
+
+
+                <li>
+                    <a href="https://hagstofa.is/thjonusta/gogn-til-visindarannsokna/">
+                        Gögn til vísindarannsókna
+
+                    </a>
+
+                </li>
+
+
+
+                <li>
+                    <a href="https://hagstofa.is/thjonusta/gjaldskra/">
+                        Gjaldskrá
+
+                    </a>
+
+                </li>
+
+
+            </ul>
+
+        </li>
+
+
+
+
+        <li data-root="true">
+            <a href="javascript:;">
+            Íbúar
+
+            <span class="offcanvas-subopen"></span>
+
+            </a>
+
+            <ul>
+                <li class="header">
+                    <a href="javascript:;">
+                    Íbúar
+                    <span class="offcanvas-subback"></span>
+                    </a>
+                </li>
+
+
+		<li>
+                    <a href="https://hagstofa.is/talnaefni/ibuar/mannfjoldi/">
+                    Mannfjöldi
+
+                    <span class="offcanvas-subopen"></span>
+
+                    </a>
+
+                    <ul>
+                        <li class="header">
+                            <a href="https://hagstofa.is/talnaefni/ibuar/mannfjoldi/">
+                            Mannfjöldi
+                            <span class="offcanvas-subback"></span>
+                            </a>
+                        </li>
+
+
+			<li>
+                            <a href="https://hagstofa.is/talnaefni/ibuar/mannfjoldi/yfirlit/">
+                            Yfirlit mannfjölda
+                            </a>
+                        </li>
+
+
+
+			<li>
+                            <a href="https://hagstofa.is/talnaefni/ibuar/mannfjoldi/sveitarfelog-og-byggdakjarnar/">
+                            Sveitarfélög og byggðakjarnar
+                            </a>
+                        </li>
+
+
+
+			<li>
+                            <a href="https://hagstofa.is/talnaefni/ibuar/mannfjoldi/bakgrunnur/">
+                            Bakgrunnur
+                            </a>
+                        </li>
+
+
+                    </ul>
+
+                </li>
+
+
+
+		<li>
+                    <a href="https://hagstofa.is/talnaefni/ibuar/buferlaflutningar/">
+                    Búferlaflutningar
+
+                    <span class="offcanvas-subopen"></span>
+
+                    </a>
+
+                    <ul>
+                        <li class="header">
+                            <a href="https://hagstofa.is/talnaefni/ibuar/buferlaflutningar/">
+                            Búferlaflutningar
+                            <span class="offcanvas-subback"></span>
+                            </a>
+                        </li>
+
+
+			<li>
+                            <a href="https://hagstofa.is/talnaefni/ibuar/buferlaflutningar/innanlands/">
+                            Búferlaflutningar innanlands
+                            </a>
+                        </li>
+
+
+
+			<li>
+                            <a href="https://hagstofa.is/talnaefni/ibuar/buferlaflutningar/milli-landa/">
+                            Búferlaflutningar milli landa
+                            </a>
+                        </li>
+
+
+                    </ul>
+
+                </li>
+
+
+
+		<li>
+                    <a href="https://hagstofa.is/talnaefni/ibuar/fjolskyldan/">
+                    Fjölskyldan
+
+                    <span class="offcanvas-subopen"></span>
+
+                    </a>
+
+                    <ul>
+                        <li class="header">
+                            <a href="https://hagstofa.is/talnaefni/ibuar/fjolskyldan/">
+                            Fjölskyldan
+                            <span class="offcanvas-subback"></span>
+                            </a>
+                        </li>
+
+
+			<li>
+                            <a href="https://hagstofa.is/talnaefni/ibuar/fjolskyldan/fjolskyldan/">
+                            Fjölskyldan
+                            </a>
+                        </li>
+
+
+
+			<li>
+                            <a href="https://hagstofa.is/talnaefni/ibuar/fjolskyldan/aettleidingar/">
+                            Ættleiðingar
+                            </a>
+                        </li>
+
+
+
+			<li>
+                            <a href="https://hagstofa.is/talnaefni/ibuar/fjolskyldan/giftingarogskilnadir/">
+                            Giftingar og skilnaðir
+                            </a>
+                        </li>
+
+
+                    </ul>
+
+                </li>
+
+
+
+		<li>
+                    <a href="https://hagstofa.is/talnaefni/ibuar/faeddir-og-danir/">
+                    Fæddir og dánir
+
+                    <span class="offcanvas-subopen"></span>
+
+                    </a>
+
+                    <ul>
+                        <li class="header">
+                            <a href="https://hagstofa.is/talnaefni/ibuar/faeddir-og-danir/">
+                            Fæddir og dánir
+                            <span class="offcanvas-subback"></span>
+                            </a>
+                        </li>
+
+
+			<li>
+                            <a href="https://hagstofa.is/talnaefni/ibuar/faeddir-og-danir/faeddir/">
+                            Fæddir
+                            </a>
+                        </li>
+
+
+
+			<li>
+                            <a href="https://hagstofa.is/talnaefni/ibuar/faeddir-og-danir/danir/">
+                            Dánir
+                            </a>
+                        </li>
+
+
+
+			<li>
+                            <a href="https://hagstofa.is/talnaefni/ibuar/faeddir-og-danir/nofn/">
+                            Nöfn
+                            </a>
+                        </li>
+
+
+                    </ul>
+
+                </li>
+
+
+
+		<li>
+                    <a href="https://hagstofa.is/talnaefni/ibuar/mannfjoldaspa/">
+                    Mannfjöldaspá
+
+                    <span class="offcanvas-subopen"></span>
+
+                    </a>
+
+                    <ul>
+                        <li class="header">
+                            <a href="https://hagstofa.is/talnaefni/ibuar/mannfjoldaspa/">
+                            Mannfjöldaspá
+                            <span class="offcanvas-subback"></span>
+                            </a>
+                        </li>
+
+
+			<li>
+                            <a href="https://hagstofa.is/talnaefni/ibuar/mannfjoldaspa/mannfjoldaspa/">
+                            Mannfjöldaspá
+                            </a>
+                        </li>
+
+
+                    </ul>
+
+                </li>
+
+
+
+		<li>
+                    <a href="https://hagstofa.is/talnaefni/ibuar/manntal/">
+                    Manntal
+
+                    <span class="offcanvas-subopen"></span>
+
+                    </a>
+
+                    <ul>
+                        <li class="header">
+                            <a href="https://hagstofa.is/talnaefni/ibuar/manntal/">
+                            Manntal
+                            <span class="offcanvas-subback"></span>
+                            </a>
+                        </li>
+
+
+			<li>
+                            <a href="https://hagstofa.is/talnaefni/ibuar/manntal/manntal-2021/">
+                            Manntal 2021
+                            </a>
+                        </li>
+
+
+
+			<li>
+                            <a href="https://hagstofa.is/talnaefni/ibuar/manntal/manntal-2011/">
+                            Manntal 2011
+                            </a>
+                        </li>
+
+
+                    </ul>
+
+                </li>
+
+
+
+		<li>
+                    <a href="https://hagstofa.is/talnaefni/ibuar/kosningar/">
+                    Kosningar
+
+                    <span class="offcanvas-subopen"></span>
+
+                    </a>
+
+                    <ul>
+                        <li class="header">
+                            <a href="https://hagstofa.is/talnaefni/ibuar/kosningar/">
+                            Kosningar
+                            <span class="offcanvas-subback"></span>
+                            </a>
+                        </li>
+
+
+			<li>
+                            <a href="https://hagstofa.is/talnaefni/ibuar/kosningar/yfirlit/">
+                            Yfirlit kosninga
+                            </a>
+                        </li>
+
+
+
+			<li>
+                            <a href="https://hagstofa.is/talnaefni/ibuar/kosningar/althingiskosningar/">
+                            Alþingiskosningar
+                            </a>
+                        </li>
+
+
+
+			<li>
+                            <a href="https://hagstofa.is/talnaefni/ibuar/kosningar/sveitarstjornarkosningar/">
+                            Sveitarstjórnarkosningar
+                            </a>
+                        </li>
+
+
+
+			<li>
+                            <a href="https://hagstofa.is/talnaefni/ibuar/kosningar/forsetakosningar/">
+                            Forsetakosningar
+                            </a>
+                        </li>
+
+
+
+			<li>
+                            <a href="https://hagstofa.is/talnaefni/ibuar/kosningar/thjodaratkvaedagreidslur/">
+                            Þjóðaratkvæðagreiðslur
+                            </a>
+                        </li>
+
+
+                    </ul>
+
+                </li>
+
+
+            </ul>
+
+        </li>
+
+
+
+        <li data-root="true">
+            <a href="javascript:;">
+            Samfélag
+
+            <span class="offcanvas-subopen"></span>
+
+            </a>
+
+            <ul>
+                <li class="header">
+                    <a href="javascript:;">
+                    Samfélag
+                    <span class="offcanvas-subback"></span>
+                    </a>
+                </li>
+
+
+		<li>
+                    <a href="https://hagstofa.is/talnaefni/samfelag/vinnumarkadur/">
+                    Vinnumarkaður
+
+                    <span class="offcanvas-subopen"></span>
+
+                    </a>
+
+                    <ul>
+                        <li class="header">
+                            <a href="https://hagstofa.is/talnaefni/samfelag/vinnumarkadur/">
+                            Vinnumarkaður
+                            <span class="offcanvas-subback"></span>
+                            </a>
+                        </li>
+
+
+			<li>
+                            <a href="https://hagstofa.is/talnaefni/samfelag/vinnumarkadur/vinnumarkadsrannsokn/">
+                            Vinnumarkaðsrannsókn
+                            </a>
+                        </li>
+
+
+
+			<li>
+                            <a href="https://hagstofa.is/talnaefni/samfelag/vinnumarkadur/vinnuafl-skraargogn/">
+                            Vinnuafl - skráargögn
+                            </a>
+                        </li>
+
+
+
+			<li>
+                            <a href="https://hagstofa.is/talnaefni/samfelag/vinnumarkadur/laus-storf/">
+                            Laus störf
+                            </a>
+                        </li>
+
+
+                    </ul>
+
+                </li>
+
+
+
+		<li>
+                    <a href="https://hagstofa.is/talnaefni/samfelag/laun-og-tekjur/">
+                    Laun og tekjur
+
+                    <span class="offcanvas-subopen"></span>
+
+                    </a>
+
+                    <ul>
+                        <li class="header">
+                            <a href="https://hagstofa.is/talnaefni/samfelag/laun-og-tekjur/">
+                            Laun og tekjur
+                            <span class="offcanvas-subback"></span>
+                            </a>
+                        </li>
+
+
+			<li>
+                            <a href="https://hagstofa.is/talnaefni/samfelag/laun-og-tekjur/laun/">
+                            Laun
+                            </a>
+                        </li>
+
+
+
+			<li>
+                            <a href="https://hagstofa.is/talnaefni/samfelag/laun-og-tekjur/launavisitala/">
+                            Vísitölur launa
+                            </a>
+                        </li>
+
+
+
+			<li>
+                            <a href="https://hagstofa.is/talnaefni/samfelag/laun-og-tekjur/tekjur/">
+                            Tekjur
+                            </a>
+                        </li>
+
+
+                    </ul>
+
+                </li>
+
+
+
+		<li>
+                    <a href="https://hagstofa.is/talnaefni/samfelag/felagsmal/">
+                    Félagsmál
+
+                    <span class="offcanvas-subopen"></span>
+
+                    </a>
+
+                    <ul>
+                        <li class="header">
+                            <a href="https://hagstofa.is/talnaefni/samfelag/felagsmal/">
+                            Félagsmál
+                            <span class="offcanvas-subback"></span>
+                            </a>
+                        </li>
+
+
+			<li>
+                            <a href="https://hagstofa.is/talnaefni/samfelag/felagsmal/utgjold-til-felagsverndar/">
+                            Útgjöld til félagsverndar
+                            </a>
+                        </li>
+
+
+
+			<li>
+                            <a href="https://hagstofa.is/talnaefni/samfelag/felagsmal/felagsthjonusta-sveitarfelaga/">
+                            Félagsþjónusta sveitarfélaga
+                            </a>
+                        </li>
+
+
+
+			<li>
+                            <a href="https://hagstofa.is/talnaefni/samfelag/felagsmal/almannatryggingar/">
+                            Almannatryggingar
+                            </a>
+                        </li>
+
+
+
+			<li>
+                            <a href="https://hagstofa.is/talnaefni/samfelag/felagsmal/stofnanir-aldradra/">
+                            Stofnanir aldraðra
+                            </a>
+                        </li>
+
+
+
+			<li>
+                            <a href="https://hagstofa.is/talnaefni/samfelag/felagsmal/lifeyristhegar/">
+                            Lífeyrisþegar
+                            </a>
+                        </li>
+
+
+
+			<li>
+                            <a href="https://hagstofa.is/talnaefni/samfelag/felagsmal/konur-og-karlar/">
+                            Konur og karlar
+                            </a>
+                        </li>
+
+
+                    </ul>
+
+                </li>
+
+
+
+		<li>
+                    <a href="https://hagstofa.is/talnaefni/samfelag/lifskjor/">
+                    Lífskjör
+
+                    <span class="offcanvas-subopen"></span>
+
+                    </a>
+
+                    <ul>
+                        <li class="header">
+                            <a href="https://hagstofa.is/talnaefni/samfelag/lifskjor/">
+                            Lífskjör
+                            <span class="offcanvas-subback"></span>
+                            </a>
+                        </li>
+
+
+			<li>
+                            <a href="https://hagstofa.is/talnaefni/samfelag/lifskjor/fjarhagsstada-heimila/">
+                            Fjárhagsstaða heimila
+                            </a>
+                        </li>
+
+
+
+			<li>
+                            <a href="https://hagstofa.is/talnaefni/samfelag/lifskjor/husnaedismal/">
+                            Húsnæðismál
+                            </a>
+                        </li>
+
+
+
+			<li>
+                            <a href="https://hagstofa.is/talnaefni/samfelag/lifskjor/skuldir-og-eignir/">
+                            Skuldir og eignir
+                            </a>
+                        </li>
+
+
+
+			<li>
+                            <a href="https://hagstofa.is/talnaefni/samfelag/lifskjor/neysluutgjold/">
+                            Neysluútgjöld
+                            </a>
+                        </li>
+
+
+
+			<li>
+                            <a href="https://hagstofa.is/talnaefni/samfelag/lifskjor/efnislegur-skortur/">
+                            Efnislegur skortur
+                            </a>
+                        </li>
+
+
+                    </ul>
+
+                </li>
+
+
+
+		<li>
+                    <a href="https://hagstofa.is/talnaefni/samfelag/heilbrigdismal/">
+                    Heilbrigðismál
+
+                    <span class="offcanvas-subopen"></span>
+
+                    </a>
+
+                    <ul>
+                        <li class="header">
+                            <a href="https://hagstofa.is/talnaefni/samfelag/heilbrigdismal/">
+                            Heilbrigðismál
+                            <span class="offcanvas-subback"></span>
+                            </a>
+                        </li>
+
+
+			<li>
+                            <a href="https://hagstofa.is/talnaefni/samfelag/heilbrigdismal/heilbrigdisthjonusta/">
+                            Heilbrigðisþjónusta
+                            </a>
+                        </li>
+
+
+
+			<li>
+                            <a href="https://hagstofa.is/talnaefni/samfelag/heilbrigdismal/hagur-og-heilbrigdi/">
+                            Hagur og heilbrigði
+                            </a>
+                        </li>
+
+
+
+			<li>
+                            <a href="https://hagstofa.is/talnaefni/samfelag/heilbrigdismal/heilsufarsrannsokn-2015/">
+                            Heilsufarsrannsókn
+                            </a>
+                        </li>
+
+
+
+			<li>
+                            <a href="https://hagstofa.is/talnaefni/samfelag/heilbrigdismal/lifsvenjur-og-heilsa/">
+                            Lífsvenjur og heilsa
+                            </a>
+                        </li>
+
+
+                    </ul>
+
+                </li>
+
+
+
+		<li>
+                    <a href="https://hagstofa.is/talnaefni/samfelag/menntun/">
+                    Menntun
+
+                    <span class="offcanvas-subopen"></span>
+
+                    </a>
+
+                    <ul>
+                        <li class="header">
+                            <a href="https://hagstofa.is/talnaefni/samfelag/menntun/">
+                            Menntun
+                            <span class="offcanvas-subback"></span>
+                            </a>
+                        </li>
+
+
+			<li>
+                            <a href="https://hagstofa.is/talnaefni/samfelag/menntun/yfirlit/">
+                            Menntun - Yfirlit
+                            </a>
+                        </li>
+
+
+
+			<li>
+                            <a href="https://hagstofa.is/talnaefni/samfelag/menntun/leikskolastig/">
+                            Leikskólastig
+                            </a>
+                        </li>
+
+
+
+			<li>
+                            <a href="https://hagstofa.is/talnaefni/samfelag/menntun/grunnskolastig/">
+                            Grunnskólastig
+                            </a>
+                        </li>
+
+
+
+			<li>
+                            <a href="https://hagstofa.is/talnaefni/samfelag/menntun/framhaldsskolastig/">
+                            Framhaldsskólastig
+                            </a>
+                        </li>
+
+
+
+			<li>
+                            <a href="https://hagstofa.is/talnaefni/samfelag/menntun/haskolastig/">
+                            Háskólastig
+                            </a>
+                        </li>
+
+
+
+			<li>
+                            <a href="https://hagstofa.is/talnaefni/samfelag/menntun/simenntun/">
+                            Símenntun
+                            </a>
+                        </li>
+
+
+
+			<li>
+                            <a href="https://hagstofa.is/talnaefni/samfelag/menntun/menntunarstada/">
+                            Menntunarstaða
+                            </a>
+                        </li>
+
+
+                    </ul>
+
+                </li>
+
+
+
+		<li>
+                    <a href="https://hagstofa.is/talnaefni/samfelag/midlun/">
+                    Miðlun
+
+                    <span class="offcanvas-subopen"></span>
+
+                    </a>
+
+                    <ul>
+                        <li class="header">
+                            <a href="https://hagstofa.is/talnaefni/samfelag/midlun/">
+                            Miðlun
+                            <span class="offcanvas-subback"></span>
+                            </a>
+                        </li>
+
+
+			<li>
+                            <a href="https://hagstofa.is/talnaefni/samfelag/midlun/fjolmidlar/">
+                            Fjölmiðlar
+                            </a>
+                        </li>
+
+
+
+			<li>
+                            <a href="https://hagstofa.is/talnaefni/samfelag/midlun/baekur/">
+                            Bækur
+                            </a>
+                        </li>
+
+
+
+			<li>
+                            <a href="https://hagstofa.is/talnaefni/samfelag/midlun/kvikmyndir/">
+                            Kvikmyndir
+                            </a>
+                        </li>
+
+
+
+			<li>
+                            <a href="https://hagstofa.is/talnaefni/samfelag/midlun/hljodrit/">
+                            Hljóðrit
+                            </a>
+                        </li>
+
+
+                    </ul>
+
+                </li>
+
+
+
+		<li>
+                    <a href="https://hagstofa.is/talnaefni/samfelag/menning/">
+                    Menning
+
+                    <span class="offcanvas-subopen"></span>
+
+                    </a>
+
+                    <ul>
+                        <li class="header">
+                            <a href="https://hagstofa.is/talnaefni/samfelag/menning/">
+                            Menning
+                            <span class="offcanvas-subback"></span>
+                            </a>
+                        </li>
+
+
+			<li>
+                            <a href="https://hagstofa.is/talnaefni/samfelag/menning/trufelog/">
+                            Trúfélög
+                            </a>
+                        </li>
+
+
+
+			<li>
+                            <a href="https://hagstofa.is/talnaefni/samfelag/menning/listir/">
+                            Listir
+                            </a>
+                        </li>
+
+
+
+			<li>
+                            <a href="https://hagstofa.is/talnaefni/samfelag/menning/sofn/">
+                            Söfn
+                            </a>
+                        </li>
+
+
+
+			<li>
+                            <a href="https://hagstofa.is/talnaefni/samfelag/menning/bokasofn/">
+                            Bókasöfn
+                            </a>
+                        </li>
+
+
+
+			<li>
+                            <a href="https://hagstofa.is/talnaefni/samfelag/menning/samtok/">
+                            Samtök
+                            </a>
+                        </li>
+
+
+
+			<li>
+                            <a href="https://hagstofa.is/talnaefni/samfelag/menning/hagraenir-maelikvardar/">
+                            Hagrænir mælikvarðar
+                            </a>
+                        </li>
+
+
+                    </ul>
+
+                </li>
+
+
+
+		<li>
+                    <a href="https://hagstofa.is/talnaefni/samfelag/domsmal/">
+                    Dómsmál
+
+                    <span class="offcanvas-subopen"></span>
+
+                    </a>
+
+                    <ul>
+                        <li class="header">
+                            <a href="https://hagstofa.is/talnaefni/samfelag/domsmal/">
+                            Dómsmál
+                            <span class="offcanvas-subback"></span>
+                            </a>
+                        </li>
+
+
+			<li>
+                            <a href="https://hagstofa.is/talnaefni/samfelag/domsmal/domar/">
+                            Dómar
+                            </a>
+                        </li>
+
+
+
+			<li>
+                            <a href="https://hagstofa.is/talnaefni/samfelag/domsmal/afbrot-og-afplanun/">
+                            Afbrot og afplánun
+                            </a>
+                        </li>
+
+
+                    </ul>
+
+                </li>
+
+
+            </ul>
+
+        </li>
+
+
+
+        <li data-root="true">
+            <a href="javascript:;">
+            Atvinnuvegir
+
+            <span class="offcanvas-subopen"></span>
+
+            </a>
+
+            <ul>
+                <li class="header">
+                    <a href="javascript:;">
+                    Atvinnuvegir
+                    <span class="offcanvas-subback"></span>
+                    </a>
+                </li>
+
+
+		<li>
+                    <a href="https://hagstofa.is/talnaefni/atvinnuvegir/fyrirtaeki/">
+                    Fyrirtæki
+
+                    <span class="offcanvas-subopen"></span>
+
+                    </a>
+
+                    <ul>
+                        <li class="header">
+                            <a href="https://hagstofa.is/talnaefni/atvinnuvegir/fyrirtaeki/">
+                            Fyrirtæki
+                            <span class="offcanvas-subback"></span>
+                            </a>
+                        </li>
+
+
+			<li>
+                            <a href="https://hagstofa.is/talnaefni/atvinnuvegir/fyrirtaeki/afkoma-fyrirtaekja/">
+                            Afkoma fyrirtækja
+                            </a>
+                        </li>
+
+
+
+			<li>
+                            <a href="https://hagstofa.is/talnaefni/atvinnuvegir/fyrirtaeki/fyrirtaeki/">
+                            Fyrirtæki
+                            </a>
+                        </li>
+
+
+
+			<li>
+                            <a href="https://hagstofa.is/talnaefni/atvinnuvegir/fyrirtaeki/gjaldthrot/">
+                            Gjaldþrot
+                            </a>
+                        </li>
+
+
+
+			<li>
+                            <a href="https://hagstofa.is/talnaefni/atvinnuvegir/fyrirtaeki/velta/">
+                            Velta
+                            </a>
+                        </li>
+
+
+
+			<li>
+                            <a href="https://hagstofa.is/talnaefni/atvinnuvegir/fyrirtaeki/launakostnadur/">
+                            Launakostnaður
+                            </a>
+                        </li>
+
+
+                    </ul>
+
+                </li>
+
+
+
+		<li>
+                    <a href="https://hagstofa.is/talnaefni/atvinnuvegir/ferdathjonusta/">
+                    Ferðaþjónusta
+
+                    <span class="offcanvas-subopen"></span>
+
+                    </a>
+
+                    <ul>
+                        <li class="header">
+                            <a href="https://hagstofa.is/talnaefni/atvinnuvegir/ferdathjonusta/">
+                            Ferðaþjónusta
+                            <span class="offcanvas-subback"></span>
+                            </a>
+                        </li>
+
+
+			<li>
+                            <a href="https://hagstofa.is/talnaefni/atvinnuvegir/ferdathjonusta/gisting/">
+                            Gisting
+                            </a>
+                        </li>
+
+
+
+			<li>
+                            <a href="https://hagstofa.is/talnaefni/atvinnuvegir/ferdathjonusta/hagvisar-i-ferdathjonustu/">
+                            Hagvísar í ferðaþjónustu
+                            </a>
+                        </li>
+
+
+
+			<li>
+                            <a href="https://hagstofa.is/talnaefni/atvinnuvegir/ferdathjonusta/farthegar/">
+                            Farþegar
+                            </a>
+                        </li>
+
+
+
+			<li>
+                            <a href="https://hagstofa.is/talnaefni/atvinnuvegir/ferdathjonusta/ferdavenjur/">
+                            Ferðavenjur
+                            </a>
+                        </li>
+
+
+
+			<li>
+                            <a href="https://hagstofa.is/talnaefni/atvinnuvegir/ferdathjonusta/ferdathjonustureikningar/">
+                            Ferðaþjónustureikningar
+                            </a>
+                        </li>
+
+
+                    </ul>
+
+                </li>
+
+
+
+		<li>
+                    <a href="https://hagstofa.is/talnaefni/atvinnuvegir/sjavarutvegur/">
+                    Sjávarútvegur
+
+                    <span class="offcanvas-subopen"></span>
+
+                    </a>
+
+                    <ul>
+                        <li class="header">
+                            <a href="https://hagstofa.is/talnaefni/atvinnuvegir/sjavarutvegur/">
+                            Sjávarútvegur
+                            <span class="offcanvas-subback"></span>
+                            </a>
+                        </li>
+
+
+			<li>
+                            <a href="https://hagstofa.is/talnaefni/atvinnuvegir/sjavarutvegur/afli-og-radstofun/">
+                            Afli og ráðstöfun
+                            </a>
+                        </li>
+
+
+
+			<li>
+                            <a href="https://hagstofa.is/talnaefni/atvinnuvegir/sjavarutvegur/utflutningur-sjavarafurda/">
+                            Útflutningur sjávarafurða
+                            </a>
+                        </li>
+
+
+
+			<li>
+                            <a href="https://hagstofa.is/talnaefni/atvinnuvegir/sjavarutvegur/Landanir-erlendra-skipa/">
+                            Landanir erlendra skipa
+                            </a>
+                        </li>
+
+
+
+			<li>
+                            <a href="https://hagstofa.is/talnaefni/atvinnuvegir/sjavarutvegur/verdvisitolur-sjavarafurda/">
+                            Verðvísitölur sjávarafurða
+                            </a>
+                        </li>
+
+
+
+			<li>
+                            <a href="https://hagstofa.is/talnaefni/atvinnuvegir/sjavarutvegur/afkoma-sjavarutvegs/">
+                            Afkoma sjávarútvegs
+                            </a>
+                        </li>
+
+
+
+			<li>
+                            <a href="https://hagstofa.is/talnaefni/atvinnuvegir/sjavarutvegur/fjoldi-fiskiskipa/">
+                            Fjöldi fiskiskipa
+                            </a>
+                        </li>
+
+
+
+			<li>
+                            <a href="https://hagstofa.is/talnaefni/atvinnuvegir/sjavarutvegur/fiskeldi/">
+                            Fiskeldi
+                            </a>
+                        </li>
+
+
+                    </ul>
+
+                </li>
+
+
+
+		<li>
+                    <a href="https://hagstofa.is/talnaefni/atvinnuvegir/landbunadur/">
+                    Landbúnaður
+
+                    <span class="offcanvas-subopen"></span>
+
+                    </a>
+
+                    <ul>
+                        <li class="header">
+                            <a href="https://hagstofa.is/talnaefni/atvinnuvegir/landbunadur/">
+                            Landbúnaður
+                            <span class="offcanvas-subback"></span>
+                            </a>
+                        </li>
+
+
+			<li>
+                            <a href="https://hagstofa.is/talnaefni/atvinnuvegir/landbunadur/landbunadarframleidsla/">
+                            Framleiðsla
+                            </a>
+                        </li>
+
+
+
+			<li>
+                            <a href="https://hagstofa.is/talnaefni/atvinnuvegir/landbunadur/bufe-og-uppskera/">
+                            Búfé og uppskera
+                            </a>
+                        </li>
+
+
+
+			<li>
+                            <a href="https://hagstofa.is/talnaefni/atvinnuvegir/landbunadur/veidi/">
+                            Veiði
+                            </a>
+                        </li>
+
+
+
+			<li>
+                            <a href="https://hagstofa.is/talnaefni/atvinnuvegir/landbunadur/aburdur/">
+                            Áburður
+                            </a>
+                        </li>
+
+
+
+			<li>
+                            <a href="https://hagstofa.is/talnaefni/atvinnuvegir/landbunadur/landbunadarrannsokn/">
+                            Landbúnaðarrannsókn
+                            </a>
+                        </li>
+
+
+
+			<li>
+                            <a href="https://hagstofa.is/talnaefni/atvinnuvegir/landbunadur/afkoma-landbunadarins/">
+                            Afkoma landbúnaðarins
+                            </a>
+                        </li>
+
+
+                    </ul>
+
+                </li>
+
+
+
+		<li>
+                    <a href="https://hagstofa.is/talnaefni/atvinnuvegir/idnadur/">
+                    Iðnaður
+
+                    <span class="offcanvas-subopen"></span>
+
+                    </a>
+
+                    <ul>
+                        <li class="header">
+                            <a href="https://hagstofa.is/talnaefni/atvinnuvegir/idnadur/">
+                            Iðnaður
+                            <span class="offcanvas-subback"></span>
+                            </a>
+                        </li>
+
+
+			<li>
+                            <a href="https://hagstofa.is/talnaefni/atvinnuvegir/idnadur/byggingarvisitala/">
+                            Byggingarvísitala
+                            </a>
+                        </li>
+
+
+
+			<li>
+                            <a href="https://hagstofa.is/talnaefni/atvinnuvegir/idnadur/bygging-ibudarhusnaedis/">
+                            Bygging íbúðarhúsnæðis
+                            </a>
+                        </li>
+
+
+
+			<li>
+                            <a href="https://hagstofa.is/talnaefni/atvinnuvegir/idnadur/idnadarframleidsla/">
+                            Iðnaðarframleiðsla
+                            </a>
+                        </li>
+
+
+                    </ul>
+
+                </li>
+
+
+
+		<li>
+                    <a href="https://hagstofa.is/talnaefni/atvinnuvegir/visindi-og-taekni/">
+                    Vísindi og tækni
+
+                    <span class="offcanvas-subopen"></span>
+
+                    </a>
+
+                    <ul>
+                        <li class="header">
+                            <a href="https://hagstofa.is/talnaefni/atvinnuvegir/visindi-og-taekni/">
+                            Vísindi og tækni
+                            <span class="offcanvas-subback"></span>
+                            </a>
+                        </li>
+
+
+			<li>
+                            <a href="https://hagstofa.is/talnaefni/atvinnuvegir/visindi-og-taekni/rannsoknir-og-throun/">
+                            Rannsóknir og þróun
+                            </a>
+                        </li>
+
+
+
+			<li>
+                            <a href="https://hagstofa.is/talnaefni/atvinnuvegir/visindi-og-taekni/Nyjungar-i-starfsemi-fyrirtaekja/">
+                            Nýjungar í starfsemi fyrirtækja
+                            </a>
+                        </li>
+
+
+
+			<li>
+                            <a href="https://hagstofa.is/talnaefni/atvinnuvegir/visindi-og-taekni/upplysingataekninotkun-fyrirtaekja/">
+                            Upplýsingatækninotkun fyrirtækja
+                            </a>
+                        </li>
+
+
+
+			<li>
+                            <a href="https://hagstofa.is/talnaefni/atvinnuvegir/visindi-og-taekni/upplysingataekninotkun-einstaklinga/">
+                            Upplýsingatækninotkun einstaklinga
+                            </a>
+                        </li>
+
+
+
+			<li>
+                            <a href="https://hagstofa.is/talnaefni/atvinnuvegir/visindi-og-taekni/fjarskipti/">
+                            Fjarskipti
+                            </a>
+                        </li>
+
+
+                    </ul>
+
+                </li>
+
+
+            </ul>
+
+        </li>
+
+
+
+        <li data-root="true">
+            <a href="javascript:;">
+            Efnahagur
+
+            <span class="offcanvas-subopen"></span>
+
+            </a>
+
+            <ul>
+                <li class="header">
+                    <a href="javascript:;">
+                    Efnahagur
+                    <span class="offcanvas-subback"></span>
+                    </a>
+                </li>
+
+
+		<li>
+                    <a href="https://hagstofa.is/talnaefni/efnahagur/verdlag/">
+                    Verðlag
+
+                    <span class="offcanvas-subopen"></span>
+
+                    </a>
+
+                    <ul>
+                        <li class="header">
+                            <a href="https://hagstofa.is/talnaefni/efnahagur/verdlag/">
+                            Verðlag
+                            <span class="offcanvas-subback"></span>
+                            </a>
+                        </li>
+
+
+			<li>
+                            <a href="https://hagstofa.is/talnaefni/efnahagur/verdlag/visitala-neysluverds/">
+                            Vísitala neysluverðs
+                            </a>
+                        </li>
+
+
+
+			<li>
+                            <a href="https://hagstofa.is/talnaefni/efnahagur/verdlag/byggingarvisitala/">
+                            Byggingarvísitala
+                            </a>
+                        </li>
+
+
+
+			<li>
+                            <a href="https://hagstofa.is/talnaefni/efnahagur/verdlag/samraemd-visitala-neysluverds/">
+                            Samræmd vísitala neysluverðs
+                            </a>
+                        </li>
+
+
+
+			<li>
+                            <a href="https://hagstofa.is/talnaefni/efnahagur/verdlag/althjodlegur-verdsamanburdur/">
+                            Alþjóðlegur verðsamanburður
+                            </a>
+                        </li>
+
+
+
+			<li>
+                            <a href="https://hagstofa.is/talnaefni/efnahagur/verdlag/visitala-framleidsluverds/">
+                            Vísitala framleiðsluverðs
+                            </a>
+                        </li>
+
+
+
+			<li>
+                            <a href="https://hagstofa.is/talnaefni/efnahagur/verdlag/neysluutgjold/">
+                            Neysluútgjöld
+                            </a>
+                        </li>
+
+
+
+			<li>
+                            <a href="https://hagstofa.is/talnaefni/efnahagur/verdlag/verd-ymissa-vorutegunda/">
+                            Verð ýmissa vörutegunda
+                            </a>
+                        </li>
+
+
+                    </ul>
+
+                </li>
+
+
+
+		<li>
+                    <a href="https://hagstofa.is/talnaefni/efnahagur/utanrikisverslun/">
+                    Utanríkisverslun
+
+                    <span class="offcanvas-subopen"></span>
+
+                    </a>
+
+                    <ul>
+                        <li class="header">
+                            <a href="https://hagstofa.is/talnaefni/efnahagur/utanrikisverslun/">
+                            Utanríkisverslun
+                            <span class="offcanvas-subback"></span>
+                            </a>
+                        </li>
+
+
+			<li>
+                            <a href="https://hagstofa.is/talnaefni/efnahagur/utanrikisverslun/voruvidskipti/">
+                            Vöruviðskipti
+                            </a>
+                        </li>
+
+
+
+			<li>
+                            <a href="https://hagstofa.is/talnaefni/efnahagur/utanrikisverslun/thjonustuvidskipti/">
+                            Þjónustuviðskipti
+                            </a>
+                        </li>
+
+
+
+			<li>
+                            <a href="https://hagstofa.is/talnaefni/efnahagur/utanrikisverslun/voru-og-thjonustuvidskipti/">
+                            Vöru- og þjónustuviðskipti
+                            </a>
+                        </li>
+
+
+                    </ul>
+
+                </li>
+
+
+
+		<li>
+                    <a href="https://hagstofa.is/talnaefni/efnahagur/fjarmal-hins-opinbera/">
+                    Fjármál hins opinbera
+
+                    <span class="offcanvas-subopen"></span>
+
+                    </a>
+
+                    <ul>
+                        <li class="header">
+                            <a href="https://hagstofa.is/talnaefni/efnahagur/fjarmal-hins-opinbera/">
+                            Fjármál hins opinbera
+                            <span class="offcanvas-subback"></span>
+                            </a>
+                        </li>
+
+
+			<li>
+                            <a href="https://hagstofa.is/talnaefni/efnahagur/fjarmal-hins-opinbera/hid-opinbera/">
+                            Hið opinbera
+                            </a>
+                        </li>
+
+
+
+			<li>
+                            <a href="https://hagstofa.is/talnaefni/efnahagur/fjarmal-hins-opinbera/rikissjodur/">
+                            Ríkissjóður
+                            </a>
+                        </li>
+
+
+
+			<li>
+                            <a href="https://hagstofa.is/talnaefni/efnahagur/fjarmal-hins-opinbera/sveitarfelog/">
+                            Sveitarfélög
+                            </a>
+                        </li>
+
+
+
+			<li>
+                            <a href="https://hagstofa.is/talnaefni/efnahagur/fjarmal-hins-opinbera/almannatryggingar/">
+                            Almannatryggingar
+                            </a>
+                        </li>
+
+
+
+			<li>
+                            <a href="https://hagstofa.is/talnaefni/efnahagur/fjarmal-hins-opinbera/utgjold-til-felagsverndar/">
+                            Útgjöld til félagsverndar
+                            </a>
+                        </li>
+
+
+
+			<li>
+                            <a href="https://hagstofa.is/talnaefni/efnahagur/fjarmal-hins-opinbera/utgjold-til-fraedslumala/">
+                            Útgjöld til fræðslumála
+                            </a>
+                        </li>
+
+
+
+			<li>
+                            <a href="https://hagstofa.is/talnaefni/efnahagur/fjarmal-hins-opinbera/utgjold-til-heilbrigdismala/">
+                            Útgjöld til heilbrigðismála
+                            </a>
+                        </li>
+
+
+                    </ul>
+
+                </li>
+
+
+
+		<li>
+                    <a href="https://hagstofa.is/talnaefni/efnahagur/vinnumagn-og-framleidni/">
+                    Vinnumagn og framleiðni
+
+                    <span class="offcanvas-subopen"></span>
+
+                    </a>
+
+                    <ul>
+                        <li class="header">
+                            <a href="https://hagstofa.is/talnaefni/efnahagur/vinnumagn-og-framleidni/">
+                            Vinnumagn og framleiðni
+                            <span class="offcanvas-subback"></span>
+                            </a>
+                        </li>
+
+
+			<li>
+                            <a href="https://hagstofa.is/talnaefni/efnahagur/vinnumagn-og-framleidni/framleidni-vinnuafls/">
+                            Framleiðni vinnuafls
+                            </a>
+                        </li>
+
+
+
+			<li>
+                            <a href="https://hagstofa.is/talnaefni/efnahagur/vinnumagn-og-framleidni/vinnumagn/">
+                            Vinnumagn
+                            </a>
+                        </li>
+
+
+                    </ul>
+
+                </li>
+
+
+
+		<li>
+                    <a href="https://hagstofa.is/talnaefni/efnahagur/thjodhagsspa/">
+                    Þjóðhagsspá
+
+                    <span class="offcanvas-subopen"></span>
+
+                    </a>
+
+                    <ul>
+                        <li class="header">
+                            <a href="https://hagstofa.is/talnaefni/efnahagur/thjodhagsspa/">
+                            Þjóðhagsspá
+                            <span class="offcanvas-subback"></span>
+                            </a>
+                        </li>
+
+
+			<li>
+                            <a href="https://hagstofa.is/talnaefni/efnahagur/thjodhagsspa/thjodhagsspa/">
+                            Þjóðhagsspá
+                            </a>
+                        </li>
+
+
+                    </ul>
+
+                </li>
+
+
+
+		<li>
+                    <a href="https://hagstofa.is/talnaefni/efnahagur/thjodhagsreikningar/">
+                    Þjóðhagsreikningar
+
+                    <span class="offcanvas-subopen"></span>
+
+                    </a>
+
+                    <ul>
+                        <li class="header">
+                            <a href="https://hagstofa.is/talnaefni/efnahagur/thjodhagsreikningar/">
+                            Þjóðhagsreikningar
+                            <span class="offcanvas-subback"></span>
+                            </a>
+                        </li>
+
+
+			<li>
+                            <a href="https://hagstofa.is/talnaefni/efnahagur/thjodhagsreikningar/landsframleidsla/">
+                            Landsframleiðsla
+                            </a>
+                        </li>
+
+
+
+			<li>
+                            <a href="https://hagstofa.is/talnaefni/efnahagur/thjodhagsreikningar/einka-og-samneysla/">
+                            Einkaneysla
+                            </a>
+                        </li>
+
+
+
+			<li>
+                            <a href="https://hagstofa.is/talnaefni/efnahagur/thjodhagsreikningar/fjarmunamyndun-og-fjarmunaeign/">
+                            Fjármunamyndun og fjármunaeign
+                            </a>
+                        </li>
+
+
+
+			<li>
+                            <a href="https://hagstofa.is/talnaefni/efnahagur/thjodhagsreikningar/framleidsluuppgjor/">
+                            Framleiðsluuppgjör
+                            </a>
+                        </li>
+
+
+
+			<li>
+                            <a href="https://hagstofa.is/talnaefni/efnahagur/thjodhagsreikningar/tekjuskiptingaruppgjor/">
+                            Tekjuskiptingaruppgjör
+                            </a>
+                        </li>
+
+
+
+			<li>
+                            <a href="https://hagstofa.is/talnaefni/efnahagur/thjodhagsreikningar/fjarmalareikningar/">
+                            Fjármálareikningar
+                            </a>
+                        </li>
+
+
+
+			<li>
+                            <a href="https://hagstofa.is/talnaefni/efnahagur/thjodhagsreikningar/efnahagslegar-skammtimatolur/">
+                            Efnahagslegar skammtímatölur
+                            </a>
+                        </li>
+
+
+
+			<li>
+                            <a href="https://hagstofa.is/talnaefni/efnahagur/thjodhagsreikningar/lifeyrisskuldbindingar/">
+                            Lífeyrisskuldbindingar
+                            </a>
+                        </li>
+
+
+
+			<li>
+                            <a href="https://hagstofa.is/talnaefni/efnahagur/thjodhagsreikningar/ferdathjonustureikningar/">
+                            Ferðaþjónustureikningar
+                            </a>
+                        </li>
+
+
+                    </ul>
+
+                </li>
+
+
+            </ul>
+
+        </li>
+
+
+
+        <li data-root="true">
+            <a href="javascript:;">
+            Umhverfi
+
+            <span class="offcanvas-subopen"></span>
+
+            </a>
+
+            <ul>
+                <li class="header">
+                    <a href="javascript:;">
+                    Umhverfi
+                    <span class="offcanvas-subback"></span>
+                    </a>
+                </li>
+
+
+		<li>
+                    <a href="https://hagstofa.is/talnaefni/umhverfi/natturufar/">
+                    Náttúrufar
+
+                    <span class="offcanvas-subopen"></span>
+
+                    </a>
+
+                    <ul>
+                        <li class="header">
+                            <a href="https://hagstofa.is/talnaefni/umhverfi/natturufar/">
+                            Náttúrufar
+                            <span class="offcanvas-subback"></span>
+                            </a>
+                        </li>
+
+
+			<li>
+                            <a href="https://hagstofa.is/talnaefni/umhverfi/natturufar/landlysing/">
+                            Landlýsing
+                            </a>
+                        </li>
+
+
+
+			<li>
+                            <a href="https://hagstofa.is/talnaefni/umhverfi/natturufar/vedurfar/">
+                            Veðurfar
+                            </a>
+                        </li>
+
+
+
+			<li>
+                            <a href="https://hagstofa.is/talnaefni/umhverfi/natturufar/loftgaedi/">
+                            Loftgæði
+                            </a>
+                        </li>
+
+
+                    </ul>
+
+                </li>
+
+
+
+		<li>
+                    <a href="https://hagstofa.is/talnaefni/umhverfi/losun-lofttegunda/">
+                    Losun lofttegunda
+
+                    <span class="offcanvas-subopen"></span>
+
+                    </a>
+
+                    <ul>
+                        <li class="header">
+                            <a href="https://hagstofa.is/talnaefni/umhverfi/losun-lofttegunda/">
+                            Losun lofttegunda
+                            <span class="offcanvas-subback"></span>
+                            </a>
+                        </li>
+
+
+			<li>
+                            <a href="https://hagstofa.is/talnaefni/umhverfi/losun-lofttegunda/losun-innan-landsvaedis-islands/">
+                            Losun innan landsvæðis Íslands (NIR)
+                            </a>
+                        </li>
+
+
+
+			<li>
+                            <a href="https://hagstofa.is/talnaefni/umhverfi/losun-lofttegunda/losun-fra-hagkerfi-islands/">
+                            Losun frá hagkerfi Íslands (AEA)
+                            </a>
+                        </li>
+
+
+
+			<li>
+                            <a href="https://hagstofa.is/talnaefni/umhverfi/losun-lofttegunda/losun-loftmengandi-efna-innan-landsvaedis-islands/">
+                            Losun loftmengandi efna innan landsvæðis Íslands (LRTAP)
+                            </a>
+                        </li>
+
+
+                    </ul>
+
+                </li>
+
+
+
+		<li>
+                    <a href="https://hagstofa.is/talnaefni/umhverfi/efnisflaedi/">
+                    Efnisflæði
+
+                    <span class="offcanvas-subopen"></span>
+
+                    </a>
+
+                    <ul>
+                        <li class="header">
+                            <a href="https://hagstofa.is/talnaefni/umhverfi/efnisflaedi/">
+                            Efnisflæði
+                            <span class="offcanvas-subback"></span>
+                            </a>
+                        </li>
+
+
+			<li>
+                            <a href="https://hagstofa.is/talnaefni/umhverfi/efnisflaedi/urgangur/">
+                            Úrgangstölfræði
+                            </a>
+                        </li>
+
+
+
+			<li>
+                            <a href="https://hagstofa.is/talnaefni/umhverfi/efnisflaedi/vatnsnotkun-og-fraveitur/">
+                            Vatnsnotkun og fráveitur
+                            </a>
+                        </li>
+
+
+
+			<li>
+                            <a href="https://hagstofa.is/talnaefni/umhverfi/efnisflaedi/efnisflaedireikningar/">
+                            Efnisflæðireikningar (MFA)
+                            </a>
+                        </li>
+
+
+                    </ul>
+
+                </li>
+
+
+
+		<li>
+                    <a href="https://hagstofa.is/talnaefni/umhverfi/orkumal/">
+                    Orkumál
+
+                    <span class="offcanvas-subopen"></span>
+
+                    </a>
+
+                    <ul>
+                        <li class="header">
+                            <a href="https://hagstofa.is/talnaefni/umhverfi/orkumal/">
+                            Orkumál
+                            <span class="offcanvas-subback"></span>
+                            </a>
+                        </li>
+
+
+			<li>
+                            <a href="https://hagstofa.is/talnaefni/umhverfi/orkumal/orkuverd-og-kostnadur/">
+                            Orkuverð og kostnaður
+                            </a>
+                        </li>
+
+
+
+			<li>
+                            <a href="https://hagstofa.is/talnaefni/umhverfi/orkumal/framleidsla-og-notkun/">
+                            Framleiðsla og notkun
+                            </a>
+                        </li>
+
+
+
+			<li>
+                            <a href="https://hagstofa.is/talnaefni/umhverfi/orkumal/orkuflaedireikningar/">
+                            Orkuflæðireikningar (PEFA)
+                            </a>
+                        </li>
+
+
+                    </ul>
+
+                </li>
+
+
+
+		<li>
+                    <a href="https://hagstofa.is/talnaefni/umhverfi/samgongur/">
+                    Samgöngur
+
+                    <span class="offcanvas-subopen"></span>
+
+                    </a>
+
+                    <ul>
+                        <li class="header">
+                            <a href="https://hagstofa.is/talnaefni/umhverfi/samgongur/">
+                            Samgöngur
+                            <span class="offcanvas-subback"></span>
+                            </a>
+                        </li>
+
+
+			<li>
+                            <a href="https://hagstofa.is/talnaefni/umhverfi/samgongur/almenningssamgongur/">
+                            Almenningssamgöngur
+                            </a>
+                        </li>
+
+
+
+			<li>
+                            <a href="https://hagstofa.is/talnaefni/umhverfi/samgongur/flug/">
+                            Flug
+                            </a>
+                        </li>
+
+
+
+			<li>
+                            <a href="https://hagstofa.is/talnaefni/umhverfi/samgongur/okutaeki/">
+                            Ökutæki
+                            </a>
+                        </li>
+
+
+
+			<li>
+                            <a href="https://hagstofa.is/talnaefni/umhverfi/samgongur/skip/">
+                            Skip
+                            </a>
+                        </li>
+
+
+                    </ul>
+
+                </li>
+
+
+
+		<li>
+                    <a href="https://hagstofa.is/talnaefni/umhverfi/graena-hagkerfid/">
+                    Græna hagkerfið
+
+                    <span class="offcanvas-subopen"></span>
+
+                    </a>
+
+                    <ul>
+                        <li class="header">
+                            <a href="https://hagstofa.is/talnaefni/umhverfi/graena-hagkerfid/">
+                            Græna hagkerfið
+                            <span class="offcanvas-subback"></span>
+                            </a>
+                        </li>
+
+
+			<li>
+                            <a href="https://hagstofa.is/talnaefni/umhverfi/graena-hagkerfid/umhverfisskattar/">
+                            Umhverfisskattar
+                            </a>
+                        </li>
+
+
+                    </ul>
+
+                </li>
+
+
+            </ul>
+
+        </li>
+
+
+        <li data-root=true>
+            <a href="/heimsmarkmid-site/en/14-6-1/">
+    English
+</a>
+        </li>
+    </ul>
+</div>
 
 
 <script type="text/template" id="item_template">
@@ -275,15 +3440,15 @@ data-event-label="high"
       >
         <% if(allowedFields.indexOf(fieldItem.field) == -1) { %><h6><% } else { %><h5><% } %>
           <span aria-hidden="true"><%=translations.t(fieldItem.label)%><i class="fa fa-chevron-down"></i></span>
-          <span class="sr-only">Show sub-categories: <%=translations.t(fieldItem.label)%></span>
+          <span class="sr-only">Sýna undirflokka: <%=translations.t(fieldItem.label)%></span>
         <% if(allowedFields.indexOf(fieldItem.field) == -1) { %></h6><% } else { %></h5><% } %>
       </button>
       <div class="variable-options">
         <fieldset>
-          <legend class="sr-only">Sub-categories - <%=translations.t(fieldItem.field)%></legend>
+          <legend class="sr-only">Undirflokkar - <%=translations.t(fieldItem.field)%></legend>
           <div>
-            <button data-type="select">Select all</button>
-            <button data-type="clear">Clear all</button>
+            <button data-type="select">Velja allt</button>
+            <button data-type="clear">Hreinsa allt</button>
           </div>
           <% _.each(fieldItem.values, function(item) { %>
             <label>
@@ -294,10 +3459,10 @@ data-event-label="high"
       </div>
 
       <% if(allowedFields.indexOf(fieldItem.field) == -1) { %>
-        <div class="variable-hint" id="variable-hint-<%=fieldItem.field.replace(/ /g, '-')%>">Available when '<%= translations.t(_.find(edges, { To: fieldItem.field }).From) %>' is selected
+        <div class="variable-hint" id="variable-hint-<%=fieldItem.field.replace(/ /g, '-')%>">Í boði þegar '<%= translations.t(_.find(edges, { To: fieldItem.field }).From) %>' er valið
         </div>
         <div class="no-data-hint" id="no-data-hint-<%=fieldItem.field.replace(/ /g, '-')%>">
-          No options available because of filters above
+          Engir valmöguleikar í boði vegna síunar
         </div>
       <% }%>
 
@@ -309,9 +3474,9 @@ data-event-label="high"
   
   <% if(units.length > 1) { %>
   
-    <h4>Unit of Measurement</h4>
+    <h4>Eining</h4>
     <fieldset>
-      <legend class="sr-only">Unit of Measurement</legend>
+      <legend class="sr-only">Eining</legend>
       <% _.each(units, function(unitsItem, index) { %>
         <% var checked = (selectedUnit) ? (selectedUnit==unitsItem) : (index==0); %>
         <label><input type="radio" name="unit" value="<%=unitsItem%>" tabindex=0 <%=checked ? 'checked' : ''%> /> <%=translations.t(unitsItem)%></label>
@@ -326,9 +3491,9 @@ data-event-label="high"
   
   <% if(serieses.length > 1) { %>
   
-    <h4>Series</h4>
+    <h4>Samfelld röð</h4>
     <fieldset>
-      <legend class="sr-only">Series</legend>
+      <legend class="sr-only">Samfelld röð</legend>
       <% _.each(serieses, function(seriesItem, index) { %>
         <% var checked = (selectedSeries) ? (selectedSeries==seriesItem) : (index==0); %>
         <label><input type="radio" name="series" value="<%=seriesItem%>" tabindex=0 <%=checked ? 'checked' : ''%> /> <%=translations.t(seriesItem)%></label>
@@ -339,9 +3504,9 @@ data-event-label="high"
   
 </script>
 
-<script>translations['indicator'] = {"annotation_2030_target":"2030 indicator target","annotation_series_break":"Series break","announce_data_added":"Chart and table updated to include data.","announce_data_not_available":"Chart and table shows no data.","announce_data_removed":"Chart and table updated to exclude data.","apply":"Apply","cancel":"Cancel","change_breakdowns":"Change breakdowns","chart":"Chart","chart_annotation":"Chart annotation","clear_all":"Clear all","clear_selections":"Clear selections","data_keyboard_navigation":"Press enter to browse data points with left and right arrow keys.","data_not_available":"This data is not available. Please choose alternative data to display.","data_tabular_alternative":"For tabular data alternative see Table tab.","dataset_size_warning":"There are too many datasets to show on the chart. Not all will be shown until you remove some selections.","download_chart":"Download chart data (.csv)","download_chart_image":"Download chart image (.png)","download_chart_image_title":"Download chart image as PNG","download_csv":"Download data (.csv)","download_csv_title":"Download data as CSV","download_geojson":"Download map data (.geojson)","download_geojson_title":"Download map data as GeoJSON","download_headline":"Download headline data (.csv)","download_headline_title":"Download headline data as CSV","download_source":"Download source data (.csv)","download_source_for_disaggregations":"Download source data for disaggregations (.csv)","download_source_sdmx":"Download source SDMX (.xml)","download_source_sdmx_title":"Download source data as SDMX","download_source_title":"Download source data as CSV","download_table":"Download table data (.csv)","edit":"Edit Indicator","edit_configuration":"Edit Configuration","edit_data":"Edit Data","edit_metadata":"Edit Metadata","empty_metadata_placeholder":"Not available for this indicator","empty_metadata_placeholder_sources":"Not available for this source","footnote":"Footnote","geographical_area":"Geographical Area","global_metadata":"Global Metadata","global_metadata_blurb":"This table provides information on metadata for SDG indicators as defined by the UN Statistical Commission. <a href=\"https://unstats.un.org/sdgs/metadata/\">Complete global metadata</a> is provided by the UN Statistics Division.","headline_data":"Headline data","legend_help":"Click on the legend to remove individual lines from the chart.","loading":"Loading","loading_map":"Loading map","map":"Map","map_fullscreen":"View map fullscreen","map_fullscreen_exit":"Exit fullscreen map","map_search":"Map search","map_search_cancel":"Clear map search","map_search_hide":"Hide map search","map_search_show":"Show map search","map_slider_back":"View map data for previous time period","map_slider_forward":"View map data for next time period","map_slider_keyboard":"View map data throughout time period by using left and right arrow keys","map_slider_mouse":"Navigate map data by time period","map_year_slider":"Year slider","map_zoom_home":"Reset to default map zoom","map_zoom_in":"Zoom in on map","map_zoom_out":"Zoom out on map","national_metadata":"National Metadata","national_metadata_blurb":"This table provides metadata for the actual indicator available from %country.name statistics closest to the corresponding global SDG indicator. Please note that even when the global SDG indicator is fully available from %country.adjective statistics, this table should be consulted for information on national methodology and other %country.adjective-specific metadata information.","next":"Next indicator","no_data_hint":"No options available because of filters above","no_headline_data":"No headline data available","plot_legend_description":"Plot legend: list of lines included in chart","previous":"Previous indicator","select_all":"Select all","series":"Series","series_help":"Choose categories from the dropdowns below to see different breakdowns of the data. Some will not be available until a higher level is chosen.","source":"Source","sources":"Sources","status":"Indicator status","sub_categories":"Sub-categories","sub_categories_show":"Show sub-categories:","table":"Table","table_column_sort":"Click to sort by this column","tags":"Tags","total":"Total","unit":"Unit","unit_of_measurement":"Unit of Measurement","units_type":"Units type","variable_hint":"Available when '%field' is selected","view_indicator_list":"View this goal's indicator list"};</script>
+<script>translations['indicator'] = {"announce_data_added":"Graf og tafla hafa verið uppfærð","announce_data_not_available":"Graf og tafla sýna engin gögn","announce_data_removed":"Graf og tafla hafa verið uppfærð","apply":"Velja","cancel":"Hætta við","change_breakdowns":"Breyta niðurbroti","chart":"Graf","chart_annotation":"Skýring myndrits","clear_all":"Hreinsa allt","clear_selections":"Hreinsa val","data_not_available":"Sem stendur eru umbeðin gögn ekki tiltæk","data_tabular_alternative":"Veldu flipann merkt 'Tafla' til að sjá gögn í töfluformi","dataset_size_warning":"Það eru of mikil gögn til að sýna á grafi. Ekki er hægt að sýna öll gögn fyrr en völdum gögnum hefur verið fækkað","download_chart":"Sækja graf CSV","download_chart_image":"Sækja graf (.png)","download_chart_image_title":"Sækja graf sem mynd (.png)","download_csv":"Sækja CSV","download_csv_title":"Sækja sem CSV","download_headline":"Sækja gögn CSV","download_headline_title":"Sækja gögn sem CSV","download_source":"Sækja grunn CSV","download_source_for_disaggregations":"Sækja gögn fyrir sundurliðun CSV (.csv)","download_source_title":"Sækja grunngögn sem CSV","download_table":"Sækja töflu CSV","edit":"Breyta","edit_configuration":"Breyta stillingum","edit_data":"Breyta gögnum","edit_metadata":"Breyta lýsigögnum","empty_metadata_placeholder":"Ekki tiltækt fyrir þennan mælikvarða","empty_metadata_placeholder_sources":"Gögn ekki tiltæk","footnote":"Neðanmálsgrein","geographical_area":"Svæði","global_metadata":"Alþjóðleg lýsigögn","global_metadata_blurb":"Þessi tafla sýnir lýsigögn fyrir heimsmarkmiðamælikvarða eins og þeir eru skilgreindir af tölfræðistofnun Sameinuðu þjóðanna. <a href=\"https://unstats.un.org/sdgs/metadata/\"> Fullbúin alþjóðleg lýsigögn </a> eru fáanleg frá tölfræðistofnun Sameinuðu þjóðanna","headline_data":"Gögn","legend_help":"Smellið á skýringar til að fjarlægja einstakar línur úr grafinu.","loading":"Hleð","loading_map":"Hleð korti","map":"Kort","map_fullscreen":"Sýna kort í fullri stærð","map_fullscreen_exit":"Loka korti í fullri stærð","map_search":"Kortaleit","map_search_cancel":"Hreinsa kortaleit","map_search_hide":"Fela kortaleit","map_search_show":"Sýna kortaleit","map_slider_back":"Sýna kort fyrir fyrri tímabil","map_slider_forward":"Sýna kort fyrir seinni tímabil","map_year_slider":"Ár","map_zoom_home":"Endurstilla á sjálfgefinn aðdrátt","map_zoom_in":"Þysja inn","map_zoom_out":"Þysja út","national_metadata":"Innlend lýsigögn","national_metadata_blurb":"Þessi tafla sýnir lýsigögn fyrir þann mælikvarða sem er fáanlegur úr íslenskum gögnum og er líkastur alþjóðlegum heimsmarkmiðamælikvarða Sameinuðu þjóðanna. Vinsamlegast takið eftir að jafnvel þótt alþjóðlegur heimsmarkmiðamælikvarði Sameinuðu þjóðanna sé aðgengilegur úr íslenskum gögnum, ber að hafa þessa töflu til hliðsjónar fyrir upplýsingar um innlenda aðferðarfræði og önnur íslensk lýsigögn","next":"Næsti mælikvarði","no_data_hint":"Engir valmöguleikar í boði vegna síunar","no_headline_data":"Engin gögn tiltæk","previous":"Fyrri mælikvarði","select_all":"Velja allt","series":"Samfelld röð","series_help":"Veljið flokka úr valmyndinni að neðan til að sjá mismunandi sundurliðun gagna. Sumir verða ekki aðgengilegir fyrr en yfirflokkur hefur verið valinn.","source":"Heimild","sources":"Heimildir","status":"Staða mælikvarða","sub_categories":"Undirflokkar","sub_categories_show":"Sýna undirflokka:","table":"Tafla","table_column_sort":"Smelltu til að raða eftir dálkum","tags":"Merki","total":"Alls","unit":"Tegund einingar","unit_of_measurement":"Eining","units_type":"Eining","variable_hint":"Í boði þegar '%field' er valið","view_indicator_list":"Sjá mælikvarða þessa markmiðs"};</script>
 
-<script>translations['data'] = {"Year":"Year"};</script>
+<script>translations['data'] = {"% Covered at 12 months old":"% Þáttaka við 12 mánaða aldur","% Covered at 12 years old":"% Þáttaka við 12 ára aldur","% Covered at 14 years old":"% Þáttaka við 14 ára aldur","% Covered at 3 months old":"% Þáttaka við 3 mánaða aldur","% Covered at 4 years old":"% Þáttaka við 4 ára aldur","% Covered at 5 months old":"% Þáttaka við 5 mánaða aldur","% Covered at 6 months old":"% Þáttaka við 6 mánaða aldur","% Covered at 8 months old":"% Þáttaka við 8 mánaða aldur","13 - 18 years":"13 - 18 ára","1st quantile":"Fyrsti tekjufimmtungur","1st quartile":"Fyrsti tekjufjórðungur","2 Mbit/s to less than 10 Mbit/s":"2 Mbit/s til minna en 10 Mbit/s","256 kbit/s to less than 2 Mbit/s":"256 kbit/s til minna en 2 Mbit/s","2nd quantile":"Annar tekjufimmtungur","2nd quartile":"Annar tekjufjórðungur","3rd quantile":"Þriðji tekjufimmtungur","3rd quartile":"Þriðji tekjufjórðungur","4th quantile":"Fjórði tekjufimmtungur","4th quartile":"Fjórði tekjufjórðjungur","5 years and younger":"5 ára og yngri","5th quantile":"Fimmti tekjufimmtungur","6 - 12 years":"6 - 12 ára","<18 years":"<18 ára","A - Agriculture, forestry and fishing":"A - Landbúnaður, skógrækt og fiskveiðar","Above-ground biomass stock in forest [ton/ha]":"Skógarlífmassi ofanjarðar [ton/ha]","Accommodation (55)":"Gistiþjónusta (55)","Accomodation and food services (I)":"Rekstur gististaða og veitingarekstur (I)","Accounts":"Bókhald","Adult":"Fullorðinn","Age":"Aldur","Age group":"Aldurshópur","Age-group":"Aldurshópur","Agricultural products":"Landbúnaðarvörur","Agriculture":"Landbúnaður","Agriculture (01)":"Landbúnaður (01)","All":"Öll","All products":"Allar vörutegundir","Area of Spending Category":"Útgjaldaliður","Arms":"Vopn","Attainment at age 15":"Lágmarksfærni við 15 ára aldur","Attainment at age 9":"Lágmarksfærni við 9 ára aldur","B - Mining and quarrying":"B - Námugröftur og vinnsla hráefna úr jörðu","Biomedical scientists":"Lífeindafræðingar","Biota":"Lífríki","Birds":"Fuglar","Board of Directors":"Stjórnarmenn","Both":"Bæði","Branches of commercial banks":"Fjöldi viðskiptabankaútibúa","C - Manufacturing":"C - Framleiðsla","C. Manufacturing":"C. Framleiðsla","C: 10-12 Manufacture of food products, beverages and tobacco products":"C: 10-12 Matvæla- og drykkjavöruiðnaður; tóbaksiðnaður","C: 10-12 Thereof Fish processing":"C: 10-12 Þaraf Fiskvinnsla","C: 13-15 Manufacture of textiles, wearing apparel and leather products":"C: 13-15 Textíl-, fata- og leðuriðnaður","C: 16-17 Manufacture of wood and paper products":"C: 16-17 Trjá- og pappírsiðnaður","C: 18 Printing and reproduction of recorded media":"C: 18 Prentun og fjölföldun upptekins efnis","C: 19 Manufacture of coke and refined petroleum products":"C: 19 Framleiðsla á koksi og hreinsuðum olíuvörum","C: 20-21 Manufacture of chemicals, chemical products, basic pharmaceutical products and pharmaceutical preparations":"C: 20-21 Framleiðsla á efnum og efnavörum og á lyfjum og efnum til lyfjagerðar","C: 22 Manufacture of rubber and plastic products":"C: 22 Framleiðsla á gúmmí- og plastvörum","C: 23 Manufacture of other non-metallic mineral products":"C: 23 Framleiðsla á vörum úr málmlausum steinefnum","C: 24 Manufacture of basic metals":"C: 24 Framleiðsla málma","C: 25 Manufacture of fabricated metal products, except machinery and equipment":"C: 25 Framleiðsla á málmvörum, að undanskildum vélum og búnaði","C: 26 Manufacture of computer, electronic and optical products":"C: 26 Framleiðsla á tölvu-, rafeinda- og optískum vörum","C: 27 Manufacture of electrical equipment":"C: 27 Framleiðsla á rafbúnaði og heimilistækjum","C: 28 Manufacture of machinery and equipment n.e.c.":"C: 28 Framleiðsla á öðrum ótöldum vélum og tækjum","C: 29 Manufacture of motor vehicles, trailers and semi-trailers":"C: 29 Framleiðsla á vélknúnum ökutækjum og tengivögnum","C: 30 Manufacture of other transport equipment":"C: 30 Framleiðsla annarra farartækja","C: 31-32 Manufacture of furniture; other manufacturing":"C: 31-32 Framleiðsla á húsgögnum, innréttingum og vörum til lækninga; önnur framleiðsla","C: 33 Repair and installation of machinery and equipment":"C: 33 Viðgerðir og uppsetning vélbúnaðar og tækja","Cancer":"Krabbamein","Capacity":"Flokkur","Capital Region":"Höfuðborgarsvæðið","Cardiovascular disease":"Hjarta- og æðasjúkdómar","Category":"Flokkur","Category 1":"Flokkur 1","Category 2":"Flokkur 2","Category 3":"Flokkur 3","Category 4":"Flokkur 4","Category 5":"Flokkur 5","Cause of death":"Dánarmein","Chairmen":"Stjórnarformenn","Chemical":"Efnaeitrun","Chronic respiratory disease":"langvinnir öndunarfærasjúkdómar","Clerks (4)":"Skrifstofufólk (4)","Clothing":"Föt","Communications skills":"Samskiptafærni","Compulsory school":"Grunnskóli","Condition":"Næringarfræðilegt ástand","Connection type":"Tegund tengingu","Convention":"Umhverfissamningur","Coordination":"Samhæfing","Craft and related workers (7)":"Iðnaðarmenn og sérhæft iðnverkafólk (7)","D - Electricity and power generation":"D - Rafmagns-, gas- og hitaveitur","DMC per GDP [kilotonnes per MISK]":"DMC á verga landsframleiðslu [Kílótonn per milljón ISK]","DMC per capita [kilotonnes per person]":"DMC á íbúa [Kílótonn á íbúa]","DTP & Polio revaccination at 14 years old":"DTP og Pólíó endurbólusetning","DTP revaccination at 4 years old":"DTP endurbólusetning","DTP, Polio, HIB":"Barnaveiki, Stífkrampi, kíkhósti (DTP), lömunarveiki og Haemofilus influenzae b","Dental Surgery Assistants":"Tanntæknar og aðstoðarfólk tannlækna","Dental hygienists":"Tannfræðingar","Dentist":"Tannlæknar","Dentists":"Tannlæknar","Developing":"Þróunarlönd","Diabetes":"Sykursýki","Director of governmental agencies":"Forstöðumenn ríkisstofnana","Disease":"Sjúkdómur","Disposal":"Urðun","Domestic Material Consumption (DMC) [Kilotonnes]":"Innlend efnisnotkun (DMC) [Kílótonn]","E - Water collection, waste management and remediation activities":"E - Vatnsveita, fráveita, meðhöndlun úrgangs og afmengun","Edible food":"Matur","Edible food and inedible waste":"Matur og óætur úrgangur","Education":"Menntun","Education (P)":"Fræðslustarfsemi (P)","Education Category":"Tegund náms","Electricity, gas, steam, and air conditioning supply (D)":"Rafmagns-, gas- og hitaveitur (D)","Elementary occupations (9)":"Ósérhæft starfsfólk (9)","Energy":"Orka","Energy Source":"Uppruni","Enterprises":"Fyrirtæki","Environmental health officers":"Heilbrigðisfulltrúar","Equal to or above 10 Mbit/s":"Jafnt eða yfir 10 Mbit/s","Exam. pharmacists":"Aðstoðarlyfjafræðingar","Expenditure":"Útgjöld","F - Construction":"F - Byggingastarfsemi og mannvirkjagerð","Fatal":"Banvænt","Fatal/non-fatal":"Banvænt/óbanvænt","Female":"Kona","Females":"Konur","Financial and insurance activities (K)":"Fjármála- og vátryggingastarfsemi (K)","Food and beverage service (56)":"Veitingaþjónusta (56)","Food safety":"Matvælaöryggi","Foreign":"Erlent","Forest < 5m":"Skógur < 5m","Forest > 5m":"Skógur > 5m","Forest area annual net change (%)":"Árleg breyting í skógþekju (%)","Forest area under independantely verified forest management certification schemes [1000 ha]":"Skógar í vottaðri og sjálfbærri skógarstjórnun [1000 ha]","Formal":"Formlegt","Full-time":"Fullvinnandi","G - Trade and repair of mechanical equipment":"G - Heild og smásöluverslun, viðgerðir á vélknúnum ökutækjum","Gender":"Kyn","General, machine and specialized workers":"Verkafólk","Geothermal":"Jarðvarmi","Government institutions (excluding universities)":"Rannsóknarstofnanir (að undanskildum háskólum)","Grants":"Fjárframlög","Group":"Hópur","H - Tranportation and storage":"H - Flutningur og geymsla","Hate crimes recorded by police":"Hatursglæpir sem skráðir eru hjá lögreglu","Health":"Heilbrigðismál","Health Service Provision":"Aðgengi heilbrigðisþjónustu","Health institutions (86)":"Heilbrigðisstofnanir (86)","Household":"Heimili","Households":"Heimili","Human Resources":"Mannauður","Human health and social work activities (Q)":"Heilbrigðis- og félagsþjónusta (Q)","Hydro":"Vatnsafl","I - Accommodation and food services activities":"I - Rekstur gististaða og veitingarekstur","Icelandic":"Íslenskt","Income":"Tekjur","Income group":"Tekjuhópur","Income/expenditure":"Tekjur/útgjöld","Index":"Jöfnuðarvísir","Indicator":"Mælikvarði","Industrial Processes":"Iðnaðarferlar","Industrial products":"Iðnaðarvörur","Industry category":"Atvinnugrein","Information and communication (J)":"Upplýsingar og fjarskipti (J)","Information skills":"Upplýsingafærni","International Bank for Reconstruction and Development":"Alþjóðabankinn (IBRD)","International Finanace Corporation":"Alþjóða lánastofnunin (IFC)","International Monetary Fund":"Alþjóðagjaldeyrissjóðurinn (IMF)","J - Information and communication":"J - Upplýsingar og fjarskipti","K - Financial and insurance activities":"K - Fjármála og vátryggingastarfsemi","Kg per person":"Kg á íbúa","Laboratory":"Greiningargeta","Lakes and reservoirs":"Vötn og uppistöðulón","Land use, land-use change and forestry":"Landnotkun, breyting á landnotkun og skógrækt","Least developed":"Minnst þróuðu ríkin","Legislation":"Löggjöf","Level of government":"Stjórnarstig","Liquid assets to short-term liabilities":"Hlutfall lausaeigna við skammtímaskuldbindingar.","Living condition":"Húsnæðisaðstæður","Local government":"Sveitarstjórnir","M - Professional, scientific and technical activities":"M - Sérfræðileg, vísindaleg og tæknileg starfsemi","MISK per capita":"Millj. kr á íbúa","MMR":"Mislingar, hettusótt, rauðir hundar (MMR)","MMR revaccination":"MMR endurbólusetning","Male":"Karl","Males":"Karlar","Mammals":"Spendýr","Managers":"Framkvæmdarstjórar","Managers (1)":"Stjórnendur (1)","Manufacture of bakery and farinaceous products (10.7)":"Framleiðsla bökunarvara (10.7)","Manufacture of beverages (11)":"Framleiðsla drykkjavara (11)","Manufacture of dairy products (10.5)":"Framleiðsla mjólkurvara (10.5)","Manufacture of oil and fat (10.4)":"Framleiðsla olíu og feiti (10.4)","Manufacture of other food products (10.8)":"Framleiðsla annara matvæla (10.8)","Manufacturing (C)":"Framleiðsla (C)","Math":"Stærðfræði","Math attainment at age 15":"Reiknifærni við 15 ára aldur","Meat processing (03)":"Kjötvinnsla (03)","Meat processing (10.1)":"Kjötvinnsla (10.1)","Meningococcal C vaccine":"Meningókokkar C","Midwives":"Ljósmæður","Moderate or Severe":"Nokkurt og alvarlegt","Most-favoured-nation status":"Bestukjaraákvæði","N - Administrative and support service activities":"N - Leigustarfsemi og ýmis sérhæfð þjónusta","National Health Emergency Framework":"Innlend aðgerðaráætlun vegna neyðartilvika","Nationality":"Þjóðerni","Net open position in foreign exchange to capital":"Munur á erlendum eignum og skuldbindingum.","Never smoked":"Aldrei reykt","Non-Formal":"Óformlegt","Nonperforming loans net of provisions to capital":"Hlutfall útlána í vanskilum af niðurfellingum lána.","Nonperforming loans to total gross loans":"Útlán í vanskilum sem hlutfall af heildar lánveitingum.","Number of Automated Teller Machines (ATMs)":"Fjöldi hraðbanka","Nurse":"Hjúkrunarfræðingar","Nurses":"Hjúkrunarfræðingar","Nursing homes (87)":"Öldrunarheimili (87)","O - Public administration and defence; compulsory social security":"O - Opinber stjórnsýsla og varnarmál; almannatryggingar","Obese":"Offita","Occupational therapists":"Iðjuþjálfar","Oil":"Olía","Organization":"Stofnun","Other (glaciers etc.)":"Annað (jöklar o.fl.)","Other revenue":"Aðrar tekjur","Overcrowding":"Þéttbýli","Overweight":"Ofþyngd","P - Education":"P - Fræðslustarfsemi","Parliment":"Alþingi","Part-time":"Hlutastarfsfólk","Participation rate in  non-formal education":"Þáttökuhlutfall í óformlegu námi","Participation rate in formal education":"Þáttökuhlutfall í formlegu námi","Percentage (%) of GDP":"Hlutfall (%) af vergri landsframleiðslu","Percentage (%) of Gross Domestic Product (GDP)":"Hlutfall (%) af vergri þjóðarframleiðslu (GDP)","Percentage (%) of national budget":"Hlutfall af heildarútgjöldum hins opinbera","Percentage of GDP":"Hlutfall (%) af vergri þjóðarframleiðslu","Percentage of all hazardous waste":"Hlutfall alls hættulegs úrgangs","Percentage of fuel imports":"Hlutfall (%) af eldsneytisinnflutningi","Perpetrator":"Gerandi","Pharmacist":"Lyfjafræðingar","Pharmacists":"Lyfjafræðingar","Pharmacy technicians":"Lyfjatæknar","Physical assault":"Líkamlegt ofbeldi","Physical violence":"Líkamlegt ofbeldi","Physician":"Læknar","Physicians and surgeons":"Læknar","Physiotherapists":"Sjúkraþjálfarar","Plant and machine operators and assemblers (8)":"Véla- og vélgæslufólk (8)","Pneumococcal Vaccine":"Pneumókokkar","Points of entry":"Landamæri","Poor housing conditions":"Lélegt ástand húsnæðis","Position":"Staða","Practical nurses":"Sjúkraliðar","Preferential Status":"Ívílnunarkjör","Preparedness":"Viðbúnaður","Preschools":"Leikskóli","Primary homeless":"Útigangsfólk","Private sector":"Almennur vinnumarkaður","Problem solving skills":"Lausnarfærni","Processing of fruit and vegetables (10.3)":"Ávaxta- og grænmetisvinnsla (10.3)","Professionals (2)":"Sérfræðingar (2)","Proportion of forest area located within legally established protected areas [%]":"Hlutfall skóglendis innan friðaðra svæða [%]","Proportion of forest area under long-term forest management plan [%]":"Hlutfall skóglendis í langtíma skógstýringu [%]","Proprietary pharmacists":"Lyfsalar","Prosecuted":"Lögsótt","Public administration and defence; compulsory social sec. (O)":"Opinber stjórnsýsla og varnarmál; almannatryggingar (O)","Public sector, central government":"Opinberir starfsmenn - ríkisstarfsmenn","Public sector, local government":"Opinberir starfsmenn - starfsmenn sveitarfélaga","Public sector, total":"Opinberir starfsmenn","Q - Human health and social work activities":"Q - Heilbrigðis og félagsþjónusta","Quit smoking":"Hætt að reykja","R - Arts, entertainment and recreation":"R - Menningar, íþrjótta og tómstundastarfsemi","Radiographers":"Geislafræðingar","Radionuclear":"Geislavarnir","Reading":"Lestur","Reading attainment at age 15":"Lestrarfærni við 15 ára aldur","Reading attainment at age 9":"Lestrarfærni við 9 ára aldur","Recovery":"Endurvinnsla","Region":"Landshluti","Regulatory Tier 1 capital to assets":"Eigið fé sem hlutfall af eignum samkvæmt reglugerðarflokki 1.","Regulatory Tier 1 capital to risk- weighted assets":"Eigið fé sem hlutfall af áhættuvegnum eignum samkvæmt reglugerðarflokki 1.","Response":"Viðbragðsgeta","Retail (47)":"Smásala (47)","Return on assets":"Arðsemi eigna.","Revenue":"Tekjur","Risk communication":"Áhættumiðlun","Rivers and Estuaries":"Ár og árósar","S - Other services activities":"S - Félagasamtök og önnur þjónustustarfsemi","Same age":"Jafnaldri","Secondary homeless":"Fólk í húsnæðishraki","Sector":"Atvinnugrein","Sentenced":"Sakfellt","Service":"Þjónusta","Service workers and shop and market sales workers (5)":"Þjónustu-, sölu- og afgreiðslufólk (5)","Severe only":"Bara alvarlegt","Severity":"Alvarleiki","Sex":"Kyn","Sexual assault":"Kynferðislegt ofbeldi","Sexual violence":"Kynferðislegt ofbeldi","Skill":"Þekking","Smoke daily":"Reyki daglega","Smoke less frequently than daily":"Reyki sjaldnar en daglega","Social Protection":"Félagsvernd","Social contributions":"Tryggingagjöld","Social workers":"Félagsráðgjafar","Software":"Hugbúnaðarfærni","Source":"Uppspretta","Status":"Staða","Sub-indicator.":"Hlutvísir","Supply chain":"Fyrirtæki","Surveillance":"Eftirlit","Tax revenue":"Skattekjur","Technicians and associate professionals (3)":"Tæknar og sérmenntað starfsfólk (3)","Tertiary education institutions":"Háskólastofnanir","Textiles":"Vefnaðarvara","Thereof Fish processing":"Þar af Fiskvinnsla","Tonne per capita":"Tonn á íbúa","Tonnes":"Tonn","Total":"Alls","Total - excluding public administration (O)":"Alls - án opinberrar stjórnsýslu (O)","Total Forest cover":"Heildar skógþekja","Transportation and storage (H)":"Flutningar og geymsla (H)","Type":"Tegund","Type of Occupation":"Starfsgrein","Type of Product":"Vörutegund","Type of Violence":"Tegund ofbeldis","Type of skill":"Tegund færni","Type of treatment":"Meðhöndlun","Type of violence":"Tegund ofbeldis","U - Activities of extraterritorial organisations and bodies":"U - Starfsemi stofnana og samtaka með úrlendisrétt","UN Econonomic and Social Council":"Efnahags- og félagsmálaráð Sameinuðu Þjóðanna (UN ECOSOC)","UN General Assembly":"Alsherjaþing Sameinuðu Þjóðanna (UNGA)","Unit":"Eining","Units type":"Einingar","Vaccine":"Bóluefni","Vaccine - participation":"Þáttaka í bólusetningu","Value":"Gildi","Vascular Plants":"Plöntur","Waste":"Úrgangur","Waste origin":"Uppruni úrgangs","Waste type":"Tegund úrgangs","Wetlands":"Votlendi","Wholesale (46)":"Heildsala (46)","Wholesale and retail (46 and 47)":"Heildsala og smásala (46 og 47)","Wholesale and retail trade; repair of motor vehicles (G)":"Heild- og smásöluverslun, viðgerðir á vélknúnum ökutækjum (G)","Wind":"Vindafl","World Trade Organization":"Alþjóðaviðskiptastofnunin (WTO)","X31 Exposure to excessive natural cold":"X31 Berskjöldun fyrir náttúrulegum ofurkulda","X36 Victim of avalanche, landslide and other earth movements":"X36 Fórnarlamb snjóflóðs, skriðu og annarar tilfærslu jarðvegs","Year":"Ár","Zoonosis":"Smit milli manna og dýra","non-fatal":"Óbanvænt","sex":"Kyn"};</script>
 
 
 <div class="container">
@@ -350,17 +3515,17 @@ data-event-label="high"
     <ol aria-label="breadcrumb" class="breadcrumb" style="--bs-breadcrumb-divider: '&rsaquo;';">
         
         <li class="breadcrumb-item">
-            <a href="/heimsmarkmid-site/">Home</a>
+            <a href="/heimsmarkmid-site/">Heim</a>
         </li>
         <li class="breadcrumb-item">
-            <a href="/heimsmarkmid-site/goals">Goals</a>
+            <a href="/heimsmarkmid-site/goals">Markmiðin</a>
         </li>
         
         <li class="breadcrumb-item">
             <a href="/heimsmarkmid-site/14"
-               title="Goal 14 - Life below water"
-               aria-label="Goal  - ">
-               Goal 14
+               title="Markmið 14 - Líf í vatni"
+               aria-label="Markmið  - ">
+               Markmið 14
             </a>
         </li>
         
@@ -375,9 +3540,9 @@ data-event-label="high"
         <div class="row">
             
             <div class="col-4 col-md-3 col-lg-2 goal-icon goal-tiles">
-                <a href="/heimsmarkmid-site/14" aria-label="View targets and indicators for Goal 14" title="View targets and indicators for Goal 14">
-                    <img src="https://open-sdg.org/sdg-translations/assets/img/goals/en/14.png"
-                        alt="Life below water - Goal 14"
+                <a href="/heimsmarkmid-site/14" aria-label="Skoða undirmarkmið og mælikvarða fyrir hvert heimsmarkmið 14" title="Skoða undirmarkmið og mælikvarða fyrir hvert heimsmarkmið 14">
+                    <img src="https://hagstofan.github.io/heimsmarkmid-translations/assets/img/goals/is/14.png"
+                        alt="Líf í vatni - Markmið 14"
                         id="goal-14"
                         class="goal-icon-image goal-icon-image-" />
                 </a>
@@ -387,9 +3552,9 @@ data-event-label="high"
                 <div>
                     <h1>
                         
-                        Indicator 14.6.1
+                        Mælikvarði 14.6.1
                         
-                        <span class="lead-copy">Degree of implementation of international instruments aiming to combat illegal, unreported and unregulated fishing</span>
+                        <span class="lead-copy">Árangur landa við framkvæmd alþjóðlegra gerninga sem miða að því að berjast gegn ólöglegum, ótilkynntum og stjórnlausum fiskveiðum.</span>
                     </h1>
                 </div>
             </div>
@@ -405,6 +3570,19 @@ data-event-label="high"
 
   
 
+<div class="row" id="page-content">
+  <div class="col-xs-12">
+    <p><strong>Ekki tölfræðilegur mælikvarði</strong></p>
+
+<p>Árið 2018 var metið að Ísland væri í flokki 5 - Mjög há innleiðing á viðeigandi alþjóðlegum gerningum til að berjast gegn ólöglegum, ótilkynntum og stjórnlausum fiskveiðum. Þessi flokkun er byggð á mati á eftirfylgni með, hafréttarsamningi Sameinuðu þjóðanna frá 1982, fiskistofnasamningi Sameinuðu þjóðanna frá 1995 og hafnríkjasamningi Matvæla- og landbúnaðarstofnunar Sameinuðu þjóðanna frá 2009. Matið tók einnig tillit til innlendrar stefnumörkunar og aðgerðaráætlana til að berjast gegn ólöglegum, ótilkynntum og stjórnlausum fiskveiðum.</p>
+
+<p>Frekari upplýsingar má finna á <a href="http://www.fao.org/sustainable-development-goals/indicators/1461/en/">Mælikvarðasíðu Matvæla- og Landbúnaðarstofnunar Sameinuðu Þjóðanna (FAO)</a>.</p>
+
+<p><br /><br /></p>
+
+  </div>
+</div>
+
 
   
 
@@ -414,8 +3592,8 @@ data-event-label="high"
   id="indicatorData"
   data-indicatorid='indicator_14-6-1'
   data-id="14-6-1"
-  data-country="Australia"
-  data-charttitle="Degree of implementation of international instruments aiming to combat illegal, unreported and unregulated fishing"
+  data-country="Iceland"
+  data-charttitle="Árangur landa við framkvæmd alþjóðlegra gerninga sem miða að því að berjast gegn ólöglegum, ótilkynntum og stjórnlausum fiskveiðum."
   data-charttitles="[]"
   data-measurementunit=""
   data-xaxislabel=""
@@ -431,7 +3609,7 @@ data-event-label="high"
   data-graphtargetlines="null"
   data-graphseriesbreaks="null"
   data-indicatordownloads="null"
-  data-dataschema="{&quot;fields&quot;:[{&quot;name&quot;:&quot;Year&quot;,&quot;type&quot;:&quot;number&quot;,&quot;title&quot;:&quot;Year&quot;},{&quot;name&quot;:&quot;Value&quot;,&quot;type&quot;:&quot;number&quot;,&quot;title&quot;:&quot;Value&quot;}]}"
+  data-dataschema="{&quot;fields&quot;:[{&quot;name&quot;:&quot;Year&quot;,&quot;type&quot;:&quot;integer&quot;,&quot;title&quot;:&quot;Ár&quot;},{&quot;name&quot;:&quot;Group&quot;,&quot;type&quot;:&quot;string&quot;,&quot;constraints&quot;:{&quot;enum&quot;:[&quot;A&quot;,&quot;B&quot;,&quot;&quot;]},&quot;title&quot;:&quot;Hópur&quot;},{&quot;name&quot;:&quot;Value&quot;,&quot;type&quot;:&quot;integer&quot;,&quot;title&quot;:&quot;Gildi&quot;}]}"
   data-compositebreakdownlabel=""
   data-precision="[]"
 >
@@ -460,7 +3638,7 @@ data-event-category="Tab change"
 data-event-action="Change metadata view"
 data-event-label="Change to indicator.national_metadata tab"
 
-            >National Metadata</button>
+            >Innlend lýsigögn</button>
         </li>
     
         
@@ -481,7 +3659,7 @@ data-event-category="Tab change"
 data-event-action="Change metadata view"
 data-event-label="Change to indicator.global_metadata tab"
 
-            >Global Metadata</button>
+            >Alþjóðleg lýsigögn</button>
         </li>
     
         
@@ -502,14 +3680,10 @@ data-event-category="Tab change"
 data-event-action="Change metadata view"
 data-event-label="Change to indicator.sources tab"
 
-            >Sources</button>
+            >Heimildir</button>
         </li>
     
     
-    
-        <li role="presentation" class="nav-item">
-            <button class="nav-link" data-bs-toggle="tab" data-bs-target="#edit" aria-controls="edit" role="tab">Edit Indicator</a>
-        </li>
     
 </ul>
 
@@ -526,7 +3700,7 @@ data-event-label="Change to indicator.sources tab"
         
         <div role="tabpanel" class="tab-pane active" id="national">
             <article>
-                <p>This table provides metadata for the actual indicator available from Australia statistics closest to the corresponding global SDG indicator. Please note that even when the global SDG indicator is fully available from Australian statistics, this table should be consulted for information on national methodology and other Australian-specific metadata information.</p>
+                <p>Þessi tafla sýnir lýsigögn fyrir þann mælikvarða sem er fáanlegur úr íslenskum gögnum og er líkastur alþjóðlegum heimsmarkmiðamælikvarða Sameinuðu þjóðanna. Vinsamlegast takið eftir að jafnvel þótt alþjóðlegur heimsmarkmiðamælikvarði Sameinuðu þjóðanna sé aðgengilegur úr íslenskum gögnum, ber að hafa þessa töflu til hliðsjónar fyrir upplýsingar um innlenda aðferðarfræði og önnur íslensk lýsigögn</p>
 
                 <table class="table metadata-content">
   <tbody>
@@ -536,6 +3710,14 @@ data-event-label="Change to indicator.sources tab"
   
   
   
+  
+  
+  
+  
+  
+  
+  
+  
       
       
       
@@ -591,156 +3773,14 @@ data-event-label="Change to indicator.sources tab"
       
         
           
-      
-      
-      
-        
-          
-      
-      
-      
-        
-          
-      
-      
-      
-        
-          
-      
-      
-      
-        
-          
-      
-      
-      
-        
-          
-      
-      
-      
-        
-          
-      
-      
-      
-        
-          
-      
-      
-      
-        
-          
-      
-      
-      
-        
-          
-      
-      
-      
-        
-          
-      
-      
-      
-        
-          
-      
-      
-      
-        
-          
-      
-      
-      
-        
-          
-      
-      
-      
-        
-          
-      
-      
-      
-        
-          
-      
-      
-      
-        
-          
-      
-      
-      
-        
-          
-      
-      
-      
-        
-          
-      
-      
-      
-        
-          
-      
-      
-      
-        
-          
-      
-      
-      
-        
-          
-      
-      
-      
-        
-          
-      
-      
-      
-        
-          
-      
-      
-      
-        
-          
-      
-      
-      
-        
-          
-      
-      
-      
-        
-          
-      
-      
-      
-        
-          
-      
-      
-      
-        
-          
-      
-      
-      
-        
-          
-      
-      
-      
-        
-          
+  
+  
+  
+  
+  
+  
+  
+  
   
   
   
@@ -830,20 +3870,71 @@ data-event-label="Change to indicator.sources tab"
         
         <div role="tabpanel" class="tab-pane " id="global">
             <article>
-                <p>This table provides information on metadata for SDG indicators as defined by the UN Statistical Commission. <a href="https://unstats.un.org/sdgs/metadata/">Complete global metadata</a> is provided by the UN Statistics Division.</p>
+                <p>Þessi tafla sýnir lýsigögn fyrir heimsmarkmiðamælikvarða eins og þeir eru skilgreindir af tölfræðistofnun Sameinuðu þjóðanna. <a href="https://unstats.un.org/sdgs/metadata/"> Fullbúin alþjóðleg lýsigögn </a> eru fáanleg frá tölfræðistofnun Sameinuðu þjóðanna</p>
 
                 <table class="table metadata-content">
   <tbody>
   
+  
+  
+  
+  
       
       
       
       
       <tr>
-        <th scope="row">Indicator </th>
+        <th scope="row">Heiti mælikvarða </th>
         <td>
           
-            <p>Indicator 14.6.1: Degree of implementation of international instruments aiming to combat illegal, unreported and unregulated fishing</p>
+            <p>Árangur landa við framkvæmd alþjóðlegra gerninga sem miða að því að berjast gegn ólöglegum, ótilkynntum og stjórnlausum fiskveiðum.</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      
+        
+          
+      
+      
+      
+        
+          
+      
+      
+      
+      
+      <tr>
+        <th scope="row">Númer undirmarkmiðs </th>
+        <td>
+          
+            <p>14.6</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      
+        
+          
+      
+      
+      
+      
+      <tr>
+        <th scope="row">Aðferðarfræðiflokkun Sameinuðu þjóðanna </th>
+        <td>
+          
+            <p>3</p>
 
           
         </td>
@@ -856,10 +3947,10 @@ data-event-label="Change to indicator.sources tab"
       
       
       <tr>
-        <th scope="row">Target </th>
+        <th scope="row">Vörslustofnun Sameinuðu þjóðanna </th>
         <td>
           
-            <p>Target 14.6: By 2020, prohibit certain forms of fisheries subsidies which contribute to overcapacity and overfishing, eliminate subsidies that contribute to illegal, unreported and unregulated fishing and refrain from introducing new such subsidies, recognizing that appropriate and effective special and differential treatment for developing and least developed countries should be an integral part of the World Trade Organization fisheries subsidies negotiation</p>
+            <p>Matvæla- og landbúnaðarstofnun Sameinuðu þjóðanna (FAO)</p>
 
           
         </td>
@@ -872,10 +3963,18 @@ data-event-label="Change to indicator.sources tab"
       
       
       <tr>
-        <th scope="row">Metadata update </th>
+        <th scope="row">Hlekkur á lýsigögn Sameinuðu Þjóðanna </th>
         <td>
           
-            <p>2022-03-31</p>
+            
+            
+            
+            
+            
+              <a href="https://unstats.un.org/sdgs/metadata/files/Metadata-14-06-01.pdf" target="_blank">
+                Lýsigögn Sameinuðu Þjóðanna (pdf 288kB) <span class="visuallyhidden">opnast í nýjum glugga</span>
+              </a>
+            
 
           
         </td>
@@ -887,32 +3986,6 @@ data-event-label="Change to indicator.sources tab"
       
       
       
-      <tr>
-        <th scope="row">International organisations(s) responsible for global monitoring </th>
-        <td>
-          
-            <p>Food and Agriculture Organization of the United Nations (FAO)</p>
-
-          
-        </td>
-        </tr>
-        
-      
-  
-      
-      
-      
-      
-      <tr>
-        <th scope="row">Related indicators </th>
-        <td>
-          
-            <p>SDG 1, SDG 2, SDG 5, SDG 12, SDG 13, SDG 14.2/4/5/6/7/c</p>
-
-          
-        </td>
-        </tr>
-        
       
   
   
@@ -1007,32 +4080,6 @@ data-event-label="Change to indicator.sources tab"
   
   
   
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-      
-      
-      
-        
-          
   </tbody>
 </table>
 
@@ -1061,78 +4108,91 @@ data-event-label="Change to indicator.sources tab"
         
     
     
-        <div role="tabpanel" class="tab-pane" id="edit">
-            <div class="edit-container">
-  
-  
-
-  
-  
-
-
-  <a class="btn btn-primary" href="data">Edit Data</a>
-  
-
-  
-  <a class="btn btn-primary" href="metadata">Edit Metadata</a>
-  
-
-  
-  <a class="btn btn-primary" href="config">Edit Configuration</a>
-  
-
-</div>
-
-        </div>
-    
 </div>
 
 </div>
   </div>
 </div>
 
-  <a href="#top">Back to top</a>
+  <a href="#top">Aftur upp</a>
 </div>
 
-<footer role="contentinfo">
-    <div class="container">
-        <div class="row">
-            <div class="col">
-                <div id="footerLinks">
+<footer>
+    <div class="footer-bottom">
+        <div class="fp-container">
+            <div class="row">
+                <div class="col-sm-4" id="footer-contact-info">
                     <ul>
                         <li>
-                            <a href="https://open-sdg.org">Built using Open SDG</a>
-                        </li>
-                        
-                        <li>
-                            <a href="/heimsmarkmid-site/contact-us">Contact us</a>
-                            
+                            <i class="fa fa-phone fa-fw"></i>
+                            <a href="tel:+354 528 1000">Sími: +354 528 1000</a>
                         </li>
                         <li>
-                            
-                            <a href="https://twitter.com/MyTwitterAccount" target="_blank">Twitter</a>
-                            
+                            <i class="fa fa-map-marker fa-fw"></i>
+                            Borgartún 21A, 105 Reykjavík
                         </li>
                         <li>
-                            
-                            <a href="https://facebook.com/MyFacebookAccount" target="_blank">Facebook</a>
-                            
+                            <i class="fa fa-clock-o fa-fw"></i>
+                            Opið mán-fim kl. 9.00-16.00 og fös kl. 9.00-12.00
                         </li>
                         <li>
-                            <a href="/heimsmarkmid-site/about/cookies-and-privacy/">Cookies</a>
-                            
+                            <i class="fa fa-book fa-fw"></i>
+                            <a href="https://hagstofa.is/thjonusta/hafa-samband/">Hafa samband</a>
                         </li>
-                        
-                        
-                        
                         <li>
-                            <a href="/heimsmarkmid-site/config">Configuration</a>
+                            <i class="fa fa-envelope fa-fw"></i>
+                            upplysingar@hagstofa.is
                         </li>
-                        </ul>
+                        <li>
+                            <i class="fa fa-facebook-square fa-fw"></i>
+                            <a href="https://facebook.com/hagstofan">facebook.com/hagstofan</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-sm-4 col-sm-offset-4 hidden-xs" id="footer-branding">
+                    <span class="addr-title">
+                        <img
+                            src="//hagstofan.s3.amazonaws.com/static/img/hagstofa_1_footer.png"
+                            alt="Hagstofa Íslands"
+                        />
+                    </span>
+                    <hr />
+
+                    <div id="footer-logos">
+                        <img id="eurostat-logo" src="//hagstofan.s3.amazonaws.com/static/img/eurostat_1.png" alt="Eurostat" />
+                        <img
+                            id="carbon-fund-logo"
+                            src="//hagstofan.s3.amazonaws.com/static/img/kolvidur_1.png"
+                            alt="Kolefnisvottorð"
+                        />
+                        <img
+                            id="green-steps-logo"
+                            src="//hagstofan.s3.amazonaws.com/static/img/hvitt_graen_skref_logo.png"
+                            alt="Græn skref"
+                        />
+                    </div>
+
+                    <div class="cert-item">
+                        <img
+                            class="cert-img"
+                            src="//hagstofan.s3.amazonaws.com/static/img/EQP_ISO27001_mark_white.png"
+                            alt="EQP ISO/IEC 27001 merki"
+                        />
+                        <span id="cert-numbers">
+                            <span class="cert-number">IS 643927</span>
+                            <span class="cert-number">EQ 717464</span>
+                        </span>
+                    </div>
+
+                    <div id="equal-pay">
+                        <img
+                            src="//hagstofan.s3.amazonaws.com/static/img/Jafnlaunavottun_2020_2023_f_dokkan_grunn.png"
+                            alt="Jafnlaunavottun 2020-2023 merki"
+                        />
+                    </div>
                 </div>
             </div>
         </div>
-        
     </div>
 </footer>
 
@@ -1159,21 +4219,58 @@ data-event-label="Change to indicator.sources tab"
 
 
 <script>translations['general'] = translations['general'] || {};
-    translations['general']['hide'] = 'hide';</script>
+    translations['general']['hide'] = 'Fela';</script>
 
 <script>translations['search'] = translations['search'] || {};
-    translations['search']['search'] = 'Search';</script>
+    translations['search']['search'] = 'Leit';</script>
 
-<script src='/heimsmarkmid-site/assets/js/sdg.js?v=20230323153623'></script>
+<script src='/heimsmarkmid-site/assets/js/sdg.js?v=20230323160514'></script>
 
 
     
     
-    <script src="/heimsmarkmid-site/assets/js/custom.js?v=20230323153623"></script><script>
+    <script src="/heimsmarkmid-site/assets/js/custom.js?v=20230323160514"></script><script>
     new indicatorInit();
     new accessibilitySwitcher();
+</script>
+<script>
+function hsresize() {
+    var height = 0;
+    var windowHeight = $(window).height();
+    $('.hagstofa-offcanvas').css('height', windowHeight - 70);
+}
+
+$(window).on('load', function() {
+    $('html').on('click', '.menu-toggle, .canvas-open .body-slide', function(e) {
+    	e.preventDefault();
+    	$('body').toggleClass('canvas-open');
+    });
+    
+    $('.hagstofa-offcanvas .offcanvas-subopen').on('click', function(e) {
+        e.preventDefault();
+        $(this).parent().parent().addClass('open');
+        $(this).parents('ul').addClass('back');
+    });
+    
+    $('.hagstofa-offcanvas .offcanvas-subback').on('click', function(e) {
+    	e.preventDefault();
+    	$(this).closest('.open').removeClass('open');
+    	$(this).closest('.back').removeClass('back');
+    });
+    
+    $('.hagstofa-offcanvas').show();
+    
+    $(window).load(function() {
+    	hsresize();
+    });
+    
+    $(window).on('resize', function() {
+    	hsresize();
+    });
+});
 </script>
 
 
 </body>
 </html>
+

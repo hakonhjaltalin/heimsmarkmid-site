@@ -2,84 +2,84 @@
   {
     "goal": {
       "id": "1",
-      "title": "End poverty in all its forms everywhere",
+      "title": "Útrýma fátækt í allri sinni mynd alls staðar",
       "indicators": [
         
         {
           "id": "1-1-1",
-          "title": "Proportion of the population living below the international poverty line by sex, age, employment status and geographic location (urban/rural)",
-          "description": "",
+          "title": "Hlutfall íbúa undir alþjóðlegum fátæktarmörkum eftir kyni, aldri, atvinnustöðu og landfræðilegri staðsetningu (þéttbýli/dreifbýli).",
+          "description": "Hlutfall íbúa sem undir alþjóðlegum fátæktarmörkum er skilgreint sem prósentutala íbúa sem lifa á innan við 1.90 Bandaríkjadölum á dag, miðað við meðalgengi ársins 2011.",
           "keywords": "",
           "href": "/heimsmarkmid-site/1-1-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "1-2-1",
-          "title": "Proportion of population living below the national poverty line, by sex and age",
-          "description": "",
+          "title": "Hlutfall íbúa undir innlendum fátæktarmörkum, eftir kyni og aldri.",
+          "description": "Hlutfall íbúa (í hundraðshlutum, %) sem býr undir lágtekjumörkum. Mælingar á landsbundinni fátækt eru mikilvægar fyrir innlenda stefnumótun. Landsbundin fátæktarmörk eru notuð til að fá nákvæmari mat á fátækt sem samrýmist efnahagslegum og félagslegum aðstæðum í hverju landi fyrir sig, en eru ekki ætluð fyrir alþjóðlegan samanburð á fátæktarmörkum.",
           "keywords": "",
           "href": "/heimsmarkmid-site/1-2-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "1-2-2",
-          "title": "Proportion of men, women and children of all ages living in poverty in all its dimensions according to national definitions",
-          "description": "",
+          "title": "Hlutfall karla, kvenna og barna á öllum aldri, sem búa við fátækt í öllum sínum birtingarmyndum samkvæmt skilgreiningum í hverju landi.",
+          "description": "Hlutfall (%) íbúa sem búa á heimilum sem metin eru í hættu á viðvarandi fátækt í innlendu samhengi. Mælingar á landsbundinni fátækt eru mikilvægar fyrir innlenda stefnumótun. Landsbundin fátæktarmörk eru notuð til að fá nákvæmari mat á fátækt sem samrýmist efnahagslegum og félagslegum aðstæðum í hverju landi fyrir sig, en eru ekki ætluð fyrir alþjóðlegan samanburð á fátæktarmörkum.'",
           "keywords": "",
           "href": "/heimsmarkmid-site/1-2-2",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "1-3-1",
-          "title": "Proportion of population covered by social protection floors/systems, by sex, distinguishing children, unemployed persons, older persons, persons with disabilities, pregnant women, newborns, work-injury victims and the poor and the vulnerable",
+          "title": "Hlutfall íbúa sem njóta félagslegrar lágmarksverndar/félagslegra verndarkerfa, eftir kyni, þar sem greint er á milli barna, atvinnulausra einstaklinga, eldri borgara, fatlaðra, barnshafandi kvenna, nýbura, fórnarlamba vinnuslysa, fátækra og annarra í viðkvæmri stöðu.",
           "description": "",
           "keywords": "",
           "href": "/heimsmarkmid-site/1-3-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "1-4-1",
-          "title": "Proportion of population living in households with access to basic services",
+          "title": "Hlutfall íbúa sem búa í húsnæði með aðgangi að grunnþjónustu.",
           "description": "",
           "keywords": "",
           "href": "/heimsmarkmid-site/1-4-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "1-4-2",
-          "title": "Proportion of total adult population with secure tenure rights to land, (a) with legally recognized documentation, and (b) who perceive their rights to land as secure, by sex and type of tenure",
+          "title": "Hlutfall allra fullorðinna íbúa með örugg leiguréttindi á landi, með lagalega viðurkennd gögn og sem meta réttindi sín til lands sem örugg, eftir kyni og tegund ábúðar.",
           "description": "",
           "keywords": "",
           "href": "/heimsmarkmid-site/1-4-2",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "1-5-1",
-          "title": "Number of deaths, missing persons and directly affected persons attributed to disasters per 100,000 population",
+          "title": "Fjöldi dauðsfalla, týndra einstaklinga og fólks sem orðið hefur fyrir beinum áhrifum af völdum hamfara á hverja 100.000 íbúa.",
           "description": "",
           "keywords": "",
           "href": "/heimsmarkmid-site/1-5-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "1-5-2",
-          "title": "Direct economic loss attributed to disasters in relation to global gross domestic product (GDP)",
-          "description": "",
+          "title": "Beint efnahagslegt tap í tengslum við hamfarir miðað við verga landsframleiðslu.",
+          "description": "Beint efnahagslegt tap í tengslum við hamfarir sem hundraðshluti af vergri landsframleiðslu vegna hamfara sem eru vátryggð hjá Náttúruhamfaratryggingu Íslands.",
           "keywords": "",
           "href": "/heimsmarkmid-site/1-5-2",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "1-5-3",
-          "title": "Number of countries that adopt and implement national disaster risk reduction strategies in line with the Sendai Framework for Disaster Risk Reduction 2015–2030",
+          "title": "Fjöldi landa sem hafa samþykkt og komið til framkvæmda innlendum áætlunum um að draga úr áhrifum hamfara í samræmi við Sendai-rammaáætlunina um forvarnir gegn náttúruvá 2015-2030.",
           "description": "",
-          "keywords": "",
+          "keywords": "Lög, Reglugerðir",
           "href": "/heimsmarkmid-site/1-5-3",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "1-5-4",
-          "title": "Proportion of local governments that adopt and implement local disaster risk reduction strategies in line with national disaster risk reduction strategies",
+          "title": "Hlutfall sveitarstjórna sem hafa samþykkt og komið til framkvæmda staðbundnum áætlunum um að draga úr áhrifum hamfara í samræmi við innlendar áætlanir um það.",
           "description": "",
           "keywords": "",
           "href": "/heimsmarkmid-site/1-5-4",
@@ -87,23 +87,23 @@
         },
         {
           "id": "1-a-1",
-          "title": "Total official development assistance grants from all donors that focus on poverty reduction as a share of the recipient country’s gross national income",
-          "description": "",
+          "title": "Heildar þróunaraðstoð frá öllum gjöfum sem veitt er til að draga úr fátækt, sem hlutfall af vergrum þjóðartekjum viðtökulands.",
+          "description": "Heildar þróunaraðstoð frá öllum gjöfum sem veitt er til að draga úr fátækt, sem hlutfall af vergrum þjóðartekjum viðtökulands.",
           "keywords": "",
           "href": "/heimsmarkmid-site/1-a-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "1-a-2",
-          "title": "Proportion of total government spending on essential services (education, health and social protection)",
+          "title": "Hlutfall heildarútgjalda hins opinbera til nauðsynlegrar þjónustu (menntunar, heilbrigðismála og félagsverndar).",
           "description": "",
           "keywords": "",
           "href": "/heimsmarkmid-site/1-a-2",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "1-b-1",
-          "title": "Pro-poor public social spending",
+          "title": "Félagsaðstoð hins opinbera sem fátækir njóta umfram aðra.",
           "description": "",
           "keywords": "",
           "href": "/heimsmarkmid-site/1-b-1",
@@ -114,28 +114,28 @@
   {
     "goal": {
       "id": "2",
-      "title": "End hunger, achieve food security and improved nutrition and promote sustainable agriculture",
+      "title": "Útrýma hungri, tryggja fæðuöryggi og bætta næringu og stuðla að sjálfbærum landbúnaði",
       "indicators": [
         
         {
           "id": "2-1-1",
-          "title": "Prevalence of undernourishment",
+          "title": "Algengi vannæringar.",
           "description": "",
           "keywords": "",
           "href": "/heimsmarkmid-site/2-1-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "2-1-2",
-          "title": "Prevalence of moderate or severe food insecurity in the population, based on the Food Insecurity Experience Scale (FIES)",
+          "title": "Algengi nokkurs eða alvarlegs fæðuóöryggis hjá þjóðinni, byggt á mælikvarða um fæðuóöryggi (FIES - Food Insecurity Experience Scale).",
           "description": "",
           "keywords": "",
           "href": "/heimsmarkmid-site/2-1-2",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "2-2-1",
-          "title": "Prevalence of stunting (height for age <-2 standard deviation from the median of the World Health Organization (WHO) Child Growth Standards) among children under 5 years of age",
+          "title": "Algengi kyrkings í vexti (hæð m.v. aldur <-2 staðalfrávik frá meðaltali Alþjóðaheilbrigðismálastofnunarinnar (WHO)) meðal barna undir 5 ára aldri.",
           "description": "",
           "keywords": "",
           "href": "/heimsmarkmid-site/2-2-1",
@@ -143,15 +143,15 @@
         },
         {
           "id": "2-2-2",
-          "title": "Prevalence of malnutrition (weight for height >+2 or <-2 standard deviation from the median of the WHO Child Growth Standards) among children under 5 years of age, by type (wasting and overweight)",
+          "title": "Algengi lélegs næringarástands (þyngd m.v. hæð >+2 eða <-2 staðalfrávik frá meðaltali barnavaxtarstuðuls Alþjóðaheilbrigðismálastofnunarinnar) meðal barna undir 5 ára aldri, eftir tegund (vanþrif og ofþyngd).",
           "description": "",
           "keywords": "",
           "href": "/heimsmarkmid-site/2-2-2",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "2-2-3",
-          "title": "Prevalence of anaemia in women aged 15 to 49 years, by pregnancy status (percentage)",
+          "title": "Algengi blóðleysis hjá konum á aldrinum 15-49 ára, eftir því hvort um meðgöngu sé að ræða.",
           "description": "",
           "keywords": "",
           "href": "/heimsmarkmid-site/2-2-3",
@@ -159,15 +159,15 @@
         },
         {
           "id": "2-3-1",
-          "title": "Volume of production per labour unit by classes of farming/pastoral/forestry enterprise size",
-          "description": "",
+          "title": "Framleiðslumagn á starfseiningu, flokkað eftir umfangi búskapar/hjarðmennsku/skógræktar.",
+          "description": "Framleiðni vinnuafls er mælikvarði á efnahagslegan árangur mismunandi atvinnugreina og lýsir hversu skilvirknislega greinarnar nýta þær auðlindir sem aðgengilegar eru til framleiðslu afurða úr hráefnum.",
           "keywords": "",
           "href": "/heimsmarkmid-site/2-3-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "2-3-2",
-          "title": "Average income of small-scale food producers, by sex and indigenous status",
+          "title": "Meðaltekjur lítilla matvælaframleiðenda, eftir kyni og hvort um frumbyggja er að ræða.",
           "description": "",
           "keywords": "",
           "href": "/heimsmarkmid-site/2-3-2",
@@ -175,7 +175,7 @@
         },
         {
           "id": "2-4-1",
-          "title": "Proportion of agricultural area under productive and sustainable agriculture",
+          "title": "Hlutfall landbúnaðarsvæðis til framleiðslu og sjálfbærs landbúnaðar.",
           "description": "",
           "keywords": "",
           "href": "/heimsmarkmid-site/2-4-1",
@@ -183,151 +183,151 @@
         },
         {
           "id": "2-5-1",
-          "title": "Number of plant and animal genetic resources for food and agriculture secured in either medium- or long-term conservation facilities",
+          "title": "Fjöldi erfðaauðlinda plantna og dýra á sviði matvæla og landbúnaðar sem komið hefur verið tryggilega fyrir í varðveisluaðstöðu til meðallangs og langs tíma.",
           "description": "",
           "keywords": "",
           "href": "/heimsmarkmid-site/2-5-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "2-5-2",
-          "title": "Proportion of local breeds classified as being at risk of extinction",
+          "title": "Hlutfall staðbundinna búfjártegunda sem metnar eru í útrýmingarhættu.",
           "description": "",
           "keywords": "",
           "href": "/heimsmarkmid-site/2-5-2",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "2-a-1",
-          "title": "The agriculture orientation index for government expenditures",
+          "title": "Leitnistuðull fyrir landbúnað í útgjöldum hins opinbera.",
           "description": "",
           "keywords": "",
           "href": "/heimsmarkmid-site/2-a-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "2-a-2",
-          "title": "Total official flows (official development assistance plus other official flows) to the agriculture sector",
-          "description": "",
+          "title": "Heildartilfærslur hins opinbera (opinber þróunaraðstoð að viðbættum öðrum opinberum tilfærslum) til landbúnaðargeirans.",
+          "description": "Heildartilfærslur hins opinbera (opinber þróunaraðstoð að viðbættum öðrum opinberum tilfærslum) til landbúnaðargeirans.",
           "keywords": "",
           "href": "/heimsmarkmid-site/2-a-2",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "2-b-1",
-          "title": "Agricultural export subsidies",
+          "title": "Útflutningsstyrkir vegna landbúnaðarafurða.",
           "description": "",
           "keywords": "",
           "href": "/heimsmarkmid-site/2-b-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "2-c-1",
-          "title": "Indicator of food price anomalies",
+          "title": "Mælikvarði fyrir frávik í matvælaverði",
           "description": "",
           "keywords": "",
           "href": "/heimsmarkmid-site/2-c-1",
-          "status": "notstarted"
+          "status": "complete"
         }]
     }
   },
   {
     "goal": {
       "id": "3",
-      "title": "Ensure healthy lives and promote well-being for all at all ages",
+      "title": "Stuðla að heilbrigðu líferni og vellíðan fyrir alla frá vöggu til grafar",
       "indicators": [
         
         {
           "id": "3-1-1",
-          "title": "Maternal mortality ratio",
+          "title": "Tíðni mæðradauða.",
           "description": "",
           "keywords": "",
           "href": "/heimsmarkmid-site/3-1-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "3-1-2",
-          "title": "Proportion of births attended by skilled health personnel",
-          "description": "",
+          "title": "Hlutfall fæðinga þar sem faglærðir heilbrigðisstarfsmenn eru til staðar.",
+          "description": "Hlutfall fæðinga sem eiga sér stað á heilbrigðisstofnunum",
           "keywords": "",
           "href": "/heimsmarkmid-site/3-1-2",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "3-2-1",
-          "title": "Under‐5 mortality rate",
-          "description": "",
+          "title": "Dánartíðni barna undir 5 ára aldri.",
+          "description": "Fjöldi látinna barna undir 5 ára aldri á hver 1.000 lifandi fædd börn.",
           "keywords": "",
           "href": "/heimsmarkmid-site/3-2-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "3-2-2",
-          "title": "Neonatal mortality rate",
-          "description": "",
+          "title": "Dánartíðni nýbura.",
+          "description": "Fjöldi látinna barna á fyrstu 28 dögum eftir fæðingu á hver 1.000 lifandi fædd börn",
           "keywords": "",
           "href": "/heimsmarkmid-site/3-2-2",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "3-3-1",
-          "title": "Number of new HIV infections per 1,000 uninfected population, by sex, age and key populations",
+          "title": "Fjöldi HIV-sýkinga á hverja 1.000 íbúa, eftir kyni, aldri og helstu samfélagshópum.",
           "description": "",
-          "keywords": "",
+          "keywords": "HIV, sýkingar",
           "href": "/heimsmarkmid-site/3-3-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "3-3-2",
-          "title": "Tuberculosis incidence per 100,000 population",
+          "title": "Nýgengi berkla á hverja 100.000 íbúa.",
           "description": "",
           "keywords": "",
           "href": "/heimsmarkmid-site/3-3-2",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "3-3-3",
-          "title": "Malaria incidence per 1,000 population",
+          "title": "3.3.3 Nýgengi malaríu á hverja 100.000 íbúa.",
           "description": "",
           "keywords": "",
           "href": "/heimsmarkmid-site/3-3-3",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "3-3-4",
-          "title": "Hepatitis B incidence per 100,000 population",
+          "title": "Nýgengi lifrarbólgu B á hverja 100.000 íbúa.",
           "description": "",
           "keywords": "",
           "href": "/heimsmarkmid-site/3-3-4",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "3-3-5",
-          "title": "Number of people requiring interventions against neglected tropical diseases",
+          "title": "Fjöldi einstaklinga sem þarfnast inngrips vegna vanmeðhöndlaðra hitabeltissjúkdóma.",
           "description": "",
           "keywords": "",
           "href": "/heimsmarkmid-site/3-3-5",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "3-4-1",
-          "title": "Mortality rate attributed to cardiovascular disease, cancer, diabetes or chronic respiratory disease",
+          "title": "Dánartíðni af völdum hjarta- og æðasjúkdóma, krabbameins, sykursýki eða langvinnra öndunarfærasjúkdóma.",
           "description": "",
           "keywords": "",
           "href": "/heimsmarkmid-site/3-4-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "3-4-2",
-          "title": "Suicide mortality rate",
-          "description": "",
+          "title": "Dánartíðni af völdum sjálfsvíga.",
+          "description": "Dánartíðni af völdum sjálfsvíga á Íslandi.",
           "keywords": "",
           "href": "/heimsmarkmid-site/3-4-2",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "3-5-1",
-          "title": "Coverage of treatment interventions (pharmacological, psychosocial and rehabilitation and aftercare services) for substance use disorders",
+          "title": "Umfang meðferðarinngrips (lyfjafræðilegrar, sálfélagslegrar og endurhæfingar- og eftirmeðferðarþjónustu) vegna vanda af völdum lyfjamisnotkunar.",
           "description": "",
           "keywords": "",
           "href": "/heimsmarkmid-site/3-5-1",
@@ -335,39 +335,39 @@
         },
         {
           "id": "3-5-2",
-          "title": "Alcohol per capita consumption (aged 15 years and older) within a calendar year in litres of pure alcohol",
+          "title": "Skaðleg notkun áfengis, skilgreint út frá innlendu samhengi sem áfengisnotkun á mann (15 ára og eldri) innan almanaksárs, í lítrum af hreinu áfengi.",
           "description": "",
           "keywords": "",
           "href": "/heimsmarkmid-site/3-5-2",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "3-6-1",
-          "title": "Death rate due to road traffic injuries",
+          "title": "Dánartíðni af völdum umferðarslysa.",
           "description": "",
           "keywords": "",
           "href": "/heimsmarkmid-site/3-6-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "3-7-1",
-          "title": "Proportion of women of reproductive age (aged 15–49 years) who have their need for family planning satisfied with modern methods",
+          "title": "Hlutfall kvenna á barneignaaldri (15-49 ára) sem fá fullnægjandi og nútímalega þjónustu m.t.t. fjölskylduáætlanagerðar.",
           "description": "",
           "keywords": "",
           "href": "/heimsmarkmid-site/3-7-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "3-7-2",
-          "title": "Adolescent birth rate (aged 10–14 years; aged 15–19 years) per 1,000 women in that age group",
+          "title": "Fæðingartíðni meðal unglingsstúlkna (10-14 ára annars vegar og 15-19 ára hins vegar) á hverjar 1.000 stúlkur í viðkomandi aldurshópi.",
           "description": "",
           "keywords": "",
           "href": "/heimsmarkmid-site/3-7-2",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "3-8-1",
-          "title": "Coverage of essential health services",
+          "title": "Umfang nauðsynlegrar heilbrigðisþjónustu (skilgreint sem meðalumfang nauðsynlegrar þjónustu á grundvelli gátunaríhlutana sem taka til  frjósemisheilbrigðis og heilbrigðis mæðra, nýbura og barna, smitsjúkdóma, smitlausra sjúkdóma, og þjónustugetu og aðgengis almennings og þeirra samfélagshópa sem standa höllustum fæti).",
           "description": "",
           "keywords": "",
           "href": "/heimsmarkmid-site/3-8-1",
@@ -375,7 +375,7 @@
         },
         {
           "id": "3-8-2",
-          "title": "Proportion of population with large household expenditures on health as a share of total household expenditure or income",
+          "title": "Hlutfall íbúa með mikil útgjöld vegna heilbrigðismála sem hlutfall af heildarútgjöldum- eða tekjum heimilis.",
           "description": "",
           "keywords": "",
           "href": "/heimsmarkmid-site/3-8-2",
@@ -383,79 +383,79 @@
         },
         {
           "id": "3-9-1",
-          "title": "Mortality rate attributed to household and ambient air pollution",
+          "title": "Dánartíðni sem rekja má til loftmengunar á heimilum og í andrúmslofti.",
           "description": "",
           "keywords": "",
           "href": "/heimsmarkmid-site/3-9-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "3-9-2",
-          "title": "Mortality rate attributed to unsafe water, unsafe sanitation and lack of hygiene (exposure to unsafe Water, Sanitation and Hygiene for All (WASH) services)",
-          "description": "",
+          "title": "Dánartíðni sem rekja má til mengaðs vatns, lélegrar salernisaðstöðu og skorts á hreinlæti (ófullnægjandi aðgangur að hreinu vatni, salernisaðstöðu og hreinlæti, WASH-þjónustu).",
+          "description": "Þessi mælikvarði sýnir upplýsingar um fjölda dauðsfalla sem rekja má til mengaðs vatns, lélegrar salernisaðstöðu og skorts á hreinlæti (með áherslu á WASH-þjónustu) sem hefði mátt koma í veg fyrir með því að bæta gæði þessara þjónusta og aðferða. Mælikvarðinn byggir á skráðum dánarmeinum og veitir þannig upplýsingar um raunverulegar sýkingar sem hljótast af þeim hættum sem mældar eru í undirmarkmiðum 6.1, 6.2 and 6.3.",
           "keywords": "",
           "href": "/heimsmarkmid-site/3-9-2",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "3-9-3",
-          "title": "Mortality rate attributed to unintentional poisoning",
+          "title": "Dánartíðni sem rekja má til eitrana af vangá.",
           "description": "",
           "keywords": "",
           "href": "/heimsmarkmid-site/3-9-3",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "3-a-1",
-          "title": "Age-standardized prevalence of current tobacco use among persons aged 15 years and older",
-          "description": "",
+          "title": "Útbreiðsla tóbaksnotkunar eftir aldurshópum hjá 15 ára og eldri.",
+          "description": "Hlutfall íbúa, 18 ára og eldri, sem reykja sígarettur á Ísland af öllum íbúum, 18 ára og eldri",
           "keywords": "",
           "href": "/heimsmarkmid-site/3-a-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "3-b-1",
-          "title": "Proportion of the target population covered by all vaccines included in their national programme",
-          "description": "",
+          "title": "Hlutfall markþýðis sem fengið hefur allar bólusetningar samkvæmt viðkomandi landsáætlun.",
+          "description": "Hlutfall barna sem hafa verið bólusett, eftir fæðingarári og tegund bólusetningar.",
           "keywords": "",
           "href": "/heimsmarkmid-site/3-b-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "3-b-2",
-          "title": "Total net official development assistance to medical research and basic health sectors",
+          "title": "Samanlögð nettóþróunaraðstoð opinberra aðila til rannsókna í læknisfræði og helstu heilbrigðisgreina.",
           "description": "",
-          "keywords": "",
+          "keywords": "HIV, sýkingar",
           "href": "/heimsmarkmid-site/3-b-2",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "3-b-3",
-          "title": "Proportion of health facilities that have a core set of relevant essential medicines available and affordable on a sustainable basis",
+          "title": "Hlutfall heilbrigðisstarfsstöðva sem búa yfir grunnbirgðum af viðeigandi nauðsynlegum lyfjum á viðráðanlegu verði á sjálfbærum grunni.",
           "description": "",
           "keywords": "",
           "href": "/heimsmarkmid-site/3-b-3",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "3-c-1",
-          "title": "Health worker density and distribution",
-          "description": "",
+          "title": "Þéttleiki og dreifing heilbrigðisstarfsmanna.",
+          "description": "Þéttleiki og dreifing heilbrigðisstarfsmanna, þ.m.t. læknar, hjúkrunarfræðingar, tannlæknar og lyfjafræðingar",
           "keywords": "",
           "href": "/heimsmarkmid-site/3-c-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "3-d-1",
-          "title": "International Health Regulations (IHR) capacity and health emergency preparedness",
-          "description": "",
+          "title": "Geta og viðbúnaður gegn heilbrigðisvá samkvæmt alþjóðlegum heilbrigðisreglum (IHR).",
+          "description": "Geta og viðbúnaður gegn heilbrigðisvá samkvæmt alþjóðlegum heilbrigðisreglum (IHR) eftir tegund.",
           "keywords": "",
           "href": "/heimsmarkmid-site/3-d-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "3-d-2",
-          "title": "Percentage of bloodstream infections due to selected antimicrobial-resistant organisms",
+          "title": "Hlutfall blóðeitrana vegna valinna fjölónæmra baketería.",
           "description": "",
           "keywords": "",
           "href": "/heimsmarkmid-site/3-d-2",
@@ -466,28 +466,28 @@
   {
     "goal": {
       "id": "4",
-      "title": "Ensure inclusive and equitable quality education and promote lifelong learning opportunities for all",
+      "title": "Tryggja jafnan aðgang allra að góðri menntun og stuðla að tækifærum allra til náms alla ævi",
       "indicators": [
         
         {
           "id": "4-1-1",
-          "title": "Proportion of children and young people (a) in grades 2/3; (b) at the end of primary; and (c) at the end of lower secondary achieving at least a minimum proficiency level in (i) reading and (ii) mathematics, by sex",
+          "title": "Hlutfall barna og ungmenna a) í 2. og 3. bekk, b) við lok grunnskóla, c) við lok framhaldsskóla sem náð hefur a.m.k. lágmarksfærni í i. lestri og ii. stærðfræði, eftir kyni.",
           "description": "",
           "keywords": "",
           "href": "/heimsmarkmid-site/4-1-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "4-1-2",
-          "title": "Completion rate (primary education, lower secondary education, upper secondary education)",
+          "title": "Brautskráningarhlutfall nemenda í grunn- og framhaldsskóla",
           "description": "",
           "keywords": "",
           "href": "/heimsmarkmid-site/4-1-2",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "4-2-1",
-          "title": "Proportion of children aged 24-59 months who are developmentally on track in health, learning and psychosocial well-being, by sex",
+          "title": "Hlutfall barna undir 5 ára aldri sem eru með eðlilegan þroska hvað varðar heilbrigði, nám og sálfélagslega vellíðan, eftir kyni.",
           "description": "",
           "keywords": "",
           "href": "/heimsmarkmid-site/4-2-1",
@@ -495,39 +495,39 @@
         },
         {
           "id": "4-2-2",
-          "title": "Participation rate in organized learning (one year before the official primary entry age), by sex",
-          "description": "",
+          "title": "Þátttökuhlutfall í skipulögðu námi (ári áður en opinberum aldri til grunnskólanáms er náð), eftir kyni.",
+          "description": "Hlutfall 5 ára barna sem taka þátt í skipulögðu námi (á leikskóla eða grunnskóla)",
           "keywords": "",
           "href": "/heimsmarkmid-site/4-2-2",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "4-3-1",
-          "title": "Participation rate of youth and adults in formal and non-formal education and training in the previous 12 months, by sex",
+          "title": "Þátttökuhlutfall ungmenna og fullorðinna í formlegu og óformlegu námi og þjálfun á síðastliðnum 12 mánuðum, eftir kyni.",
           "description": "",
           "keywords": "",
           "href": "/heimsmarkmid-site/4-3-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "4-4-1",
-          "title": "Proportion of youth and adults with information and communications technology (ICT) skills, by type of skill",
+          "title": "Hlutfall ungmenna og fullorðinna sem búa yfir upplýsinga- og fjarskiptatækniþekkingu, eftir tegund þekkingar.",
           "description": "",
           "keywords": "",
           "href": "/heimsmarkmid-site/4-4-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "4-5-1",
-          "title": "Parity indices (female/male, rural/urban, bottom/top wealth quintile and others such as disability status, indigenous peoples and conflict-affected, as data become available) for all education indicators on this list that can be disaggregated",
+          "title": "Jöfnuðarvísar (konur/karlar, dreifbýli/þéttbýli, fátækasti/ríkasti fimmtungur og aðrir hópar, s.s. öryrkjar, frumbyggjar og þeir sem hafa orðið fyrir barðinu á átökum, eftir því sem gögn verða tiltæk), fyrir alla menntavísa í þessari skrá sem unnt er að aðgreina.",
           "description": "",
           "keywords": "",
           "href": "/heimsmarkmid-site/4-5-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "4-6-1",
-          "title": "Proportion of population in a given age group achieving at least a fixed level of proficiency in functional (a) literacy and (b) numeracy skills, by sex",
+          "title": "Hlutfall íbúa í tilteknum aldurshópi sem náð hafa a.m.k. ákveðinni verkfærni í a) læsi og b) tölulæsi, eftir kyni.",
           "description": "",
           "keywords": "",
           "href": "/heimsmarkmid-site/4-6-1",
@@ -535,7 +535,7 @@
         },
         {
           "id": "4-7-1",
-          "title": "Extent to which (i) global citizenship education and (ii) education for sustainable development are mainstreamed in (a) national education policies; (b) curricula; (c) teacher education; and (d) student assessment",
+          "title": "Að hvaða marki i. menntun í heimsborgararétti og ii. menntun í sjálfbærri þróun, þ.m.t. í kynjajafnrétti og mannréttindum, hefur verið felld inn á öllum stigum í a) innlendar menntunaráætlanir, b) námskrár, c) kennaramenntun og d) mat á nemendum.",
           "description": "",
           "keywords": "",
           "href": "/heimsmarkmid-site/4-7-1",
@@ -543,103 +543,103 @@
         },
         {
           "id": "4-a-1",
-          "title": "Proportion of schools offering basic services, by type of service",
+          "title": "Hlutfall skóla með aðgengi að a) rafmagni, b) netinu til kennslu, c) tölvum til kennslu, d) aðlöguðum innviðum og námsgögnum fyrir fatlaða nemendur, e) drykkjarhæfu vatni, f) aðskilinni salernisaðstöðu fyrir kynin og g) handþvottaaðstöðu (sbr. skilgreiningar WASH-vísisins).",
           "description": "",
           "keywords": "",
           "href": "/heimsmarkmid-site/4-a-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "4-b-1",
-          "title": "Volume of official development assistance flows for scholarships by sector and type of study",
+          "title": "Umfang opinberrar þróunaraðstoðar til skólastyrkja eftir sviðum og námsgreinum.",
           "description": "",
           "keywords": "",
           "href": "/heimsmarkmid-site/4-b-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "4-c-1",
-          "title": "Proportion of teachers with the minimum required qualifications, by education level",
-          "description": "",
+          "title": "Hlutfall kennara í: a) forskólum, b) grunnskólum, c) neðri bekkjum framhaldsskóla, d) efri bekkjum framhaldsskóla sem notið hafa a.m.k. skipulegrar lágmarksþjálfunar fyrir kennara (þ.e. í kennslufræðum) áður en starf hefst eða í starfi, sem krafist er til kennslu á viðkomandi skólastigi í tilteknu landi.",
+          "description": "Hlutfall menntaðra kennara í leikskólum og grunnskólum á Íslandi",
           "keywords": "",
           "href": "/heimsmarkmid-site/4-c-1",
-          "status": "notstarted"
+          "status": "complete"
         }]
     }
   },
   {
     "goal": {
       "id": "5",
-      "title": "Achieve gender equality and empower all women and girls",
+      "title": "Jafnrétti kynjanna verði tryggt og völd allra kvenna og stúlkna efld",
       "indicators": [
         
         {
           "id": "5-1-1",
-          "title": "Whether or not legal frameworks are in place to promote, enforce and monitor equality and non‐discrimination on the basis of sex",
+          "title": "Hvort til staðar er lagarammi sem miðar að því að efla, framfylgja og hafa eftirlit með því hvort kynin njóti jafnréttis og að þeim sé ekki mismunað.",
           "description": "",
           "keywords": "",
           "href": "/heimsmarkmid-site/5-1-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "5-2-1",
-          "title": "Proportion of ever-partnered women and girls aged 15 years and older subjected to physical, sexual or psychological violence by a current or former intimate partner in the previous 12 months, by form of violence and by age",
-          "description": "",
+          "title": "Hlutfall kvenna og stúlkna eldri en 15 ára sem hafa verið í sambandi og orðið fyrir  líkamlegu, kynferðislegu eða andlegu ofbeldi af hálfu núverandi eða fyrrverandi sambúðarmaka á síðastliðnum 12 mánuðum, eftir tegund ofbeldis og aldri.",
+          "description": "Hlutfall heimilisofbeldis (andlegt/líkamlegt ofbeldi, hótanir, kynferðisofbeldi og umsátur) á síðastliðnum 12 mánuðum meðal kvenna 15 ára og eldri.",
           "keywords": "",
           "href": "/heimsmarkmid-site/5-2-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "5-2-2",
-          "title": "Proportion of women and girls aged 15 years and older subjected to sexual violence by persons other than an intimate partner in the previous 12 months, by age and place of occurrence",
-          "description": "",
+          "title": "Hlutfall kvenna og stúlkna eldri en 15 ára, sem hafa orðið fyrir kynferðislegu ofbeldi af hálfu annarra en sambúðarmaka á síðastliðnum 12 mánuðum, eftir aldri og verknaðarstað.",
+          "description": "Hlutfall kvenna og stúlkna eldri en 15 ára sem hafa orðið fyrir kynferðislegu ofbeldi á síðastliðnum 12 mánuðum.",
           "keywords": "",
           "href": "/heimsmarkmid-site/5-2-2",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "5-3-1",
-          "title": "Proportion of women aged 20–24 years who were married or in a union before age 15 and before age 18",
+          "title": "Hlutfall kvenna á aldrinum 20-24 ára sem giftust eða höfðu verið í sambandi fyrir 15 ára aldur og fyrir 18 ára aldur.",
           "description": "",
           "keywords": "",
           "href": "/heimsmarkmid-site/5-3-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "5-3-2",
-          "title": "Proportion of girls and women aged 15–49 years who have undergone female genital mutilation/cutting, by age",
+          "title": "Hlutfall stúlkna og kvenna á aldrinum 15-49 sem hafa undirgengist limlestingu/skurð á kynfærum sínum, eftir aldri.",
           "description": "",
           "keywords": "",
           "href": "/heimsmarkmid-site/5-3-2",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "5-4-1",
-          "title": "Proportion of time spent on unpaid domestic and care work, by sex, age and location",
+          "title": "Hlutfall tíma sem varið er til ólaunaðra heimilis- og umönnunarstarfa, eftir kyni, aldri og staðsetningu.",
           "description": "",
           "keywords": "",
           "href": "/heimsmarkmid-site/5-4-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "5-5-1",
-          "title": "Proportion of seats held by women in (a) national parliaments and (b) local governments",
-          "description": "",
+          "title": "Hlutfall kvenna a) á þjóðþingum og b) í sveitarstjórnum.",
+          "description": "Hlutfall kvenna á Alþingi.",
           "keywords": "",
           "href": "/heimsmarkmid-site/5-5-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "5-5-2",
-          "title": "Proportion of women in managerial positions",
+          "title": "Hlutfall kvenna í stjórnunarstöðum.",
           "description": "",
           "keywords": "",
           "href": "/heimsmarkmid-site/5-5-2",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "5-6-1",
-          "title": "Proportion of women aged 15–49 years who make their own informed decisions regarding sexual relations, contraceptive use and reproductive health care",
+          "title": "Hlutfall kvenna á aldrinum 15-49 ára sem taka eigin og upplýstar ákvarðanir varðandi kynlíf, notkun getnaðarvarna og frjósemisheilbrigði.",
           "description": "",
           "keywords": "",
           "href": "/heimsmarkmid-site/5-6-1",
@@ -647,15 +647,15 @@
         },
         {
           "id": "5-6-2",
-          "title": "Number of countries with laws and regulations that guarantee full and equal access to women and men aged 15 years and older to sexual and reproductive health care, information and education",
+          "title": "Fjöldi landa sem tryggja fullan og jafnan aðgang kvenna og karla eldri en 15 ára, með lagasetningu og reglum, að kyn- og frjósemisheilbrigðisþjónustu, upplýsingum og menntun.",
           "description": "",
           "keywords": "",
           "href": "/heimsmarkmid-site/5-6-2",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "5-a-1",
-          "title": "(a) Proportion of total agricultural population with ownership or secure rights over agricultural land, by sex; and (b) share of women among owners or rights-bearers of agricultural land, by type of tenure",
+          "title": "a) Hlutfall heildarmannfjölda í landbúnaði sem hefur eignarhald á eða öruggan rétt til landbúnaðarlands, eftir kyni, og b) hlutfall kvenna meðal eigenda eða rétthafa til landbúnaðarlands, eftir tegund ábúðar.",
           "description": "",
           "keywords": "",
           "href": "/heimsmarkmid-site/5-a-1",
@@ -663,63 +663,63 @@
         },
         {
           "id": "5-a-2",
-          "title": "Proportion of countries where the legal framework (including customary law) guarantees women’s equal rights to land ownership and/or control",
+          "title": "Hlutfall landa þar sem lagaramminn (þ.m.t. venjuréttur) tryggir jafnan rétt kvenna til eignarhalds á landi og/eða yfirráða.",
           "description": "",
           "keywords": "",
           "href": "/heimsmarkmid-site/5-a-2",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "5-b-1",
-          "title": "Proportion of individuals who own a mobile telephone, by sex",
-          "description": "",
+          "title": "Hlutfall einstaklinga sem eiga farsíma, eftir kyni.",
+          "description": "Þessi mælikvarði er fengin frá árlegri upplýsingatæknikönnun Evrópusambandsins. Mælikvarðinn sýnir hlutfall íbúa á aldrinum 16 til 74, eftir kyni, sem nota farsíma til að tengjast internetinu. Þessi mælikvarði er notaður sem nálgun á mælikvarða Sameinuðu Þjóðanna, þar sem sá mælikvarði biður um hlutfall karla og kvenna sem eiga farsíma.",
           "keywords": "",
           "href": "/heimsmarkmid-site/5-b-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "5-c-1",
-          "title": "Proportion of countries with systems to track and make public allocations for gender equality and women’s empowerment",
+          "title": "Hlutfall landa með kerfi til að hafa eftirlit með og annast opinberar fjárveitingar til að stuðla að jafnrétti kynjanna og valdeflingu kvenna.",
           "description": "",
           "keywords": "",
           "href": "/heimsmarkmid-site/5-c-1",
-          "status": "notstarted"
+          "status": "complete"
         }]
     }
   },
   {
     "goal": {
       "id": "6",
-      "title": "Ensure availability and sustainable management of water and sanitation for all",
+      "title": "Tryggja aðgengi að og sjálfbæra nýtingu, allra á hreinu vatni og salernisaðstöðu",
       "indicators": [
         
         {
           "id": "6-1-1",
-          "title": "Proportion of population using safely managed drinking water services",
+          "title": "Hlutfall íbúa sem búa við örugga vatnsveitu.",
           "description": "",
           "keywords": "",
           "href": "/heimsmarkmid-site/6-1-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "6-2-1",
-          "title": "Proportion of population using (a) safely managed sanitation services and (b) a hand-washing facility with soap and water",
+          "title": "Hlutfall íbúa sem nýtur öruggrar salernisaðstöðu, þ.m.t. handþvottaaðstöðu með sápu og vatni.",
           "description": "",
           "keywords": "",
           "href": "/heimsmarkmid-site/6-2-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "6-3-1",
-          "title": "Proportion of domestic and industrial wastewater flows safely treated",
+          "title": "Hlutfall skólps sem fær örugga meðhöndlun.",
           "description": "",
           "keywords": "",
           "href": "/heimsmarkmid-site/6-3-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "6-3-2",
-          "title": "Proportion of bodies of water with good ambient water quality",
+          "title": "Hlutfall vatnshlota með góðum vatnsgæðum.",
           "description": "",
           "keywords": "",
           "href": "/heimsmarkmid-site/6-3-2",
@@ -727,7 +727,7 @@
         },
         {
           "id": "6-4-1",
-          "title": "Change in water-use efficiency over time",
+          "title": "Breyting á nýtni í vatnsnotkun með tímanum.",
           "description": "",
           "keywords": "",
           "href": "/heimsmarkmid-site/6-4-1",
@@ -735,15 +735,15 @@
         },
         {
           "id": "6-4-2",
-          "title": "Level of water stress: freshwater withdrawal as a proportion of available freshwater resources",
+          "title": "Álag á vatnsbúskap: ferskvatnsnotkun sem hlutfall af tiltækum ferskvatnsauðlindum.",
           "description": "",
           "keywords": "",
           "href": "/heimsmarkmid-site/6-4-2",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "6-5-1",
-          "title": "Degree of integrated water resources management",
+          "title": "Að hvaða marki samþættri stjórnun vatnsauðlinda hefur verið komið til framkvæmda (0-100).",
           "description": "",
           "keywords": "",
           "href": "/heimsmarkmid-site/6-5-1",
@@ -751,31 +751,31 @@
         },
         {
           "id": "6-5-2",
-          "title": "Proportion of transboundary basin area with an operational arrangement for water cooperation",
+          "title": "Hlutfall vatnasvæða þvert á landamæri þar sem samkomulag er til staðar um vatnsnotkun.",
           "description": "",
           "keywords": "",
           "href": "/heimsmarkmid-site/6-5-2",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "6-6-1",
-          "title": "Change in the extent of water-related ecosystems over time",
+          "title": "Breyting á umfangi vatnstengdra vistkerfa með tímanum.",
           "description": "",
           "keywords": "",
           "href": "/heimsmarkmid-site/6-6-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "6-a-1",
-          "title": "Amount of water- and sanitation-related official development assistance that is part of a government-coordinated spending plan",
+          "title": "Umfang opinberrar þróunaraðstoðar í tengslum við vatns- og hreinlætismál sem hluta af samræmdri útgjaldaáætlun stjórnvalda.",
           "description": "",
           "keywords": "",
           "href": "/heimsmarkmid-site/6-a-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "6-b-1",
-          "title": "Proportion of local administrative units with established and operational policies and procedures for participation of local communities in water and sanitation management",
+          "title": "Hlutfall sveitarstjórnareininga með samþykktar og virkar stefnur og verklagsreglur varðandi þátttöku staðbundinna samfélaga í stjórnun vatns- og  hreinlætismála.",
           "description": "",
           "keywords": "",
           "href": "/heimsmarkmid-site/6-b-1",
@@ -786,84 +786,84 @@
   {
     "goal": {
       "id": "7",
-      "title": "Ensure access to affordable, reliable, sustainable and modern energy for all",
+      "title": "Tryggja öllum aðgang að öruggri og sjálfbærri orku á viðráðanlegu verði",
       "indicators": [
         
         {
           "id": "7-1-1",
-          "title": "Proportion of population with access to electricity",
+          "title": "Hlutfall íbúa með aðgang að rafmagni.",
           "description": "",
           "keywords": "",
           "href": "/heimsmarkmid-site/7-1-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "7-1-2",
-          "title": "Proportion of population with primary reliance on clean fuels and technology",
+          "title": "Hlutfall íbúa sem reiða sig fyrst og fremst á hreint eldsneyti og tækni.",
           "description": "",
           "keywords": "",
           "href": "/heimsmarkmid-site/7-1-2",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "7-2-1",
-          "title": "Renewable energy share in the total final energy consumption",
+          "title": "Hlutfall endurnýjanlegrar orku í heildarnotkun orku.",
           "description": "",
           "keywords": "",
           "href": "/heimsmarkmid-site/7-2-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "7-3-1",
-          "title": "Energy intensity measured in terms of primary energy and GDP",
+          "title": "Orkukræfni mæld með tilliti til frumorku og landsframleiðslu.",
           "description": "",
           "keywords": "",
           "href": "/heimsmarkmid-site/7-3-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "7-a-1",
-          "title": "International financial flows to developing countries in support of clean energy research and development and renewable energy production, including in hybrid systems",
+          "title": "Alþjóðlegt fjárstreymi til þróunarlanda sem veitt er til rannsókna og þróunar á hreinni orku og framleiðslu á endurnýjanlegri orku, þ.m.t. í blönduðum kerfum.",
           "description": "",
           "keywords": "",
           "href": "/heimsmarkmid-site/7-a-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "7-b-1",
-          "title": "Installed renewable energy-generating capacity in developing countries (in watts per capita)",
+          "title": "Uppsett orkuvinnslugeta endurnýjanlegrar orku í þróunarlöndum (í vöttum á íbúa)",
           "description": "",
           "keywords": "",
           "href": "/heimsmarkmid-site/7-b-1",
-          "status": "notstarted"
+          "status": "complete"
         }]
     }
   },
   {
     "goal": {
       "id": "8",
-      "title": "Promote sustained, inclusive and sustainable economic growth, full and productive employment and decent work for all",
+      "title": "Stuðla að viðvarandi sjálfbærum hagvexti og arðbærum og mannsæmandi atvinnutækifærum fyrir alla",
       "indicators": [
         
         {
           "id": "8-1-1",
-          "title": "Annual growth rate of real GDP per capita",
+          "title": "Árlegur vaxtarhraði raunverulegrar landsframleiðslu á mann.",
           "description": "",
           "keywords": "",
           "href": "/heimsmarkmid-site/8-1-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "8-2-1",
-          "title": "Annual growth rate of real GDP per employed person",
+          "title": "Árlegur raunvöxtur vergrar landsframleiðslu á hvern vinnandi einstakling.",
           "description": "",
           "keywords": "",
           "href": "/heimsmarkmid-site/8-2-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "8-3-1",
-          "title": "Proportion of informal employment in total employment, by sector and sex",
+          "title": "Hlutfall óformlegra starfa, eftir kyni.",
           "description": "",
           "keywords": "",
           "href": "/heimsmarkmid-site/8-3-1",
@@ -871,7 +871,7 @@
         },
         {
           "id": "8-4-1",
-          "title": "Material footprint, material footprint per capita, and material footprint per GDP",
+          "title": "Efnisspor, efnisspor á mann og efnisspor miðað við verga landsframleiðslu.",
           "description": "",
           "keywords": "",
           "href": "/heimsmarkmid-site/8-4-1",
@@ -879,55 +879,55 @@
         },
         {
           "id": "8-4-2",
-          "title": "Domestic material consumption, domestic material consumption per capita, and domestic material consumption per GDP",
-          "description": "",
+          "title": "Innlend efnisnotkun, innlend efnisnotkun á mann og innlend efnisnotkun miðað við verga landsframleiðslu.",
+          "description": "Sjá aðferðarfræði í [lýsigögnum efnisflæðireikninga](http://hagstofan.s3.amazonaws.com/media/public/2020/7e196e70-d038-43f8-9d9d-18f18ede6574.pdf)",
           "keywords": "",
           "href": "/heimsmarkmid-site/8-4-2",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "8-5-1",
-          "title": "Average hourly earnings of employees, by sex, age, occupation and persons with disabilities",
+          "title": "Meðaltímakaup starfandi karla og kvenna, eftir starfi, aldri og fötluðum einstaklingum.",
           "description": "",
           "keywords": "",
           "href": "/heimsmarkmid-site/8-5-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "8-5-2",
-          "title": "Unemployment rate, by sex, age and persons with disabilities",
-          "description": "",
+          "title": "Atvinnuleysishlutfall eftir kyni, aldri og fötluðum einstaklingum.",
+          "description": "Atvinnuleysishlutfall er gagnlegur mælikvarði á vannýtingu vinnuafls. Það endurspeglar vangetu hagkerfis til að útvega þeim vinnu sem vilja vinna, geta það og eru í virkri atvinnuleit en fá ekki atvinnu. Það er því mæilkvarði á skilvirkni hagkerfis til að virkja vinnuafl landins og frammistöðu vinnumarkaðarinns. Skammtímatölur um atvinnuleysishlutfall geta sýnt upplýsingar um lotubundnar breytingar í atvinnulífinu; aukning á atvinnuleysishlutfalli á sér oft stað samhliða samdrætti í efnahagi landa, eða í sumum tilvikum upphafi þensluskeiðs þar sem einstaklingar sem utan vinnumarkaðarinns hefja virka atvinnuleit.indicator_name: Atvinnuleysishlutfall eftir kyni, aldri og fötluðum einstaklingum.",
           "keywords": "",
           "href": "/heimsmarkmid-site/8-5-2",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "8-6-1",
-          "title": "Proportion of youth (aged 15–24 years) not in education, employment or training",
+          "title": "Hlutfall ungmenna (15-24 ára) sem stunda ekki nám, atvinnu eða eru í starfsþjálfun.",
           "description": "",
           "keywords": "",
           "href": "/heimsmarkmid-site/8-6-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "8-7-1",
-          "title": "Proportion and number of children aged 5–17 years engaged in child labour, by sex and age",
+          "title": "Hlutfall og fjöldi barna á aldrinum 5-17 ára sem stundar barnavinnu, eftir kyni og aldri.",
           "description": "",
           "keywords": "",
           "href": "/heimsmarkmid-site/8-7-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "8-8-1",
-          "title": "Fatal and non-fatal occupational injuries per 100,000 workers, by sex and migrant status",
-          "description": "",
+          "title": "Tíðni banvænna og óbanvænna starfstengdra áverka, eftir kyni og farandstöðu.",
+          "description": "Fjöldi banvænna og óbanvænna starfstengdra áverka, eftir kyni og þjóðerni",
           "keywords": "",
           "href": "/heimsmarkmid-site/8-8-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "8-8-2",
-          "title": "Level of national compliance with labour rights (freedom of association and collective bargaining) based on International Labour Organization (ILO) textual sources and national legislation, by sex and migrant status",
+          "title": "Að hve miklu leyti nýtur launafólk réttinda á innlendum vettvangi (félagafrelsis og kjaraviðræðna) byggt á gögnum Alþjóðavinnumálastofnunarinnar (ILO) og innlendri löggjöf, eftir kyni og farandstöðu.",
           "description": "",
           "keywords": "",
           "href": "/heimsmarkmid-site/8-8-2",
@@ -935,39 +935,39 @@
         },
         {
           "id": "8-9-1",
-          "title": "Tourism direct GDP as a proportion of total GDP and in growth rate",
-          "description": "",
+          "title": "Hlutfall ferðaþjónustu af vergri landsframleiðslu alls.",
+          "description": "Hlutfall ferðaþjónustu af vergri landsframleiðslu alls.",
           "keywords": "",
           "href": "/heimsmarkmid-site/8-9-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "8-10-1",
-          "title": "(a) Number of commercial bank branches per 100,000 adults and (b) number of automated teller machines (ATMs) per 100,000 adults",
+          "title": "a) Fjöldi viðskiptabankaútibúa á hverja 100.000 fullorðna einstaklinga og b) fjöldi hraðbanka á hverja 100.000 fullorðna einstaklinga.",
           "description": "",
           "keywords": "",
           "href": "/heimsmarkmid-site/8-10-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "8-10-2",
-          "title": "Proportion of adults (15 years and older) with an account at a bank or other financial institution or with a mobile-money-service provider",
+          "title": "Hlutfall fullorðinna (15 ára og eldri) með reikning hjá banka eða öðrum fjármálastofnunum eða greiðslumiðlunarþjónustu.",
           "description": "",
           "keywords": "",
           "href": "/heimsmarkmid-site/8-10-2",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "8-a-1",
-          "title": "Aid for Trade commitments and disbursements",
+          "title": "Aðstoð vegna viðskiptaskuldbindinga- og greiðslna.",
           "description": "",
           "keywords": "",
           "href": "/heimsmarkmid-site/8-a-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "8-b-1",
-          "title": "Existence of a developed and operationalized national strategy for youth employment, as a distinct strategy or as part of a national employment strategy",
+          "title": "Fyrirliggjandi mótuð og rekstrartæk innlend áætlun hvað varðar atvinnumál ungmenna, annað hvort sem sérstök áætlun eða sem hluti af innlendri atvinnuáætlun.",
           "description": "",
           "keywords": "",
           "href": "/heimsmarkmid-site/8-b-1",
@@ -978,20 +978,20 @@
   {
     "goal": {
       "id": "9",
-      "title": "Build resilient infrastructure, promote inclusive and sustainable industrialization and foster innovation",
+      "title": "Byggja upp viðnámsþolna innviði fyrir alla, stuðla að sjálfbærri iðnvæðingu og hlúa að nýsköpun",
       "indicators": [
         
         {
           "id": "9-1-1",
-          "title": "Proportion of the rural population who live within 2 km of an all-season road",
+          "title": "Hlutfall íbúa í dreifbýli sem býr í innan við 2 km fjarlægð frá heilsársvegi.",
           "description": "",
           "keywords": "",
           "href": "/heimsmarkmid-site/9-1-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "9-1-2",
-          "title": "Passenger and freight volumes, by mode of transport",
+          "title": "Farþega- og vöruflutningageta, eftir flutningsmáta.",
           "description": "",
           "keywords": "",
           "href": "/heimsmarkmid-site/9-1-2",
@@ -999,31 +999,31 @@
         },
         {
           "id": "9-2-1",
-          "title": "Manufacturing value added as a proportion of GDP and per capita",
+          "title": "Framleiðsluvirðisauki sem hlutfall af vergri landsframleiðslu og á mann.",
           "description": "",
           "keywords": "",
           "href": "/heimsmarkmid-site/9-2-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "9-2-2",
-          "title": "Manufacturing employment as a proportion of total employment",
+          "title": "Atvinna í framleiðslugreinum sem hlutfall af heildaratvinnuþátttöku.",
           "description": "",
           "keywords": "",
           "href": "/heimsmarkmid-site/9-2-2",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "9-3-1",
-          "title": "Proportion of small-scale industries in total industry value added",
+          "title": "Hlutfall lítilla og meðalstórra fyrirtækja í heildarvirðisauka.",
           "description": "",
           "keywords": "",
           "href": "/heimsmarkmid-site/9-3-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "9-3-2",
-          "title": "Proportion of small-scale industries with a loan or line of credit",
+          "title": "Hlutfall lítilla og meðalstórra fyrirtækja með lán eða lánalínu.",
           "description": "",
           "keywords": "",
           "href": "/heimsmarkmid-site/9-3-2",
@@ -1031,71 +1031,71 @@
         },
         {
           "id": "9-4-1",
-          "title": "CO2 emission per unit of value added",
-          "description": "",
+          "title": "Koltvísýringslosun á virðisaukaeiningu.",
+          "description": "Koltvísýringslosun á virðisaukaeiningu er reiknuð með því að deila losun gróðuhúsalofttegunda í koltvísýringsígildum með vinnsluvirði atvinnugreina á föstu verðgildi. Vinnsluvirði er skilgreint sem munurinn á framleiðslu og aðföngum fyrir hverja atvinnugrein, eða munur á virði framleiddra vara og þjónustu og kostnað við hráefni og önnur aðföng sem notuð eru í framleiðsluna. Vinnsluvirði er leiðrétt fyrir verðbólgu og gefið í Bandaríkjadölum á verðlagi ársins 2010.",
           "keywords": "",
           "href": "/heimsmarkmid-site/9-4-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "9-5-1",
-          "title": "Research and development expenditure as a proportion of GDP",
+          "title": "Útgjöld til rannsókna og þróunar sem hlutfall af vergri landsframleiðslu.",
           "description": "",
           "keywords": "",
           "href": "/heimsmarkmid-site/9-5-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "9-5-2",
-          "title": "Researchers (in full-time equivalent) per million inhabitants",
+          "title": "Vísindamenn (í jafngildi fullrar stöðu) á hverja milljón íbúa.",
           "description": "",
           "keywords": "",
           "href": "/heimsmarkmid-site/9-5-2",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "9-a-1",
-          "title": "Total official international support (official development assistance plus other official flows) to infrastructure",
+          "title": "Heildarfjárstuðningur opinberra aðila á alþjóðavísu (opinber þróunaraðstoð, að viðbættri annarri opinberri fjármögnun) til innviða.",
           "description": "",
           "keywords": "",
           "href": "/heimsmarkmid-site/9-a-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "9-b-1",
-          "title": "Proportion of medium and high-tech industry value added in total value added",
+          "title": "Hlutfall virðisauka meðal- og hátæknifyrirtækja af heildarvirðisauka",
           "description": "",
           "keywords": "",
           "href": "/heimsmarkmid-site/9-b-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "9-c-1",
-          "title": "Proportion of population covered by a mobile network, by technology",
+          "title": "Hlutfall íbúa með aðgang að farsímaneti, eftir tækni.",
           "description": "",
           "keywords": "",
           "href": "/heimsmarkmid-site/9-c-1",
-          "status": "notstarted"
+          "status": "complete"
         }]
     }
   },
   {
     "goal": {
       "id": "10",
-      "title": "Reduce inequality within and among countries",
+      "title": "Draga úr ójöfnuði innan og á milli landa",
       "indicators": [
         
         {
           "id": "10-1-1",
-          "title": "Growth rates of household expenditure or income per capita among the bottom 40 per cent of the population and the total population",
-          "description": "",
+          "title": "Vaxtarhraði í útgjöldum heimila eða tekjum á mann meðal lægstu 40 hundraðshluta íbúanna og hjá öllum íbúum.",
+          "description": "Gögn um útgjöld eru niðurstöður úr rannsókn á útgjöldum heimila sem framkvæmd hefur verið óslitið frá árinu 2000. Niðurstöðurnar eru meðaltal þriggja ára á verðlagi síðasta ársins, fyrir utan að á tímabilinu 2011-2016 eru niðurstöðurnar byggðar á fjögurra ára meðaltali. Er það gert til að bæta niðurstöður vegna dræmrar svörunar í rannsókninni á tímabilinu 2013-2015. Gögn um tekjur eru fengnar úr lífskjararannsókn, en upplýsingar um hana má finna [hér](https://hagstofa.is/utgafur/lysigogn/lysigogn/?fileId=56788)",
           "keywords": "",
           "href": "/heimsmarkmid-site/10-1-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "10-2-1",
-          "title": "Proportion of people living below 50 per cent of median income, by sex, age and persons with disabilities",
+          "title": "Hlutfall fólks með undir helming af meðaltekjum, eftir kyni, aldri og fötluðum einstaklingum.",
           "description": "",
           "keywords": "",
           "href": "/heimsmarkmid-site/10-2-1",
@@ -1103,23 +1103,23 @@
         },
         {
           "id": "10-3-1",
-          "title": "Proportion of population reporting having personally felt discriminated against or harassed in the previous 12 months on the basis of a ground of discrimination prohibited under international human rights law",
-          "description": "",
+          "title": "Hlutfall íbúa sem tilkynnt hafa um persónulega reynslu af mismunun eða áreitni á síðastliðnum 12 mánuðum á grundvelli mismununar sem bönnuð eru samkvæmt alþjóðlegum mannréttindalögum.",
+          "description": "Fjöldi hatursglæpa sem tilkynnt er um, lögsótt og sakfellt fyrir, á hverju ári.",
           "keywords": "",
           "href": "/heimsmarkmid-site/10-3-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "10-4-1",
-          "title": "Labour share of GDP",
+          "title": "Hluti vinnuafls í vergri landsframleiðslu sem samanstendur af launum og millifærslum frá félagslega kerfinu.",
           "description": "",
           "keywords": "",
           "href": "/heimsmarkmid-site/10-4-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "10-4-2",
-          "title": "Redistributive impact of fiscal policy",
+          "title": "Jöfnunaráhrif fjármálastefnu",
           "description": "",
           "keywords": "",
           "href": "/heimsmarkmid-site/10-4-2",
@@ -1127,23 +1127,23 @@
         },
         {
           "id": "10-5-1",
-          "title": "Financial Soundness Indicators",
+          "title": "Mælikvarðar á fjárhagslegt heilbrigði.",
           "description": "",
           "keywords": "",
           "href": "/heimsmarkmid-site/10-5-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "10-6-1",
-          "title": "Proportion of members and voting rights of developing countries in international organizations",
+          "title": "Hlutfall aðildarríkja og atkvæðisréttur þróunarlanda innan alþjóðastofnana.",
           "description": "",
           "keywords": "",
           "href": "/heimsmarkmid-site/10-6-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "10-7-1",
-          "title": "Recruitment cost borne by employee as a proportion of monthly income earned in country of destination",
+          "title": "Ráðningarkostnaður sem greiddur er af launamanni sem hlutfall af árstekjum sem aflað er í viðtökulandi.",
           "description": "",
           "keywords": "",
           "href": "/heimsmarkmid-site/10-7-1",
@@ -1151,7 +1151,7 @@
         },
         {
           "id": "10-7-2",
-          "title": "Number of countries with migration policies that facilitate orderly, safe, regular and responsible migration and mobility of people",
+          "title": "Fjöldi landa sem hrundið hafa í framkvæmd vel stýrðri innflytjendastefnu.",
           "description": "",
           "keywords": "",
           "href": "/heimsmarkmid-site/10-7-2",
@@ -1159,7 +1159,7 @@
         },
         {
           "id": "10-7-3",
-          "title": "Number of people who died or disappeared in the process of migration towards an international destination",
+          "title": "Fjöldi einstaklinga sem hefur látist eða horfið við búferlafluttninga milli landa",
           "description": "",
           "keywords": "",
           "href": "/heimsmarkmid-site/10-7-3",
@@ -1167,7 +1167,7 @@
         },
         {
           "id": "10-7-4",
-          "title": "Proportion of the population who are refugees, by country of origin",
+          "title": "Hlutfall íbúa sem eru flóttamenn, eftir upprunalandi.",
           "description": "",
           "keywords": "",
           "href": "/heimsmarkmid-site/10-7-4",
@@ -1175,7 +1175,7 @@
         },
         {
           "id": "10-a-1",
-          "title": "Proportion of tariff lines applied to imports from least developed countries and developing countries with zero-tariff",
+          "title": "Hlutfall tollskrársviða sem notuð eru vegna innflutnings frá þeim löndum sem eru skemmst á veg komin í þróun og þróunarlöndum með enga tolla.",
           "description": "",
           "keywords": "",
           "href": "/heimsmarkmid-site/10-a-1",
@@ -1183,15 +1183,15 @@
         },
         {
           "id": "10-b-1",
-          "title": "Total resource flows for development, by recipient and donor countries and type of flow (e.g. official development assistance, foreign direct investment and other flows)",
+          "title": "Heildarúrræði til þróunar, eftir viðtakanda og gjafalandi og tegund úrræðis (þ.e. opinber þróunaraðstoð, bein, erlend fjárfesting og önnur úrræði).",
           "description": "",
           "keywords": "",
           "href": "/heimsmarkmid-site/10-b-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "10-c-1",
-          "title": "Remittance costs as a proportion of the amount remitted",
+          "title": "Kostnaður við peningasendingar sem hlutfall af þeirri upphæð sem send er.",
           "description": "",
           "keywords": "",
           "href": "/heimsmarkmid-site/10-c-1",
@@ -1202,64 +1202,64 @@
   {
     "goal": {
       "id": "11",
-      "title": "Make cities and human settlements inclusive, safe, resilient and sustainable",
+      "title": "Gera borgir og íbúðasvæði öllum mönnum auðnotuð, örugg, viðnámsþolin og sjálfbær",
       "indicators": [
         
         {
           "id": "11-1-1",
-          "title": "Proportion of urban population living in slums, informal settlements or inadequate housing",
-          "description": "",
+          "title": "Hlutfall íbúa í þéttbýli sem búa í fátækrahverfum, óformlegu húsnæði eða óviðunandi húsnæði.",
+          "description": "Gögn um einstaklinga sem búa í húsnæði í lélegu ástandi eða í þröngbýli eru fengin úr Evrópsku Lifskjararannsókninni (EU-SILC). EU-SILC rannsóknin byggir á spurningarkönnun um tekjur og lífskjör frá úrtaksþýði sem telur um 5.000 manns. Fjöldi heimilislausra var metið í manntali sem framkvæmt var árið 2011, uppfært manntal verður birt árið 201",
           "keywords": "",
           "href": "/heimsmarkmid-site/11-1-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "11-2-1",
-          "title": "Proportion of population that has convenient access to public transport, by sex, age and persons with disabilities",
+          "title": "Hlutfall íbúa með auðvelt aðgengi að almenningssamgöngum, eftir kyni, aldri og fötluðum einstaklingum.",
           "description": "",
           "keywords": "",
           "href": "/heimsmarkmid-site/11-2-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "11-3-1",
-          "title": "Ratio of land consumption rate to population growth rate",
-          "description": "",
+          "title": "Hlutfall milli landnýtingar og fólksfjölgunar.",
+          "description": "Hlutfall milli landnýtingar og fólksfjölgunar.",
           "keywords": "",
           "href": "/heimsmarkmid-site/11-3-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "11-3-2",
-          "title": "Proportion of cities with a direct participation structure of civil society in urban planning and management that operate regularly and democratically",
+          "title": "Hlutfall borga með beinu þátttökuferli fyrir íbúa við skipulag og stjórnun þéttbýlis, með reglubundnum og lýðræðislegum hætti.",
           "description": "",
           "keywords": "",
           "href": "/heimsmarkmid-site/11-3-2",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "11-4-1",
-          "title": "Total per capita expenditure on the preservation, protection and conservation of all cultural and natural heritage, by source of funding (public, private), type of heritage (cultural, natural) and level of government (national, regional, and local/municipal)",
+          "title": "Heildarútgjöld (opinberra aðila og einkaaðila) á mann sem varið er til varðveislu, verndunar og friðunar allrar menningar- og náttúruarfleifðar, eftir tegund arfleifðar (menningararfleifð, náttúruarfleifð, blönduð arfleifð og arfleifð á heimsminjaskrá UNESCO), tegund stjórnvalda (landsstjórn, svæðisstjórn og sveitarstjórn), tegund fjármögnunar (rekstrarútgjöld/fjárfestingar) og tegund einkafjármögnunar (gjafir í fríðu, óhagnaðardrifinn einkageiri og kostun).",
           "description": "",
           "keywords": "",
           "href": "/heimsmarkmid-site/11-4-1",
-          "status": "notstarted"
+          "status": "inprogress"
         },
         {
           "id": "11-5-1",
-          "title": "Number of deaths, missing persons and directly affected persons attributed to disasters per 100,000 population",
+          "title": "Fjöldi dauðsfalla, týndra einstaklinga og fólks sem orðið hefur fyrir beinum áhrifum af völdum hamfara á hverja 100.000 íbúa.",
           "description": "",
           "keywords": "",
           "href": "/heimsmarkmid-site/11-5-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "11-5-2",
-          "title": "Direct economic loss in relation to global GDP, damage to critical infrastructure and number of disruptions to basic services, attributed to disasters",
-          "description": "",
+          "title": "Beint efnahagslegt tap af völdum hamfara í tengslum við verga landsframleiðslu á hnattræna vísu, skemmdir á þýðingamiklum innviðum og truflanir á veitingu grunnþjónustu.",
+          "description": "Beint efnahagslegt tap í tengslum við hamfarir sem hundraðshluti af vergri landsframleiðslu vegna hamfara sem eru vátryggð hjá Náttúruhamfaratryggingu Íslands.",
           "keywords": "",
           "href": "/heimsmarkmid-site/11-5-2",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "11-5-3",
@@ -1271,31 +1271,31 @@
         },
         {
           "id": "11-6-1",
-          "title": "Proportion of municipal solid waste collected and managed in controlled facilities out of total municipal waste generated, by cities",
+          "title": "Hlutfall fasts úrgangs frá þéttbýli sem er safnað saman með reglubundnum hætti og er fargað með viðunandi hætti sem hlutfall af heildarmagni fasts úrgangs í þéttbýli, eftir borgum.",
           "description": "",
           "keywords": "",
           "href": "/heimsmarkmid-site/11-6-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "11-6-2",
-          "title": "Annual mean levels of fine particulate matter (e.g. PM2.5 and PM10) in cities (population weighted)",
+          "title": "Árlegt meðalgildi fíngerðs ryks (þ.e. PM2,5 og PM10) í borgum (vegið m.v. íbúafjölda).",
           "description": "",
           "keywords": "",
           "href": "/heimsmarkmid-site/11-6-2",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "11-7-1",
-          "title": "Average share of the built-up area of cities that is open space for public use for all, by sex, age and persons with disabilities",
+          "title": "Meðalhlutfall uppbyggðra svæða í borgum sem eru opin svæði til almennrar notkunar fyrir alla, eftir kyni, aldri og fötluðum einstaklingum.",
           "description": "",
           "keywords": "",
           "href": "/heimsmarkmid-site/11-7-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "11-7-2",
-          "title": "Proportion of persons victim of physical or sexual harassment, by sex, age, disability status and place of occurrence, in the previous 12 months",
+          "title": "Hlutfall einstaklinga sem eru þolendur líkamlegrar eða kynferðislegrar áreitni, eftir kyni, aldri, fötlun og staðsetningu verknaðar, á síðastliðnum 12 mánuðum.",
           "description": "",
           "keywords": "",
           "href": "/heimsmarkmid-site/11-7-2",
@@ -1303,7 +1303,7 @@
         },
         {
           "id": "11-a-1",
-          "title": "Number of countries that have national urban policies or regional development plans that (a) respond to population dynamics; (b) ensure balanced territorial development; and (c) increase local fiscal space",
+          "title": "Fjöldi landa sem hafa þróunarstefnur á landsvísu eða svæðisvísu sem (a) bregðast við íbúaþróun, (b) tryggja jafnvægi byggðarþróun (c) örva staðbundið efnahagslíf",
           "description": "",
           "keywords": "",
           "href": "/heimsmarkmid-site/11-a-1",
@@ -1311,15 +1311,15 @@
         },
         {
           "id": "11-b-1",
-          "title": "Number of countries that adopt and implement national disaster risk reduction strategies in line with the Sendai Framework for Disaster Risk Reduction 2015–2030",
+          "title": "Fjöldi landa sem hafa samþykkt og komið til framkvæmda innlendum áætlunum um að draga úr áhrifum hamfara í samræmi við Sendai-rammaáætlunina um forvarnir gegn náttúruvá 2015-2030.",
           "description": "",
-          "keywords": "",
+          "keywords": "Lög, Reglugerðir",
           "href": "/heimsmarkmid-site/11-b-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "11-b-2",
-          "title": "Proportion of local governments that adopt and implement local disaster risk reduction strategies in line with national disaster risk reduction strategies",
+          "title": "Hlutfall sveitarstjórna sem hafa samþykkt og komið til framkvæmda staðbundnum áætlunum um að draga úr áhrifum hamfara í samræmi við innlendar áætlanir um það.",
           "description": "",
           "keywords": "",
           "href": "/heimsmarkmid-site/11-b-2",
@@ -1330,12 +1330,12 @@
   {
     "goal": {
       "id": "12",
-      "title": "Ensure sustainable consumption and production patterns",
+      "title": "Sjálfbær neyslu- og framleiðslumynstur verði tryggð",
       "indicators": [
         
         {
           "id": "12-1-1",
-          "title": "Number of countries developing, adopting or implementing policy instruments aimed at supporting the shift to sustainable consumption and production",
+          "title": "Fjöldi landa sem hafa innlendar áætlanir um sjálfbæra neyslu og framleiðslu eða hafa slíkar áætlanir sem forgangsverkefni eða markmið í innlendri stefnumótun.",
           "description": "",
           "keywords": "",
           "href": "/heimsmarkmid-site/12-1-1",
@@ -1343,7 +1343,7 @@
         },
         {
           "id": "12-2-1",
-          "title": "Material footprint, material footprint per capita, and material footprint per GDP",
+          "title": "Efnisspor, efnisspor á mann og efnisspor miðað við verga landsframleiðslu.",
           "description": "",
           "keywords": "",
           "href": "/heimsmarkmid-site/12-2-1",
@@ -1351,47 +1351,47 @@
         },
         {
           "id": "12-2-2",
-          "title": "Domestic material consumption, domestic material consumption per capita, and domestic material consumption per GDP",
-          "description": "",
+          "title": "Innlend efnisnotkun, innlend efnisnotkun á mann og innlend efnisnotkun miðað við verga landsframleiðslu.",
+          "description": "Sjá aðferðarfræði í [lýsigögnum efnisflæðireikninga](http://hagstofan.s3.amazonaws.com/media/public/2020/7e196e70-d038-43f8-9d9d-18f18ede6574.pdf)",
           "keywords": "",
           "href": "/heimsmarkmid-site/12-2-2",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "12-3-1",
-          "title": "(a) Food loss index and (b) food waste index",
-          "description": "",
+          "title": "Hnattrænn stuðull fyrir matvælasóun.",
+          "description": "Matarsóun heimila og fyrirtækja mælt í tonnum á ári og sem kg á íbúa á ári.",
           "keywords": "",
           "href": "/heimsmarkmid-site/12-3-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "12-4-1",
-          "title": "Number of parties to international multilateral environmental agreements on hazardous waste, and other chemicals that meet their commitments and obligations in transmitting information as required by each relevant agreement",
+          "title": "Fjöldi aðila að alþjóðlegum marghliða umhverfissamningum um hættulegan úrgang og önnur efni sem uppfylla skuldbindingar og skyldur þeirra varðandi upplýsingagjöf sem krafa er gerð um í hverjum viðeigandi samningi.",
           "description": "",
           "keywords": "",
           "href": "/heimsmarkmid-site/12-4-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "12-4-2",
-          "title": "(a) Hazardous waste generated per capita; and (b) proportion of hazardous waste treated, by type of treatment",
+          "title": "Myndun hættulegs úrgangs á mann og hlutfall hættulegs úrgangs sem fær meðhöndlun, eftir tegund meðhöndlunar.",
           "description": "",
           "keywords": "",
           "href": "/heimsmarkmid-site/12-4-2",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "12-5-1",
-          "title": "National recycling rate, tons of material recycled",
-          "description": "",
+          "title": "Innlent endurvinnsluhlutfall, fjöldi tonna sem endurnýttur er.",
+          "description": "Innlent endurvinnsluhlutfall",
           "keywords": "",
           "href": "/heimsmarkmid-site/12-5-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "12-6-1",
-          "title": "Number of companies publishing sustainability reports",
+          "title": "Fjöldi fyrirtækja sem birta skýrslur um sjálfbærni.",
           "description": "",
           "keywords": "",
           "href": "/heimsmarkmid-site/12-6-1",
@@ -1399,7 +1399,7 @@
         },
         {
           "id": "12-7-1",
-          "title": "Degree of sustainable public procurement policies and action plan implementation",
+          "title": "Fjöldi landa sem koma til framkvæmda stefnum og aðgerðaáætlunum um sjálfbær opinber innkaup.",
           "description": "",
           "keywords": "",
           "href": "/heimsmarkmid-site/12-7-1",
@@ -1407,7 +1407,7 @@
         },
         {
           "id": "12-8-1",
-          "title": "Extent to which (i) global citizenship education and (ii) education for sustainable development are mainstreamed in (a) national education policies; (b) curricula; (c) teacher education; and (d) student assessment",
+          "title": "Að hvaða marki i. menntun í heimsborgararétti og ii. menntun í sjálfbærri þróun (þ.m.t. menntun í loftslagsbreytingum),  hefur verið samþætt a) innlendum menntunaráætlunum, b) námskrám, c) kennaramenntun og d) mati á nemendum.",
           "description": "",
           "keywords": "",
           "href": "/heimsmarkmid-site/12-8-1",
@@ -1415,55 +1415,55 @@
         },
         {
           "id": "12-a-1",
-          "title": "Installed renewable energy-generating capacity in developing countries (in watts per capita)",
+          "title": "Uppsett orkuvinnslugeta endurnýjanlegrar orku (í vöttum á íbúa)",
           "description": "",
           "keywords": "",
           "href": "/heimsmarkmid-site/12-a-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "12-b-1",
-          "title": "Implementation of standard accounting tools to monitor the economic and environmental aspects of tourism sustainability",
+          "title": "Innleiðing staðlaðra bókhaldstóla til að mæla efnahagslega og umhverfislega þætti sjálfbærni í ferðaþjónustu",
           "description": "",
           "keywords": "",
           "href": "/heimsmarkmid-site/12-b-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "12-c-1",
-          "title": "Amount of fossil-fuel subsidies per unit of GDP (production and consumption)",
-          "description": "",
+          "title": "Fjárhæð niðurgreiðslna á jarðefnaeldsneyti á hverja einingu vergrar þjóðarframleiðslu (framleiðsla og notkun) og sem hlutfall heildarútgjalda landsins vegna jarðefnaeldsneytis.",
+          "description": "Fjárhæð niðurgreiðslna á jarðefnaeldsneyti á hverja einingu vergrar þjóðarframleiðslu (framleiðsla) og sem hlutfall innflutningskostnaðar landsins vegna eldsneytis.",
           "keywords": "",
           "href": "/heimsmarkmid-site/12-c-1",
-          "status": "notstarted"
+          "status": "complete"
         }]
     }
   },
   {
     "goal": {
       "id": "13",
-      "title": "Take urgent action to combat climate change and its impacts",
+      "title": "Grípa til bráðra aðgerða gegn loftslagsbreytingum og áhrifum þeirra",
       "indicators": [
         
         {
           "id": "13-1-1",
-          "title": "Number of deaths, missing persons and directly affected persons attributed to disasters per 100,000 population",
+          "title": "Fjöldi dauðsfalla, týndra einstaklinga og fólks sem orðið hefur fyrir beinum áhrifum af völdum hamfara á hverja 100.000 íbúa.",
           "description": "",
           "keywords": "",
           "href": "/heimsmarkmid-site/13-1-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "13-1-2",
-          "title": "Number of countries that adopt and implement national disaster risk reduction strategies in line with the Sendai Framework for Disaster Risk Reduction 2015–2030",
+          "title": "Fjöldi landa sem hafa samþykkt og komið til framkvæmda innlendum áætlunum um að draga úr áhrifum hamfara í samræmi við Sendai-rammaáætlunina um forvarnir gegn náttúruvá 2015-2030.",
           "description": "",
-          "keywords": "",
+          "keywords": "lög og reglugerðir",
           "href": "/heimsmarkmid-site/13-1-2",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "13-1-3",
-          "title": "Proportion of local governments that adopt and implement local disaster risk reduction strategies in line with national disaster risk reduction strategies",
+          "title": "Hlutfall sveitarstjórna sem hafa samþykkt og komið til framkvæmda staðbundnum áætlunum um að draga úr áhrifum hamfara í samræmi við innlendar áætlanir um það.",
           "description": "",
           "keywords": "",
           "href": "/heimsmarkmid-site/13-1-3",
@@ -1471,7 +1471,7 @@
         },
         {
           "id": "13-2-1",
-          "title": "Number of countries with nationally determined contributions, long-term strategies, national adaptation plans, strategies as reported in adaptation communications and national communications",
+          "title": "Fjöldi landa með ákvörðuð og samþykkt framlög á landsvísu, langtíma áætlanir og aðlögunaráætlanir til að draga úr og aðlagast loftlagsbreytingum, sem miðlað er á landsvísu",
           "description": "",
           "keywords": "",
           "href": "/heimsmarkmid-site/13-2-1",
@@ -1479,15 +1479,15 @@
         },
         {
           "id": "13-2-2",
-          "title": "Total greenhouse gas emissions per year",
-          "description": "",
+          "title": "Heildarlosun gróðurhúsalofttegunda á ári.",
+          "description": "Tvenns konar loftlagsbókhald er haldið á Íslandi. Annars vegar er bókhald um losun sem á sér stað innan landamæra Íslands og skilað er til Loftlagssamnings Sameinuðu Þjóðanna (UNFCCC) af Umhverfisstofnun og gefið út í árlegum NIR skýrslum (e. National Inventory Reports). Hins vegar er bókhald um losun sem á sér stað innan hagkerfis Íslands, það er haldið af Hagstofu Íslands og skilað til Tölfræðistofnunar Evrópu (Eurostat) sem hluti af losunarbókhaldi lofttegunda (e. Air Emissions Acounts - AEA). Loftlagsbókhald UNFCCC er er sundurliðað eftir uppsprettum gróðurhúsalofttegunda en bókahld Eurostat er sundurliðað eftir NACE atvinnugreinaflokkum.",
           "keywords": "",
           "href": "/heimsmarkmid-site/13-2-2",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "13-3-1",
-          "title": "Extent to which (i) global citizenship education and (ii) education for sustainable development are mainstreamed in (a) national education policies; (b) curricula; (c) teacher education; and (d) student assessment",
+          "title": "Að hvaða marki i. menntun í heimsborgararétti og ii. menntun í sjálfbærri þróun (þ.m.t. menntun í loftslagsbreytingum), hefur verið samþætt a) innlendum menntunaráætlunum, b) námskrám, c) kennaramenntun og d) mati á nemendum.",
           "description": "",
           "keywords": "",
           "href": "/heimsmarkmid-site/13-3-1",
@@ -1495,7 +1495,7 @@
         },
         {
           "id": "13-a-1",
-          "title": "Amounts provided and mobilized in United States dollars per year in relation to the continued existing collective mobilization goal of the $100 billion commitment through to 2025",
+          "title": "Tiltækt fjármagn í Bandaríkjadölum á ári á tímabilinu til 2025 sem reiknast upp í 100 milljarða Bandaríkjadala skuldbindinguna.",
           "description": "",
           "keywords": "",
           "href": "/heimsmarkmid-site/13-a-1",
@@ -1503,7 +1503,7 @@
         },
         {
           "id": "13-b-1",
-          "title": "Number of least developed countries and small island developing States with nationally determined contributions, long-term strategies, national adaptation plans, strategies as reported in adaptation communications and national communications",
+          "title": "Fjöldi landa, sem eru skemmst á veg komin í þróun og lítilla eyríkja í hópi þróunarríkja, sem fá sérhæfðan stuðning, ásamt umfangi stuðnings, þ.m.t. fjármagn, tækni og getuuppbygging, til að efla getu til að útbúa skilvirkar áætlanir er varða loftslagsbreytingar, m.a. með áherslu á konur, ungmenni, staðbundin samfélög og jaðarhópa.",
           "description": "",
           "keywords": "",
           "href": "/heimsmarkmid-site/13-b-1",
@@ -1514,12 +1514,12 @@
   {
     "goal": {
       "id": "14",
-      "title": "Conserve and sustainably use the oceans, seas and marine resources for sustainable development",
+      "title": "Vernda og nýta hafið og auðlindir þess á sjálfbæran hátt í því skyni að stuðla að sjálfbærri þróun",
       "indicators": [
         
         {
           "id": "14-1-1",
-          "title": "(a) Index of coastal eutrophication; and (b) plastic debris density",
+          "title": "Stuðull fyrir ofauðgun strandsvæða og þéttleika fljótandi plastúrgangs.",
           "description": "",
           "keywords": "",
           "href": "/heimsmarkmid-site/14-1-1",
@@ -1527,7 +1527,7 @@
         },
         {
           "id": "14-2-1",
-          "title": "Number of countries using ecosystem-based approaches to managing marine areas",
+          "title": "Hlutfall af sérefnahagslögsögum landa sem stjórnað er með vistkerfislegum nálgunum.",
           "description": "",
           "keywords": "",
           "href": "/heimsmarkmid-site/14-2-1",
@@ -1535,7 +1535,7 @@
         },
         {
           "id": "14-3-1",
-          "title": "Average marine acidity (pH) measured at agreed suite of representative sampling stations",
+          "title": "Meðalsýrustig sjávar mælt á samþykktum fjölda dæmigerðra sýnatökustöðva.",
           "description": "",
           "keywords": "",
           "href": "/heimsmarkmid-site/14-3-1",
@@ -1543,31 +1543,31 @@
         },
         {
           "id": "14-4-1",
-          "title": "Proportion of fish stocks within biologically sustainable levels",
+          "title": "Hlutfall fiskistofna innan líffræðilega sjálfbærra marka.",
           "description": "",
           "keywords": "",
           "href": "/heimsmarkmid-site/14-4-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "14-5-1",
-          "title": "Coverage of protected areas in relation to marine areas",
+          "title": "Umfang friðaðra svæða sem hlutfall af hafsvæðum.",
           "description": "",
           "keywords": "",
           "href": "/heimsmarkmid-site/14-5-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "14-6-1",
-          "title": "Degree of implementation of international instruments aiming to combat illegal, unreported and unregulated fishing",
+          "title": "Árangur landa við framkvæmd alþjóðlegra gerninga sem miða að því að berjast gegn ólöglegum, ótilkynntum og stjórnlausum fiskveiðum.",
           "description": "",
           "keywords": "",
           "href": "/heimsmarkmid-site/14-6-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "14-7-1",
-          "title": "Sustainable fisheries as a proportion of GDP in small island developing States, least developed countries and all countries",
+          "title": "Sjálfbærar fiskveiðar sem hlutfall af vergri þjóðarframleiðslu í litlum eyríkjum í hópi þróunarríkja, löndum sem eru skemmst á veg komin í þróun og öllum löndum.",
           "description": "",
           "keywords": "",
           "href": "/heimsmarkmid-site/14-7-1",
@@ -1575,7 +1575,7 @@
         },
         {
           "id": "14-a-1",
-          "title": "Proportion of total research budget allocated to research in the field of marine technology",
+          "title": "Hlutfall heildarfjárveitinga til rannsókna sem ráðstafað er til rannsókna í haftækni.",
           "description": "",
           "keywords": "",
           "href": "/heimsmarkmid-site/14-a-1",
@@ -1583,39 +1583,39 @@
         },
         {
           "id": "14-b-1",
-          "title": "Degree of application of a legal/regulatory/ policy/institutional framework which recognizes and protects access rights for small-scale fisheries",
+          "title": "Árangur landa af beitingu laga-/reglu-/stefnu-/stofnanaramma þar sem aðgangsréttur lítilla útgerða er viðurkenndur og varinn.",
           "description": "",
           "keywords": "",
           "href": "/heimsmarkmid-site/14-b-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "14-c-1",
-          "title": "Number of countries making progress in ratifying, accepting and implementing through legal, policy and institutional frameworks, ocean-related instruments that implement international law, as reflected in the United Nations Convention on the Law of the Sea, for the conservation and sustainable use of the oceans and their resources",
+          "title": "Fjöldi landa sem náð hafa árangri við að fullgilda, staðfesta og koma til framkvæmda á grundvelli laga-, stefnu- og stofnanaramma gerningum er varða málefni hafsins sem eru til framkvæmdar alþjóðalögum, eins og þau birtast í Hafréttarsamningi Sameinuðu þjóðanna, vegna varðveislu og sjálfbærrar nýtingar hafsins og auðlinda þess.",
           "description": "",
           "keywords": "",
           "href": "/heimsmarkmid-site/14-c-1",
-          "status": "notstarted"
+          "status": "complete"
         }]
     }
   },
   {
     "goal": {
       "id": "15",
-      "title": "Protect, restore and promote sustainable use of terrestrial ecosystems, sustainably manage forests, combat desertification, and halt and reverse land degradation and halt biodiversity loss",
+      "title": "Vernda, endurheimta og stuðla að sjálfbærri nýtingu vistkerfa á landi, sjálfbærristjórnun skógarauðlindarinnar, berjast gegn eyðimerkurmyndun, stöðva jarðvegseyðingu og endurheimta landgæði og sporna við hnignun líffræðilegrar fjölbreytni",
       "indicators": [
         
         {
           "id": "15-1-1",
-          "title": "Forest area as a proportion of total land area",
+          "title": "Skógi vaxin svæði sem hlutfall af heildarlandsvæði.",
           "description": "",
           "keywords": "",
           "href": "/heimsmarkmid-site/15-1-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "15-1-2",
-          "title": "Proportion of important sites for terrestrial and freshwater biodiversity that are covered by protected areas, by ecosystem type",
+          "title": "Hlutfall mikilvægra svæða í líffræðilegri fjölbreytni land- og ferskvatnssvæða sem falla undir friðunarsvæði, eftir vistkerfistegund.",
           "description": "",
           "keywords": "",
           "href": "/heimsmarkmid-site/15-1-2",
@@ -1623,23 +1623,23 @@
         },
         {
           "id": "15-2-1",
-          "title": "Progress towards sustainable forest management",
+          "title": "Árangur í sjálfbærri skógarstjórnun.",
           "description": "",
           "keywords": "",
           "href": "/heimsmarkmid-site/15-2-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "15-3-1",
-          "title": "Proportion of land that is degraded over total land area",
-          "description": "",
+          "title": "Hlutfall landhnignunar af heildarlandsvæði.",
+          "description": "Landi er skipt upp í fimm ástandsflokka eftir ástandi gróður- og jarðvegsauðlinda. Eftir því sem flokkur fær hærri einkunn því meiri er vistfræðileg virkni á svæðinu, því betri er vatnshagurinn og því meiri er stöðuleikinn og rofið minna. Flokkur 1- Svæði með takmarkaða virkni í vistkerfinu og/eða lítinn stöðugleika auk mikils rofs (ástandseinkunn 5-12). Flokkur 2- Svæði með lítinn stöðugleika og/eða litla vistfræðilega virkni (ástandseinkunn 13-16) Flokkur 3- Svæði þar sem vistkerfi er með nokkra eða talsverða virkni og talsvert rof EÐA svæði með litla virkni og lítið rof, t.d. mosavaxin hraun EÐA svæði með nokkuð háa vistgerðaeinkunn en rof er töluvert/mikið, t.d. vel gróin svæði með virkum rofabörðum (ástandseinkunn 17-21). Flokkur 4- Svæði með meðalvirku vistkerfi og/eða stöðuleika en með lítið rof eða svæði með mikla virkni vistkerfisins og frekar stöðug en með nokkuð rof, t.d. vel gróin svæði með rofabörðum (ástandseinkunn 22-26). Flokkur 5- Svæði með miklavirkni vistkerfisins og lítið rof (ástandseinkunn 27-30).",
           "keywords": "",
           "href": "/heimsmarkmid-site/15-3-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "15-4-1",
-          "title": "Coverage by protected areas of important sites for mountain biodiversity",
+          "title": "Umfang friðunarsvæða á mikilvægum stöðum fyrir líffræðilega fjölbreytni á fjallasvæðum.",
           "description": "",
           "keywords": "",
           "href": "/heimsmarkmid-site/15-4-1",
@@ -1647,31 +1647,31 @@
         },
         {
           "id": "15-4-2",
-          "title": "Mountain Green Cover Index",
+          "title": "Stuðull fyrir gróðurþekju fjalllendis (Mountain Green Cover Index).",
           "description": "",
           "keywords": "",
           "href": "/heimsmarkmid-site/15-4-2",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "15-5-1",
-          "title": "Red List Index",
+          "title": "Rauðlistastuðull",
           "description": "",
           "keywords": "",
           "href": "/heimsmarkmid-site/15-5-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "15-6-1",
-          "title": "Number of countries that have adopted legislative, administrative and policy frameworks to ensure fair and equitable sharing of benefits",
+          "title": "Fjöldi landa sem hafa samþykkt laga-, stjórnsýslu- og stefnuramma í því skyni að tryggja sanngjarna og réttláta skiptingu ávinnings.",
           "description": "",
           "keywords": "",
           "href": "/heimsmarkmid-site/15-6-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "15-7-1",
-          "title": "Proportion of traded wildlife that was poached or illicitly trafficked",
+          "title": "Hlutfall villtra lífvera sem verslað er með og veiddar hafa verið með ólögmætum hætti eða eru í ólöglegum viðskiptum.",
           "description": "",
           "keywords": "",
           "href": "/heimsmarkmid-site/15-7-1",
@@ -1679,15 +1679,15 @@
         },
         {
           "id": "15-8-1",
-          "title": "Proportion of countries adopting relevant national legislation and adequately resourcing the prevention or control of invasive alien species",
+          "title": "Hlutfall landa sem hafa samþykkt viðeigandi innlenda löggjöf og fjármagnað með fullnægjandi hætti forvarnir eða stjórnun á ágengum, framandi tegundum.",
           "description": "",
           "keywords": "",
           "href": "/heimsmarkmid-site/15-8-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "15-9-1",
-          "title": "(a) Number of countries that have established national targets in accordance with or similar to Aichi Biodiversity Target 2 of the Strategic Plan for Biodiversity 2011–2020 in their national biodiversity strategy and action plans and the progress reported towards these targets; and (b) integration of biodiversity into national accounting and reporting systems, defined as implementation of the System of Environmental-Economic Accounting",
+          "title": "Árangur af innlendum markmiðum sem sett hafa verið í samræmi við 2. markmið Aichi-markmiðanna um líffræðilega fjölbreytni í Stefnuáætlun um líffræðilega fjölbreytni 2011-2020.",
           "description": "",
           "keywords": "",
           "href": "/heimsmarkmid-site/15-9-1",
@@ -1695,15 +1695,15 @@
         },
         {
           "id": "15-a-1",
-          "title": "(a) Official development assistance on conservation and sustainable use of biodiversity; and (b) revenue generated and finance mobilized from biodiversity-relevant economic instruments",
+          "title": "(a) Opinber þróunaraðstoð til verndar og sjálfbærrar nýtingar líffjölbreytni; og (b) tekjur og fjármögunun frá efnahagslegum úrræðum tengdum líffjölbreytni",
           "description": "",
           "keywords": "",
           "href": "/heimsmarkmid-site/15-a-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "15-b-1",
-          "title": "(a) Official development assistance on conservation and sustainable use of biodiversity; and (b) revenue generated and finance mobilized from biodiversity-relevant economic instruments",
+          "title": "(a) Opinber þróunaraðstoð til verndar og sjálfbærrar nýtingar líffjölbreytni; og (b) tekjur og fjármögunun frá efnahagslegum úrræðum tengdum líffjölbreytni",
           "description": "",
           "keywords": "",
           "href": "/heimsmarkmid-site/15-b-1",
@@ -1711,7 +1711,7 @@
         },
         {
           "id": "15-c-1",
-          "title": "Proportion of traded wildlife that was poached or illicitly trafficked",
+          "title": "Hlutfall villtra lífvera sem verslað er með og veiddar hafa verið með ólögmætum hætti eða eru í ólöglegum viðskiptum.",
           "description": "",
           "keywords": "",
           "href": "/heimsmarkmid-site/15-c-1",
@@ -1722,52 +1722,52 @@
   {
     "goal": {
       "id": "16",
-      "title": "Promote peaceful and inclusive societies for sustainable development, provide access to justice for all and build effective, accountable and inclusive institutions at all levels",
+      "title": "Stuðla að friðsælum og sjálfbærum samfélögum fyrir alla menn, tryggja öllum jafnan aðgang að réttarkerfi og byggja upp skilvirkar og ábyrgar stofnanir fyrir alla menn á öllum sviðum",
       "indicators": [
         
         {
           "id": "16-1-1",
-          "title": "Number of victims of intentional homicide per 100,000 population, by sex and age",
-          "description": "",
+          "title": "Fjöldi fórnarlamba ásetningsmorða á hverja 100.000 íbúa, eftir kyni og aldri.",
+          "description": "Fjöldi fórnarlamba ásetningsmorða á hverja 100.000 íbúa, eftir kyni og aldri.",
           "keywords": "",
           "href": "/heimsmarkmid-site/16-1-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "16-1-2",
-          "title": "Conflict-related deaths per 100,000 population, by sex, age and cause",
-          "description": "",
+          "title": "Átakatengd dauðsföll á hverja 100.000 íbúa, eftir kyni, aldri og orsök.",
+          "description": "Dauðsföll á Íslandi tengd hernaði.",
           "keywords": "",
           "href": "/heimsmarkmid-site/16-1-2",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "16-1-3",
-          "title": "Proportion of population subjected to (a) physical violence, (b) psychological violence and (c) sexual violence in the previous 12 months",
-          "description": "",
+          "title": "Hlutfall íbúa sem orðið hefur fyrir líkamlegu, andlegu eða kynferðislegu ofbeldi á síðastliðnum 12 mánuðum.",
+          "description": "Hlutfall íbúa sem orðið hefur fyrir líkamlegu eða kynferðislegu ofbeldi á síðastliðnum 12 mánuðum.",
           "keywords": "",
           "href": "/heimsmarkmid-site/16-1-3",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "16-1-4",
-          "title": "Proportion of population that feel safe walking alone around the area they live",
-          "description": "",
+          "title": "Hlutfall íbúa sem upplifir sig örugga á göngu einir síns liðs í nágrenni heimilis síns.",
+          "description": "Nánari upplýsingar um mælikvarðan má finna í [Þolendakönnun Ríkislögreglustjóra](https://www.logreglan.is/utgafa/fraedilegar-rannsoknir/reynsla-almennings-af-afbrotum-og-vidhorf-til-logreglu/)",
           "keywords": "",
           "href": "/heimsmarkmid-site/16-1-4",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "16-2-1",
-          "title": "Proportion of children aged 1–17 years who experienced any physical punishment and/or psychological aggression by caregivers in the past month",
+          "title": "Hlutfall barna á aldrinum 1-17 ára sem orðið hafa fyrir einhvers konar líkamlegum refsingum og/eða andlegu ofbeldi af hálfu umönnunaraðila síðastliðinn mánuð.",
           "description": "",
           "keywords": "",
           "href": "/heimsmarkmid-site/16-2-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "16-2-2",
-          "title": "Number of victims of human trafficking per 100,000 population, by sex, age and form of exploitation",
+          "title": "Fjöldi mansalsfórnarlamba á hverja 100.000 íbúa, eftir kyni, aldri og tegund misbeitingar.",
           "description": "",
           "keywords": "",
           "href": "/heimsmarkmid-site/16-2-2",
@@ -1775,31 +1775,31 @@
         },
         {
           "id": "16-2-3",
-          "title": "Proportion of young women and men aged 18–29 years who experienced sexual violence by age 18",
+          "title": "Hlutfall ungra kvenna og karla á aldrinum 18-29 ára sem orðið hafa fyrir kynferðislegu ofbeldi fyrir 18 ára aldur.",
           "description": "",
           "keywords": "",
           "href": "/heimsmarkmid-site/16-2-3",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "16-3-1",
-          "title": "Proportion of victims of violence in the previous 12 months who reported their victimization to competent authorities or other officially recognized conflict resolution mechanisms",
-          "description": "",
+          "title": "Hlutfall fórnarlamba ofbeldis á síðastliðnum 12 mánuðum sem tilkynnt hafa um brot gegn sér til lögbærra yfirvalda eða annarra opinberlega viðurkenndra sáttaumleitunaraðila.",
+          "description": "Hlutfall fórnarlamba ofbeldis á síðastliðnum 12 mánuðum sem tilkynnt hafa um brot gegn sér til lögreglu",
           "keywords": "",
           "href": "/heimsmarkmid-site/16-3-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "16-3-2",
-          "title": "Unsentenced detainees as a proportion of overall prison population",
-          "description": "",
+          "title": "Hlutfall ósakfelldra gæslufanga af heildarfjölda í fangelsum.",
+          "description": "Hlutfall ósakfelldra gæslufanga af heildarfjölda í fangelsum.",
           "keywords": "",
           "href": "/heimsmarkmid-site/16-3-2",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "16-3-3",
-          "title": "Proportion of the population who have experienced a dispute in the past two years and who accessed a formal or informal dispute resolution mechanism, by type of mechanism",
+          "title": "Hlutfall íbúa sem hafa upplifað ágreining á síðustu tveimur árum og hafa nýtt sér formleg eða óformleg úrlausnarferli, eftir tegund úrlausnarferlis",
           "description": "",
           "keywords": "",
           "href": "/heimsmarkmid-site/16-3-3",
@@ -1807,7 +1807,7 @@
         },
         {
           "id": "16-4-1",
-          "title": "Total value of inward and outward illicit financial flows (in current United States dollars)",
+          "title": "Heildarvirði ólögmæts inn- og útflæðis fjármagns (í gildandi Bandaríkjadölum)",
           "description": "",
           "keywords": "",
           "href": "/heimsmarkmid-site/16-4-1",
@@ -1815,7 +1815,7 @@
         },
         {
           "id": "16-4-2",
-          "title": "Proportion of seized, found or surrendered arms whose illicit origin or context has been traced or established by a competent authority in line with international instruments",
+          "title": "Hlutfall haldlagðra, fundinna eða afhentra vopna þar sem lögbært stjórnvald hefur rakið eða sýnt fram á ólögmætan uppruna eða aðstæður í samræmi við alþjóðlega gerninga.",
           "description": "",
           "keywords": "",
           "href": "/heimsmarkmid-site/16-4-2",
@@ -1823,7 +1823,7 @@
         },
         {
           "id": "16-5-1",
-          "title": "Proportion of persons who had at least one contact with a public official and who paid a bribe to a public official, or were asked for a bribe by those public officials, during the previous 12 months",
+          "title": "Hlutfall einstaklinga sem hafa átt samskipti við opinberan embættismann í a.m.k. eitt skipti og greitt mútur til opinbers embættismanns eða fengið beiðni um það frá þessum opinberu embættismönnum á síðastliðnum 12 mánuðum.",
           "description": "",
           "keywords": "",
           "href": "/heimsmarkmid-site/16-5-1",
@@ -1831,7 +1831,7 @@
         },
         {
           "id": "16-5-2",
-          "title": "Proportion of businesses that had at least one contact with a public official and that paid a bribe to a public official, or were asked for a bribe by those public officials during the previous 12 months",
+          "title": "Hlutfall rekstraraðila sem hafa átt samskipti við opinberan embættismann í a.m.k. eitt skipti og greitt mútur til opinbers embættismanns eða fengið beiðni um það frá þessum opinberu embættismönnum á síðastliðnum 12 mánuðum.",
           "description": "",
           "keywords": "",
           "href": "/heimsmarkmid-site/16-5-2",
@@ -1839,7 +1839,7 @@
         },
         {
           "id": "16-6-1",
-          "title": "Primary government expenditures as a proportion of original approved budget, by sector (or by budget codes or similar)",
+          "title": "Frumgjöld ríkissjóðs sem hlutfall af upprunalegum, samþykktum fjárlögum, eftir geira (eða fjárlagalínum eða þess háttar).",
           "description": "",
           "keywords": "",
           "href": "/heimsmarkmid-site/16-6-1",
@@ -1847,7 +1847,7 @@
         },
         {
           "id": "16-6-2",
-          "title": "Proportion of population satisfied with their last experience of public services",
+          "title": "Hlutfall íbúa sem eru ánægðir með síðustu upplifun sína af opinberri þjónustu. services",
           "description": "",
           "keywords": "",
           "href": "/heimsmarkmid-site/16-6-2",
@@ -1855,7 +1855,7 @@
         },
         {
           "id": "16-7-1",
-          "title": "Proportions of positions in national and local institutions, including (a) the legislatures; (b) the public service; and (c) the judiciary, compared to national distributions, by sex, age, persons with disabilities and population groups",
+          "title": "Hlutfall stöðugilda (eftir kyni, aldri, fötluðum einstaklingum og þjóðfélagshópum) hjá opinberum stofnunum (innlendir og staðbundnir löggjafar, opinber þjónusta og dómskerfi) borið saman við skiptingu í samfélaginu.",
           "description": "",
           "keywords": "",
           "href": "/heimsmarkmid-site/16-7-1",
@@ -1863,7 +1863,7 @@
         },
         {
           "id": "16-7-2",
-          "title": "Proportion of population who believe decision-making is inclusive and responsive, by sex, age, disability and population group",
+          "title": "Hlutfall íbúa sem telja ákvarðanatöku vera fyrir alla og að brugðist sé við slíku, eftir kyni, aldri, fötlun og þjóðfélagshóp.",
           "description": "",
           "keywords": "",
           "href": "/heimsmarkmid-site/16-7-2",
@@ -1871,87 +1871,87 @@
         },
         {
           "id": "16-8-1",
-          "title": "Proportion of members and voting rights of developing countries in international organizations",
+          "title": "Hlutfall aðildarríkja og atkvæðisréttur þróunarlanda innan alþjóðastofnana.",
           "description": "",
           "keywords": "",
           "href": "/heimsmarkmid-site/16-8-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "16-9-1",
-          "title": "Proportion of children under 5 years of age whose births have been registered with a civil authority, by age",
+          "title": "Hlutfall barna undir 5 ára aldri á fæðingarskrá hjá borgaralegu yfirvaldi, eftir aldri.",
           "description": "",
           "keywords": "",
           "href": "/heimsmarkmid-site/16-9-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "16-10-1",
-          "title": "Number of verified cases of killing, kidnapping, enforced disappearance, arbitrary detention and torture of journalists, associated media personnel, trade unionists and human rights advocates in the previous 12 months",
+          "title": "Fjöldi sannprófaðra tilvika þar sem blaðamenn, tengdir starfsmenn fjölmiðla, félagar í stéttarfélögum og baráttumenn fyrir mannréttindum hafa verið myrtir, rænt, horfið af mannavöldum, fangelsaðir með tilviljanakenndum hætti eða pyntaðir á síðastliðnum 12 mánuðum.",
           "description": "",
           "keywords": "",
           "href": "/heimsmarkmid-site/16-10-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "16-10-2",
-          "title": "Number of countries that adopt and implement constitutional, statutory and/or policy guarantees for public access to information",
+          "title": "Fjöldi landa sem hafa samþykkt og komið til framkvæmda aðgengi almennings að upplýsingum sem er tryggt samkvæmt stjórnarskrá, lögum og/eða stefnum.",
           "description": "",
           "keywords": "",
           "href": "/heimsmarkmid-site/16-10-2",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "16-a-1",
-          "title": "Existence of independent national human rights institutions in compliance with the Paris Principles",
+          "title": "Fyrir liggja sjálfstæðar mannréttindastofnanir í samræmi við Parísar-reglur Sameinuðu þjóðanna.",
           "description": "",
           "keywords": "",
           "href": "/heimsmarkmid-site/16-a-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "16-b-1",
-          "title": "Proportion of population reporting having personally felt discriminated against or harassed in the previous 12 months on the basis of a ground of discrimination prohibited under international human rights law",
-          "description": "",
+          "title": "Hlutfall íbúa sem tilkynnt hafa um persónulega reynslu af mismunun eða áreitni á síðastliðnum 12 mánuðum á grundvelli mismununar sem bönnuð er samkvæmt alþjóðlegum mannréttindalögum.",
+          "description": "Fjöldi hatursglæpa sem tilkynnt er um, lögsótt og sakfellt fyrir, á hverju ári.",
           "keywords": "",
           "href": "/heimsmarkmid-site/16-b-1",
-          "status": "notstarted"
+          "status": "complete"
         }]
     }
   },
   {
     "goal": {
       "id": "17",
-      "title": "Strengthen the means of implementation and revitalize the Global Partnership for Sustainable Development",
+      "title": "Blása lífi í alþjóðlegt samstarf um sjálfbæra þróun og grípa til aðgerða",
       "indicators": [
         
         {
           "id": "17-1-1",
-          "title": "Total government revenue as a proportion of GDP, by source",
+          "title": "Heildartekjur hins opinbera sem hlutfall af vergri landsframleiðslu, eftir uppruna.",
           "description": "",
           "keywords": "",
           "href": "/heimsmarkmid-site/17-1-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "17-1-2",
-          "title": "Proportion of domestic budget funded by domestic taxes",
+          "title": "Hlutfall innlendra fjárveitinga sem fjármagnaðar eru með innlendum sköttum",
           "description": "",
           "keywords": "",
           "href": "/heimsmarkmid-site/17-1-2",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "17-2-1",
-          "title": "Net official development assistance, total and to least developed countries, as a proportion of the Organization for Economic Cooperation and Development (OECD) Development Assistance Committee donors’ gross national income (GNI)",
+          "title": "Nettóþróunaraðstoð opinberra aðila, í heild og til þeirra landa sem eru skemmst á veg komin í þróun, sem hlutfall af vergum þjóðartekjum gjafaríkja í þróunaraðstoðarnefnd Efnahags- og framfarastofnunarinnar.",
           "description": "",
           "keywords": "",
           "href": "/heimsmarkmid-site/17-2-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "17-3-1",
-          "title": "Foreign direct investment, official development assistance and South-South cooperation as a proportion of gross national income",
+          "title": "Bein, erlend fjárfesting, opinber þróunaraðstoð og samstarf innan suðursvæða sem hlutfall af þjóðartekjum.",
           "description": "",
           "keywords": "",
           "href": "/heimsmarkmid-site/17-3-1",
@@ -1959,15 +1959,15 @@
         },
         {
           "id": "17-3-2",
-          "title": "Volume of remittances (in United States dollars) as a proportion of total GDP",
+          "title": "Umfang peningasendinga (í Bandaríkjadölum) sem hlutfall af vergri heildarlandsframleiðslu.",
           "description": "",
           "keywords": "",
           "href": "/heimsmarkmid-site/17-3-2",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "17-4-1",
-          "title": "Debt service as a proportion of exports of goods and services",
+          "title": "Greiðslubyrði sem hlutfall af útflutningi vöru og þjónustu.",
           "description": "",
           "keywords": "",
           "href": "/heimsmarkmid-site/17-4-1",
@@ -1975,23 +1975,23 @@
         },
         {
           "id": "17-5-1",
-          "title": "Number of countries that adopt and implement investment promotion regimes for developing countries, including the least developed countries",
+          "title": "Fjöldi landa sem samþykkt hafa og komið til framkvæmda aðgerðaáætlunum til að efla fjárfestingar fyrir þróunarlönd, þar á meðal þau lönd sem eru skemmst á veg komin í þróun.",
           "description": "",
           "keywords": "",
           "href": "/heimsmarkmid-site/17-5-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "17-6-1",
-          "title": "Fixed Internet broadband subscriptions per 100 inhabitants, by speed",
+          "title": "Fastar breiðbandsáskriftir á hverja 100 íbúa, eftir hraða.",
           "description": "",
           "keywords": "",
           "href": "/heimsmarkmid-site/17-6-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "17-7-1",
-          "title": "Total amount of funding for developing countries to promote the development, transfer, dissemination and diffusion of environmentally sound technologies",
+          "title": "Heildarfjárhæð samþykktra fjárveitinga til þróunarríkja sem ætlað er að styðja við þróun, yfirfærslu, dreifingu og útbreiðslu umhverfisvænnar tækni.",
           "description": "",
           "keywords": "",
           "href": "/heimsmarkmid-site/17-7-1",
@@ -1999,39 +1999,39 @@
         },
         {
           "id": "17-8-1",
-          "title": "Proportion of individuals using the Internet",
+          "title": "Hlutfall einstaklinga sem nota Netið.",
           "description": "",
           "keywords": "",
           "href": "/heimsmarkmid-site/17-8-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "17-9-1",
-          "title": "Dollar value of financial and technical assistance (including through North-South, South‐South and triangular cooperation) committed to developing countries",
+          "title": "Fjárhæð í Bandaríkjadölum sem veitt er til fjárhagslegs og tæknilegs stuðnings við þróunarlönd (m.a. með samstarfi milli svæða í norðri og suðri, innan suðursvæða og með þríhliða samstarfi).",
           "description": "",
           "keywords": "",
           "href": "/heimsmarkmid-site/17-9-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "17-10-1",
-          "title": "Worldwide weighted tariff-average",
+          "title": "Vegið meðaltal tolla á heimsvísu.",
           "description": "",
           "keywords": "",
           "href": "/heimsmarkmid-site/17-10-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "17-11-1",
-          "title": "Developing countries’ and least developed countries’ share of global exports",
+          "title": "Hluti þróunarlanda og þeirra landa sem eru skemmst á veg komin í þróun af heildarútflutningi á heimsvísu.",
           "description": "",
           "keywords": "",
           "href": "/heimsmarkmid-site/17-11-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "17-12-1",
-          "title": "Weighted average tariffs faced by developing countries, least developed countries and small island developing States",
+          "title": "Meðaltollar á þróunarlönd, þau lönd sem eru skemmst á veg komin í þróun og lítil eyríki í hópi þróunarríkja.",
           "description": "",
           "keywords": "",
           "href": "/heimsmarkmid-site/17-12-1",
@@ -2039,7 +2039,7 @@
         },
         {
           "id": "17-13-1",
-          "title": "Macroeconomic Dashboard",
+          "title": "Þjóðhagslegt mælaborð.",
           "description": "",
           "keywords": "",
           "href": "/heimsmarkmid-site/17-13-1",
@@ -2047,7 +2047,7 @@
         },
         {
           "id": "17-14-1",
-          "title": "Number of countries with mechanisms in place to enhance policy coherence of sustainable development",
+          "title": "Fjöldi landa þar sem fyrir hendi er fyrirkomulag til að stuðla að samfellu í stefnum um sjálfbæra þróun.",
           "description": "",
           "keywords": "",
           "href": "/heimsmarkmid-site/17-14-1",
@@ -2055,23 +2055,23 @@
         },
         {
           "id": "17-15-1",
-          "title": "Extent of use of country-owned results frameworks and planning tools by providers of development cooperation",
+          "title": "Að hvaða marki veitendur þróunarsamvinnu nota árangursramma og skipulagningarúrræði í eigu landanna.",
           "description": "",
           "keywords": "",
           "href": "/heimsmarkmid-site/17-15-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "17-16-1",
-          "title": "Number of countries reporting progress in multi-stakeholder development effectiveness monitoring frameworks that support the achievement of the sustainable development goals",
+          "title": "Fjöldi landa sem tilkynna um árangur af ramma fjölhagsmunaaðila um eftirlit með skilvirkni þróunaraðstoðar sem styður við markmið um að ná tilteknum markmiðum um sjálfbæra þróun.",
           "description": "",
           "keywords": "",
           "href": "/heimsmarkmid-site/17-16-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "17-17-1",
-          "title": "Amount in United States dollars committed to public-private partnerships for infrastructure",
+          "title": "Fjárhæð í Bandaríkjadölum sem veitt er til samstarfsverkefna einkaaðila og opinberra aðila vegna innviða.",
           "description": "",
           "keywords": "",
           "href": "/heimsmarkmid-site/17-17-1",
@@ -2079,7 +2079,7 @@
         },
         {
           "id": "17-18-1",
-          "title": "Statistical capacity indicator for Sustainable Development Goal monitoring",
+          "title": "Mælikvarði á tölfræðilega getu til að mæla árangur í innleiðingu heimsmarkmiðanna",
           "description": "",
           "keywords": "",
           "href": "/heimsmarkmid-site/17-18-1",
@@ -2087,35 +2087,35 @@
         },
         {
           "id": "17-18-2",
-          "title": "Number of countries that have national statistical legislation that complies with the Fundamental Principles of Official Statistics",
+          "title": "Fjöldi landa sem hafa innlenda hagskýrslulöggjöf sem er í samræmi við grundvallarreglur um opinbera hagskýrslugerð.",
           "description": "",
           "keywords": "",
           "href": "/heimsmarkmid-site/17-18-2",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "17-18-3",
-          "title": "Number of countries with a national statistical plan that is fully funded and under implementation, by source of funding",
+          "title": "Fjöldi landa sem hafa áætlun um landshagskýrslur sem er að fullu fjármögnuð og komin til framkvæmda, eftir tegund fjármögnunar.",
           "description": "",
           "keywords": "",
           "href": "/heimsmarkmid-site/17-18-3",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "17-19-1",
-          "title": "Dollar value of all resources made available to strengthen statistical capacity in developing countries",
+          "title": "Andvirði allra úrræða í Bandaríkjadölum sem tiltæk eru til að efla tölfræðilega getu í þróunarlöndum.",
           "description": "",
           "keywords": "",
           "href": "/heimsmarkmid-site/17-19-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "17-19-2",
-          "title": "Proportion of countries that (a) have conducted at least one population and housing census in the last 10 years; and (b) have achieved 100 per cent birth registration and 80 per cent death registration",
+          "title": "Hlutfall landa sem a) hafa framkvæmt a.m.k. eitt manntal og húsnæðistal á síðustu 10 árum og b) hafa náð 100% skráningu fæðinga og 80% skráningu dauðsfalla.",
           "description": "",
           "keywords": "",
           "href": "/heimsmarkmid-site/17-19-2",
-          "status": "notstarted"
+          "status": "complete"
         }]
     }
   }]
