@@ -56,7 +56,7 @@ email_contacts:
   questions: upplysingar@hagstofa.is
   suggestions: upplysingar@hagstofa.is
   functional: upplysingar@hagstofa.is
-environment: production
+environment: staging
 footer_language_toggle: none
 footer_menu:
   - path: /contact-us
