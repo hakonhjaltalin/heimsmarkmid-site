@@ -129,7 +129,7 @@ var translations = {
         <link res="stylesheet" href="https://cdn.datatables.net/1.11.5/css/dataTables.bootstrap5.min.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/heimsmarkmid-site/assets/css/style.css?v=20230323160514">
+        <link rel="stylesheet" href="/heimsmarkmid-site/assets/css/style.css?v=20230324161142">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
           crossorigin=""/>
@@ -3261,13 +3261,37 @@ layout-config-builder
       }
     propertyEditorAccessibilityFixes(editor.getEditor('root.goal_meta_link_text'));
 
+    
+      try {
+        var currentValue = normalizeCurrentValue('national_indicator_available', "Umfang friðaðra svæða sem hlutfall af hafsvæðum.");
+        var propertyEditor = editor.getEditor('root.national_indicator_available');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: national_indicator_available');
+      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.national_indicator_available'));
 
+    
+      try {
+        var currentValue = normalizeCurrentValue('national_indicator_description', "Hlutfall verndaðra hafsvæða af fiskveiðilandhelgi.");
+        var propertyEditor = editor.getEditor('root.national_indicator_description');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: national_indicator_description');
+      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.national_indicator_description'));
 
     
       try {
-        var currentValue = normalizeCurrentValue('national_geographical_coverage', "");
+        var currentValue = normalizeCurrentValue('national_geographical_coverage', "Ísland");
         var propertyEditor = editor.getEditor('root.national_geographical_coverage');
         propertyEditor.setValue(null);
         propertyEditor.setValue(currentValue);
@@ -3281,7 +3305,7 @@ layout-config-builder
 
     
       try {
-        var currentValue = normalizeCurrentValue('computation_units', "");
+        var currentValue = normalizeCurrentValue('computation_units', "Hlutfall (%)");
         var propertyEditor = editor.getEditor('root.computation_units');
         propertyEditor.setValue(null);
         propertyEditor.setValue(currentValue);
@@ -3297,6 +3321,18 @@ layout-config-builder
 
     propertyEditorAccessibilityFixes(editor.getEditor('root.computation_calculations'));
 
+    
+      try {
+        var currentValue = normalizeCurrentValue('comments_limitations', "Þessi mælikvarði er notaður sem nálgun á heimsmarkmiðamælikvarða Sameinuðu Þjóðanna. Þar sem því má við komast er unnið að því að finna eða þróa íslensk gögn til að uppfylla forskrift Sameinuðu Þjóðanna. Þessi mælikvarði var fundinn í samstarfi við sérfræðinga á þessu sviði.");
+        var propertyEditor = editor.getEditor('root.comments_limitations');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: comments_limitations');
+      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.comments_limitations'));
 
     propertyEditorAccessibilityFixes(editor.getEditor('root.national_data_update_url'));
@@ -3480,12 +3516,12 @@ layout-config-builder
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Search';</script>
 
-<script src='/heimsmarkmid-site/assets/js/sdg.js?v=20230323160514'></script>
+<script src='/heimsmarkmid-site/assets/js/sdg.js?v=20230324161142'></script>
 
 
     
     
-    <script src="/heimsmarkmid-site/assets/js/custom.js?v=20230323160514"></script><script>
+    <script src="/heimsmarkmid-site/assets/js/custom.js?v=20230324161142"></script><script>
     new indicatorInit();
     new accessibilitySwitcher();
 </script>
