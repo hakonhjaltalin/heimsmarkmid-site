@@ -181,7 +181,7 @@ news:
 progress_status:
   status_heading: ''
   status_types: []
-remote_data_prefix: 'https://hagstofan.github.io/heimsmarkmid-data'
+remote_data_prefix: 'https://hakonhjaltalin.github.io/heimsmarkmid-data'
 reporting_status:
   title: status.reporting_status
   description: status.description
@@ -199,7 +199,7 @@ reporting_status:
     - value: inprogress
       label: status.in_progress
       hide_on_goal_pages: false
-repository_url_data: 'https://github.com/hagstofan/heimsmarkmid-data'
+repository_url_data: 'https://github.com/hakonhjaltalin/heimsmarkmid-data'
 repository_url_site: ''
 search_index_boost: []
 search_index_extra_fields: []
