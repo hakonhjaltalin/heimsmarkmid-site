@@ -43,7 +43,7 @@ create_pages:
 custom_css: []
 custom_js:
   - /assets/js/custom.js
-data_edit_url: data
+data_edit_url: 'https://prose.io/#hakonhjaltalin/heimsmarkmid-data/edit/develop/data/[id].csv'
 data_fields:
   units: ''
   series: ''
@@ -165,7 +165,7 @@ menu:
   - path: /faq
     translation_key: menu.faq
     dropdown: []
-metadata_edit_url: https://prose.io/#hakonhjaltalin/heimsmarkmid-data/edit/develop/meta/[id].md
+metadata_edit_url: 'https://prose.io/#hakonhjaltalin/heimsmarkmid-data/edit/develop/meta/[id].md'
 metadata_tabs:
   - scope: national
     title: indicator.national_metadata
